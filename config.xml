@@ -90,8 +90,8 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="200" topHeight="200" bottomHeight="200">
-            <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
@@ -112,6 +112,7 @@
         <File filename="C:\xampp\htdocs\laravel_test\app\filters.php" />
         <File filename="C:\Users\rgandionco.ODUSEEPHILS\AppData\Roaming\Notepad++\shortcuts.xml" />
         <File filename="C:\xampp\htdocs\eebudee\app\controllers\AuthController.php" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\shortcuts.xml" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

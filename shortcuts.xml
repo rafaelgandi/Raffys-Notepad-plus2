@@ -635,8 +635,8 @@
         <Command name="Open file" Ctrl="no" Alt="yes" Shift="no" Key="116">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD)</Command>
         <Command name="Open in another instance" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD) -nosession -multiInst</Command>
         <Command name="Send via Outlook" Ctrl="yes" Alt="yes" Shift="yes" Key="79">outlook /a &quot;$(FULL_CURRENT_PATH)&quot;</Command>
-        <Command name="Putty" Ctrl="no" Alt="no" Shift="no" Key="0">C:\xampp\Raffys-Notepad-plus2\putty.exe</Command>
         <Command name="Start Git" Ctrl="no" Alt="no" Shift="no" Key="0">C:\Windows\SysWOW64\cmd.exe /c &quot;&quot;C:\xampp\prog_files\Git\bin\sh.exe&quot; --login -i&quot;</Command>
+        <Command name="Putty SSH" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\putty.exe</Command>
     </UserDefinedCommands>
     <PluginCommands />
     <ScintillaKeys />
