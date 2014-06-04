@@ -104,22 +104,32 @@
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" />
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Find name="&gt;update" />
+        <Find name="uwa_students" />
+        <Find name="uwa_club_affliation" />
+        <Find name="uwa_clubssocities" />
+        <Find name="content-area" />
+        <Find name="s new owners. Press75 came on the scene" />
+        <Find name="http://uwaclubsocieties.sushidigitaldemo.info" />
+        <Find name='&quot;Administrator&quot;;s:12:' />
+        <Replace name="http://localhost/uwaclubsocieties" />
+    </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\laravel_test\composer.json" />
-        <File filename="C:\xampp\htdocs\laravel_test\app\views\includes\head.blade.php" />
-        <File filename="C:\xampp\htdocs\laravel_test\app\views\pages\home.blade.php" />
-        <File filename="C:\xampp\htdocs\eebudee\app\routes.php" />
-        <File filename="C:\xampp\htdocs\laravel_test\app\lib\Eb\Asset.php" />
-        <File filename="C:\xampp\htdocs\laravel_test\app\routes.php" />
         <File filename="C:\xampp\htdocs\laravel_test\app\routes\command_routes.php" />
         <File filename="C:\xampp\htdocs\laravel_test\app\lib\Eb\OAuth.php" />
         <File filename="C:\xampp\htdocs\eebudee\app\third_party\test\bar.class.inc.php" />
         <File filename="C:\xampp\htdocs\eebudee\bootstrap\eebudee.config.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\uwaevents_files\sql_dumps_bk\2014-06-02-uwaeventscrm.sql" />
         <File filename="C:\xampp\htdocs\laravel_test\app\views\layouts\default.blade.php" />
         <File filename="C:\xampp\htdocs\eebudee\bootstrap\start.php" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\Raffys_files\RegularExpression.txt" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\uwaclubsocieties_files\uwaeventscrmdemo_wp.sql" />
+        <File filename="C:\xampp\htdocs\laravel_test\app\controllers\PageController.php" />
+        <File filename="C:\xampp\htdocs\uwaclubsocieties\wp-config.php" />
+        <File filename="C:\xampp\htdocs\uwaclubsocieties\wp-content\themes\sushi\page-club-society.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\uwaevents_files\sql_dumps_bk\2014-06-02-uwaeventscrm.sql" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\uwaevents_files\sql_dumps_bk\2014-06-04-uwaeventscrm.sql" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\uwaclubsocieties_files\uwaclubsocieties_wp.sql" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\shortcuts.xml" />
     </History>
     <ProjectPanels>
