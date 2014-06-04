@@ -1,0 +1,78 @@
+See: http://krijnhoetmer.nl/stuff/regex/cheat-sheet/
+See: http://www.w3schools.com/jsref/jsref_obj_regexp.asp
+
+^	The pattern has to appear at the beginning of a string.	^cat matches any string that begins with cat
+$	The pattern has to appear at the end of a string.	cat$ matches any string that ends with cat
+.	Matches any character.	cat. matches catT and cat2 but not catty
+[]	Bracket expression. Matches one of any characters enclosed.	gr[ae]y matches gray or grey
+[^]	Negates a bracket expression. Matches one of any characters EXCEPT those enclosed.	1[^02] matches 13 but not 10 or 12
+[-]	Range. Matches any characters within the range.	[1-9] matches any single digit EXCEPT 0
+?	Preceeding item must match one or zero times.	colou?r matches color or colour but not colouur
++	Preceeding item must match one or more times.	be+ matches be or bee but not b
+*	Preceeding item must match zero or more times.	be* matches b or be or beeeeeeeeee
+()	Parentheses. Creates a substring or item that metacharacters can be applied to	a(bee)?t matches at or abeet but not abet
+{n}	Bound. Specifies exact number of times for the preceeding item to match.	[0-9]{3} matches any three digits
+{n,}	Bound. Specifies minimum number of times for the preceeding item to match.	[0-9]{3,} matches any three or more digits
+{n,m}	Bound. Specifies minimum and maximum number of times for the preceeding item to match.	[0-9]{3,5} matches any three, four, or five digits
+|	Alternation. One of the alternatives has to match.	July (first|1st|1) will match July 1st but not July 2
+
+
+
+i  	Perform case-insensitive matching
+g 	Perform a global match (find all matches rather than stopping after the first match)
+m 	Perform multiline matching
+
+[abc]  	Find any character between the brackets
+[^abc] 	Find any character not between the brackets
+[0-9] 	Find any digit from 0 to 9
+[a-z] 	Find any character from lowercase a to lowercase z
+[A-Z] 	Find any character from uppercase A to uppercase Z
+[a-Z] 	Find any character from lowercase a to uppercase Z
+[adgk] 	Find any character in the given set
+[^adgk] 	Find any character outside the given set
+[red|blue|green] 	Find any of the alternatives specified
+
+.  	Find a single character, except newline or line terminator
+\\w 	Find a word character
+\\W 	Find a non-word character
+\\d 	Find a digit
+\\D 	Find a non-digit character
+\\s 	Find a whitespace character
+\\S 	Find a non-whitespace character
+\\b 	Find a match at the beginning/end of a word
+\\B 	Find a match not at the beginning/end of a word
+\\0 	Find a NUL character
+\\n 	Find a new line character
+\\f 	Find a form feed character
+\\r 	Find a carriage return character
+\\t 	Find a tab character
+\\v 	Find a vertical tab character
+\\xxx 	Find the character specified by an octal number xxx
+\\xdd 	Find the character specified by a hexadecimal number dd
+\\uxxxx 	Find the Unicode character specified by a hexadecimal number xxxx
+
+n+  	Matches any string that contains at least one n
+n* 	Matches any string that contains zero or more occurrences of n
+n? 	Matches any string that contains zero or one occurrences of n
+n{X} 	Matches any string that contains a sequence of X n\'s
+n{X,Y} 	Matches any string that contains a sequence of X or Y n\'s
+n{X,} 	Matches any string that contains a sequence of at least X n\'s
+n$ 	Matches any string with n at the end of it
+^n 	Matches any string with n at the beginning of it
+?=n 	Matches any string that is followed by a specific string n
+?!n 	Matches any string that is not followed by a specific string n
+
+RegExp Object Properties:
+-------------------------
+global  	Specifies if the \"g\" modifier is set
+ignoreCase 	Specifies if the \"i\" modifier is set
+lastIndex 	The index at which to start the next match
+multiline 	Specifies if the \"m\" modifier is set
+source 	        The text of the RegExp pattern
+
+RegExp Object Methods:
+----------------------
+compile()  	Compiles a regular expression
+exec() 	        Tests for a match in a string. Returns a result array
+test() 	        Tests for a match in a string. Returns true or false
+

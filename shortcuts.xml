@@ -637,6 +637,9 @@
         <Command name="Send via Outlook" Ctrl="yes" Alt="yes" Shift="yes" Key="79">outlook /a &quot;$(FULL_CURRENT_PATH)&quot;</Command>
         <Command name="Start Git" Ctrl="no" Alt="no" Shift="no" Key="0">C:\Windows\SysWOW64\cmd.exe /c &quot;&quot;C:\xampp\prog_files\Git\bin\sh.exe&quot; --login -i&quot;</Command>
         <Command name="Putty SSH" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\putty.exe</Command>
+        <Command name="JCpicker" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\jcpicker.exe</Command>
+        <Command name="Laravel 4 Cheatsheet" Ctrl="no" Alt="no" Shift="no" Key="0">chrome &quot;$(NPP_DIRECTORY)\Raffys_files\Laravel\laravel-cheatsheet-master\index.html&quot;</Command>
+        <Command name="Regular Epression" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\notepad++.exe &quot;$(NPP_DIRECTORY)\Raffys_files\RegularExpression.txt&quot;</Command>
     </UserDefinedCommands>
     <PluginCommands />
     <ScintillaKeys />
