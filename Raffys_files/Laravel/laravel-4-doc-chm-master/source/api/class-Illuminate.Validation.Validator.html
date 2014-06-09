@@ -1,0 +1,5134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Validation\Validator</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Illuminate.Validation.DatabasePresenceVerifier.html">DatabasePresenceVerifier</a></li>
+				<li><a href="class-Illuminate.Validation.Factory.html">Factory</a></li>
+				<li><a href="class-Illuminate.Validation.ValidationServiceProvider.html">ValidationServiceProvider</a></li>
+				<li class="active"><a href="class-Illuminate.Validation.Validator.html">Validator</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Illuminate.Validation.PresenceVerifierInterface.html">PresenceVerifierInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Validation.html" title="Summary of Illuminate\Validation"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Validator</h1>
+
+
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>Illuminate\Validation\Validator</span></b>			
+			 implements 
+				<a href="class-Illuminate.Support.Contracts.MessageProviderInterface.html"><span>Illuminate\Support\Contracts\MessageProviderInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Validation.html">Validation</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Validation.Validator.html#11-1769" title="Go to source code">Illuminate/Validation/Validator.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#104-119" title="Go to source code">__construct</a>( <span>Symfony\Component\Translation\TranslatorInterface <var>$translator</var></span>, <span>array <var>$data</var></span>, <span>array <var>$rules</var></span>, <span>array <var>$messages</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new Validator instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new Validator instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$translator</var></dt>
+					<dd><code>Symfony\Component\Translation\TranslatorInterface</code><br>$translator</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data</dd>
+					<dt><var>$rules</var></dt>
+					<dd><code>array</code><br>$rules</dd>
+					<dt><var>$messages</var></dt>
+					<dd><code>array</code><br>$messages</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseData" id="_parseData">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseData">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#121-145" title="Go to source code">parseData</a>( <span>array <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parse the data and hydrate the files array.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parse the data and hydrate the files array.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="explodeRules" id="_explodeRules">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_explodeRules">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#147-161" title="Go to source code">explodeRules</a>( <span>string|array <var>$rules</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Explode the rules into an array of rules.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Explode the rules into an array of rules.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$rules</var></dt>
+					<dd><code>string|array</code><br>$rules</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="passes" id="_passes">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_passes">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#163-184" title="Go to source code">passes</a>( )</code>
+
+		<div class="description short">
+			
+<p>Determine if the data passes the validation rules.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if the data passes the validation rules.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fails" id="_fails">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fails">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#186-194" title="Go to source code">fails</a>( )</code>
+
+		<div class="description short">
+			
+<p>Determine if the data fails the validation rules.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if the data fails the validation rules.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validate" id="_validate">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validate">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#196-220" title="Go to source code">validate</a>( <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate a given attribute against a rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate a given attribute against a rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getValue" id="_getValue">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getValue">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#222-238" title="Go to source code">getValue</a>( <span>string <var>$attribute</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the value of a given attribute.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the value of a given attribute.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isValidatable" id="_isValidatable">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isValidatable">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#240-251" title="Go to source code">isValidatable</a>( <span>string <var>$rule</var></span>, <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if the attribute is validatable.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if the attribute is validatable.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isImplicit" id="_isImplicit">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isImplicit">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#253-262" title="Go to source code">isImplicit</a>( <span>string <var>$rule</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if a given rule implies the attribute is required.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if a given rule implies the attribute is required.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addFailure" id="_addFailure">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addFailure">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#264-277" title="Go to source code">addFailure</a>( <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a failed rule and error message to the collection.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a failed rule and error message to the collection.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addError" id="_addError">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addError">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#279-294" title="Go to source code">addError</a>( <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add an error message to the validator's collection of messages.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add an error message to the validator's collection of messages.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateRequired" id="_validateRequired">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateRequired">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#296-319" title="Go to source code">validateRequired</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that a required attribute exists.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that a required attribute exists.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="anyFailingRequired" id="_anyFailingRequired">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_anyFailingRequired">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#321-338" title="Go to source code">anyFailingRequired</a>( <span>array <var>$attributes</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if any of the given attributes fail the required test.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if any of the given attributes fail the required test.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateRequiredWith" id="_validateRequiredWith">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateRequiredWith">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#340-363" title="Go to source code">validateRequiredWith</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>mixed <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute exists when another attribute exists</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute exists when another attribute exists</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>mixed</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateRequiredWithout" id="_validateRequiredWithout">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateRequiredWithout">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#365-381" title="Go to source code">validateRequiredWithout</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>mixed <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute exists when another attribute does not exists</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute exists when another attribute does not exists</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>mixed</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateRequiredIf" id="_validateRequiredIf">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateRequiredIf">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#383-399" title="Go to source code">validateRequiredIf</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>mixed <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute exists when another attribute has a given
+value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute exists when another attribute has a given
+value.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>mixed</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPresentCount" id="_getPresentCount">
+
+		<td class="attributes"><code>
+			 protected 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPresentCount">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#401-420" title="Go to source code">getPresentCount</a>( <span>array <var>$attributes</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the number of attributes in a list that are present.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the number of attributes in a list that are present.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateConfirmed" id="_validateConfirmed">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateConfirmed">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#422-432" title="Go to source code">validateConfirmed</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute has a matching confirmation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute has a matching confirmation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateSame" id="_validateSame">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateSame">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#434-447" title="Go to source code">validateSame</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that two attributes match.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that two attributes match.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateDifferent" id="_validateDifferent">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateDifferent">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#449-462" title="Go to source code">validateDifferent</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute is different from another attribute.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute is different from another attribute.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateAccepted" id="_validateAccepted">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateAccepted">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#464-478" title="Go to source code">validateAccepted</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute was "accepted".</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute was "accepted".</p>
+
+<p>This validation rule implies the attribute is "required".</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateNumeric" id="_validateNumeric">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateNumeric">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#480-490" title="Go to source code">validateNumeric</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute is numeric.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute is numeric.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateInteger" id="_validateInteger">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateInteger">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#492-502" title="Go to source code">validateInteger</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute is an integer.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute is an integer.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateDigits" id="_validateDigits">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateDigits">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#504-515" title="Go to source code">validateDigits</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute has a given number of digits.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute has a given number of digits.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateDigitsBetween" id="_validateDigitsBetween">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateDigitsBetween">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#517-530" title="Go to source code">validateDigitsBetween</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute is between a given number of digits.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute is between a given number of digits.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateSize" id="_validateSize">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateSize">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#532-543" title="Go to source code">validateSize</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate the size of an attribute.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate the size of an attribute.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateBetween" id="_validateBetween">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateBetween">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#545-558" title="Go to source code">validateBetween</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate the size of an attribute is between a set of values.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate the size of an attribute is between a set of values.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateMin" id="_validateMin">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateMin">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#560-571" title="Go to source code">validateMin</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate the size of an attribute is greater than a minimum value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate the size of an attribute is greater than a minimum value.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateMax" id="_validateMax">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateMax">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#573-584" title="Go to source code">validateMax</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate the size of an attribute is less than a maximum value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate the size of an attribute is less than a maximum value.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSize" id="_getSize">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSize">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#593-613" title="Go to source code">getSize</a>( <span>mixed <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getStringSize" id="_getStringSize">
+
+		<td class="attributes"><code>
+			 protected 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getStringSize">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#615-626" title="Go to source code">getStringSize</a>( <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the size of a string.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the size of a string.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateIn" id="_validateIn">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateIn">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#628-639" title="Go to source code">validateIn</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate an attribute is contained within a list of values.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate an attribute is contained within a list of values.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateNotIn" id="_validateNotIn">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateNotIn">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#641-652" title="Go to source code">validateNotIn</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate an attribute is not contained within a list of values.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate an attribute is not contained within a list of values.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateUnique" id="_validateUnique">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateUnique">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#654-690" title="Go to source code">validateUnique</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate the uniqueness of an attribute value on a given database table.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate the uniqueness of an attribute value on a given database table.</p>
+
+<p>If a database column is not specified, the attribute will be used.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUniqueIds" id="_getUniqueIds">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUniqueIds">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#692-703" title="Go to source code">getUniqueIds</a>( <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the excluded ID column and value for the unique rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the excluded ID column and value for the unique rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateExists" id="_validateExists">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateExists">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#705-725" title="Go to source code">validateExists</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate the existence of an attribute value in a database table.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate the existence of an attribute value in a database table.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getExistCount" id="_getExistCount">
+
+		<td class="attributes"><code>
+			 protected 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getExistCount">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#727-750" title="Go to source code">getExistCount</a>( <span>string <var>$table</var></span>, <span>string <var>$column</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the number of records that exist in storage.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the number of records that exist in storage.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>$table</dd>
+					<dt><var>$column</var></dt>
+					<dd><code>string</code><br>$column</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getExtraExistConditions" id="_getExtraExistConditions">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getExtraExistConditions">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#752-770" title="Go to source code">getExtraExistConditions</a>( <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the extra exist conditions.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the extra exist conditions.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateIp" id="_validateIp">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateIp">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#772-782" title="Go to source code">validateIp</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute is a valid IP.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute is a valid IP.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateEmail" id="_validateEmail">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateEmail">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#784-794" title="Go to source code">validateEmail</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute is a valid e-mail address.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute is a valid e-mail address.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateUrl" id="_validateUrl">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateUrl">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#796-806" title="Go to source code">validateUrl</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute is a valid URL.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute is a valid URL.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateActiveUrl" id="_validateActiveUrl">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateActiveUrl">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#808-820" title="Go to source code">validateActiveUrl</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute is an active URL.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute is an active URL.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateImage" id="_validateImage">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateImage">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#822-832" title="Go to source code">validateImage</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate the MIME type of a file is an image MIME type.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate the MIME type of a file is an image MIME type.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateMimes" id="_validateMimes">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateMimes">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#834-853" title="Go to source code">validateMimes</a>( <span>string <var>$attribute</var></span>, <span>array <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate the MIME type of a file upload attribute is in a set of MIME
+types.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate the MIME type of a file upload attribute is in a set of MIME
+types.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>array</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateAlpha" id="_validateAlpha">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateAlpha">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#855-865" title="Go to source code">validateAlpha</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute contains only alphabetic characters.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute contains only alphabetic characters.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateAlphaNum" id="_validateAlphaNum">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateAlphaNum">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#867-877" title="Go to source code">validateAlphaNum</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute contains only alpha-numeric characters.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute contains only alpha-numeric characters.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateAlphaDash" id="_validateAlphaDash">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateAlphaDash">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#879-889" title="Go to source code">validateAlphaDash</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute contains only alpha-numeric characters, dashes,
+and underscores.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute contains only alpha-numeric characters, dashes,
+and underscores.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateRegex" id="_validateRegex">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateRegex">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#891-902" title="Go to source code">validateRegex</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute passes a regular expression check.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute passes a regular expression check.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateDate" id="_validateDate">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateDate">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#904-920" title="Go to source code">validateDate</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute is a valid date.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute is a valid date.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateDateFormat" id="_validateDateFormat">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateDateFormat">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#922-935" title="Go to source code">validateDateFormat</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate that an attribute matches a date format.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate that an attribute matches a date format.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateBefore" id="_validateBefore">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateBefore">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#937-948" title="Go to source code">validateBefore</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate the date is before a given date.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate the date is before a given date.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validateAfter" id="_validateAfter">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validateAfter">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#950-961" title="Go to source code">validateAfter</a>( <span>string <var>$attribute</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate the date is after a given date.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate the date is after a given date.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMessage" id="_getMessage">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMessage">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#963-1013" title="Go to source code">getMessage</a>( <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the validation message for an attribute and rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the validation message for an attribute and rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getInlineMessage" id="_getInlineMessage">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInlineMessage">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1015-1036" title="Go to source code">getInlineMessage</a>( <span>string <var>$attribute</var></span>, <span>string <var>$lowerRule</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the inline message for a rule if it exists.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the inline message for a rule if it exists.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$lowerRule</var></dt>
+					<dd><code>string</code><br>$lowerRule</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSizeMessage" id="_getSizeMessage">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSizeMessage">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1038-1057" title="Go to source code">getSizeMessage</a>( <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the proper error message for an attribute and size rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the proper error message for an attribute and size rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAttributeType" id="_getAttributeType">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAttributeType">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1059-1080" title="Go to source code">getAttributeType</a>( <span>string <var>$attribute</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the data type of the given attribute.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the data type of the given attribute.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="doReplacements" id="_doReplacements">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_doReplacements">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1082-1101" title="Go to source code">doReplacements</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all error message place-holders with actual values.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all error message place-holders with actual values.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAttributeList" id="_getAttributeList">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAttributeList">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1103-1122" title="Go to source code">getAttributeList</a>( <span>array <var>$values</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Transform an array of attributes to their displayable form.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Transform an array of attributes to their displayable form.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>$values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAttribute" id="_getAttribute">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAttribute">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1124-1157" title="Go to source code">getAttribute</a>( <span>string <var>$attribute</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the displayable name of the attribute.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the displayable name of the attribute.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceBetween" id="_replaceBetween">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceBetween">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1159-1171" title="Go to source code">replaceBetween</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the between rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the between rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceDigits" id="_replaceDigits">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceDigits">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1173-1185" title="Go to source code">replaceDigits</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the digits rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the digits rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceDigitsBetween" id="_replaceDigitsBetween">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceDigitsBetween">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1187-1199" title="Go to source code">replaceDigitsBetween</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the digits (between) rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the digits (between) rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceSize" id="_replaceSize">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceSize">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1201-1213" title="Go to source code">replaceSize</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the size rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the size rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceMin" id="_replaceMin">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceMin">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1215-1227" title="Go to source code">replaceMin</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the min rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the min rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceMax" id="_replaceMax">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceMax">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1229-1241" title="Go to source code">replaceMax</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the max rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the max rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceIn" id="_replaceIn">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceIn">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1243-1255" title="Go to source code">replaceIn</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the in rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the in rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceNotIn" id="_replaceNotIn">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceNotIn">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1257-1269" title="Go to source code">replaceNotIn</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the not_in rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the not_in rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceMimes" id="_replaceMimes">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceMimes">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1271-1283" title="Go to source code">replaceMimes</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the mimes rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the mimes rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceRequiredWith" id="_replaceRequiredWith">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceRequiredWith">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1285-1299" title="Go to source code">replaceRequiredWith</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the required_with rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the required_with rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceRequiredWithout" id="_replaceRequiredWithout">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceRequiredWithout">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1301-1315" title="Go to source code">replaceRequiredWithout</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the required_without rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the required_without rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceRequiredIf" id="_replaceRequiredIf">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceRequiredIf">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1317-1331" title="Go to source code">replaceRequiredIf</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the required_if rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the required_if rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceSame" id="_replaceSame">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceSame">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1333-1345" title="Go to source code">replaceSame</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the same rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the same rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceDifferent" id="_replaceDifferent">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceDifferent">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1347-1359" title="Go to source code">replaceDifferent</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the different rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the different rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceDateFormat" id="_replaceDateFormat">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceDateFormat">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1361-1373" title="Go to source code">replaceDateFormat</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the date_format rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the date_format rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceBefore" id="_replaceBefore">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceBefore">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1375-1387" title="Go to source code">replaceBefore</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the before rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the before rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceAfter" id="_replaceAfter">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceAfter">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1389-1401" title="Go to source code">replaceAfter</a>( <span>string <var>$message</var></span>, <span>string <var>$attribute</var></span>, <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace all place-holders for the after rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace all place-holders for the after rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasRule" id="_hasRule">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasRule">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1403-1423" title="Go to source code">hasRule</a>( <span>string <var>$attribute</var></span>, <span>array <var>$rules</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if the given attribute has a rule in the given set.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if the given attribute has a rule in the given set.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attribute</var></dt>
+					<dd><code>string</code><br>$attribute</dd>
+					<dt><var>$rules</var></dt>
+					<dd><code>array</code><br>$rules</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseRule" id="_parseRule">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseRule">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1425-1446" title="Go to source code">parseRule</a>( <span>string <var>$rule</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Extract the rule name and parameters from a rule.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Extract the rule name and parameters from a rule.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseParameters" id="_parseParameters">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseParameters">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1448-1460" title="Go to source code">parseParameters</a>( <span>string <var>$rule</var></span>, <span>string <var>$parameter</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parse a parameter list.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parse a parameter list.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameter</var></dt>
+					<dd><code>string</code><br>$parameter</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getExtensions" id="_getExtensions">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getExtensions">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1462-1470" title="Go to source code">getExtensions</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the array of custom validator extensions.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the array of custom validator extensions.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addExtensions" id="_addExtensions">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addExtensions">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1472-1481" title="Go to source code">addExtensions</a>( <span>array <var>$extensions</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register an array of custom validator extensions.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register an array of custom validator extensions.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$extensions</var></dt>
+					<dd><code>array</code><br>$extensions</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addImplicitExtensions" id="_addImplicitExtensions">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addImplicitExtensions">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1483-1497" title="Go to source code">addImplicitExtensions</a>( <span>array <var>$extensions</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register an array of custom implicit validator extensions.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register an array of custom implicit validator extensions.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$extensions</var></dt>
+					<dd><code>array</code><br>$extensions</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addExtension" id="_addExtension">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addExtension">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1499-1509" title="Go to source code">addExtension</a>( <span>string <var>$rule</var></span>, <span><code><a href="class-Closure.html">Closure</a></code>|string <var>$extension</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a custom validator extension.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a custom validator extension.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$extension</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code>|string</code><br>$extension</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addImplicitExtension" id="_addImplicitExtension">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addImplicitExtension">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1511-1523" title="Go to source code">addImplicitExtension</a>( <span>string <var>$rule</var></span>, <span><code><a href="class-Closure.html">Closure</a></code> <var>$extension</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a custom implicit validator extension.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a custom implicit validator extension.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$extension</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$extension</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getData" id="_getData">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getData">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1525-1533" title="Go to source code">getData</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the data under validation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the data under validation.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setData" id="_setData">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setData">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1535-1544" title="Go to source code">setData</a>( <span>array <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the data under validation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the data under validation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRules" id="_getRules">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRules">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1546-1554" title="Go to source code">getRules</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the validation rules.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the validation rules.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setAttributeNames" id="_setAttributeNames">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Validation.Validator.html">Illuminate\Validation\Validator</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setAttributeNames">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1556-1567" title="Go to source code">setAttributeNames</a>( <span>array <var>$attributes</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the custom attributes on the validator.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the custom attributes on the validator.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Validation.Validator.html">Illuminate\Validation\Validator</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFiles" id="_getFiles">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFiles">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1569-1577" title="Go to source code">getFiles</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the files under validation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the files under validation.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFiles" id="_setFiles">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Validation.Validator.html">Illuminate\Validation\Validator</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFiles">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1579-1590" title="Go to source code">setFiles</a>( <span>array <var>$files</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the files under validation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the files under validation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$files</var></dt>
+					<dd><code>array</code><br>$files</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Validation.Validator.html">Illuminate\Validation\Validator</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPresenceVerifier" id="_getPresenceVerifier">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Validation.PresenceVerifierInterface.html">Illuminate\Validation\PresenceVerifierInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPresenceVerifier">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1592-1605" title="Go to source code">getPresenceVerifier</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the Presence Verifier implementation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the Presence Verifier implementation.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Validation.PresenceVerifierInterface.html">Illuminate\Validation\PresenceVerifierInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setPresenceVerifier" id="_setPresenceVerifier">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setPresenceVerifier">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1607-1616" title="Go to source code">setPresenceVerifier</a>( <span><code><a href="class-Illuminate.Validation.PresenceVerifierInterface.html">Illuminate\Validation\PresenceVerifierInterface</a></code> <var>$presenceVerifier</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Presence Verifier implementation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Presence Verifier implementation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$presenceVerifier</var></dt>
+					<dd><code><code><a href="class-Illuminate.Validation.PresenceVerifierInterface.html">Illuminate\Validation\PresenceVerifierInterface</a></code></code><br>$presenceVerifier</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTranslator" id="_getTranslator">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\Translation\TranslatorInterface
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTranslator">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1618-1626" title="Go to source code">getTranslator</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the Translator implementation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the Translator implementation.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\Translation\TranslatorInterface</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTranslator" id="_setTranslator">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTranslator">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1628-1637" title="Go to source code">setTranslator</a>( <span>Symfony\Component\Translation\TranslatorInterface <var>$translator</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Translator implementation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Translator implementation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$translator</var></dt>
+					<dd><code>Symfony\Component\Translation\TranslatorInterface</code><br>$translator</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCustomMessages" id="_getCustomMessages">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCustomMessages">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1639-1647" title="Go to source code">getCustomMessages</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the custom messages for the validator</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the custom messages for the validator</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCustomMessages" id="_setCustomMessages">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCustomMessages">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1649-1658" title="Go to source code">setCustomMessages</a>( <span>array <var>$messages</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the custom messages for the validator</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the custom messages for the validator</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$messages</var></dt>
+					<dd><code>array</code><br>$messages</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="failed" id="_failed">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_failed">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1660-1668" title="Go to source code">failed</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the failed validation rules.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the failed validation rules.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="messages" id="_messages">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Support.MessageBag.html">Illuminate\Support\MessageBag</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_messages">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1670-1680" title="Go to source code">messages</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the message container for the validator.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the message container for the validator.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Support.MessageBag.html">Illuminate\Support\MessageBag</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="errors" id="_errors">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Support.MessageBag.html">Illuminate\Support\MessageBag</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_errors">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1682-1692" title="Go to source code">errors</a>( )</code>
+
+		<div class="description short">
+			
+<p>An alternative more semantic shortcut to the message container.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>An alternative more semantic shortcut to the message container.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Support.MessageBag.html">Illuminate\Support\MessageBag</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMessageBag" id="_getMessageBag">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Support.MessageBag.html">Illuminate\Support\MessageBag</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMessageBag">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1694-1702" title="Go to source code">getMessageBag</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the messages for the instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the messages for the instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Support.MessageBag.html">Illuminate\Support\MessageBag</a></code></code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Illuminate.Support.Contracts.MessageProviderInterface.html#_getMessageBag">Illuminate\Support\Contracts\MessageProviderInterface::getMessageBag()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setContainer" id="_setContainer">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setContainer">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1704-1713" title="Go to source code">setContainer</a>( <span><code><a href="class-Illuminate.Container.Container.html">Illuminate\Container\Container</a></code> <var>$container</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the IoC container instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the IoC container instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$container</var></dt>
+					<dd><code><code><a href="class-Illuminate.Container.Container.html">Illuminate\Container\Container</a></code></code><br>$container</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="callExtension" id="_callExtension">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_callExtension">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1715-1734" title="Go to source code">callExtension</a>( <span>string <var>$rule</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Call a custom validator extension.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Call a custom validator extension.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$rule</var></dt>
+					<dd><code>string</code><br>$rule</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="callClassBasedExtension" id="_callClassBasedExtension">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_callClassBasedExtension">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1736-1748" title="Go to source code">callClassBasedExtension</a>( <span>string <var>$callback</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Call a class baesd validator extension.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Call a class baesd validator extension.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code>string</code><br>$callback</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__call" id="___call">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___call">#</a>
+		<code><a href="source-class-Illuminate.Validation.Validator.html#1750-1767" title="Go to source code">__call</a>( <span>string <var>$method</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Handle dynamic calls to class methods.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle dynamic calls to class methods.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="translator" id="$translator">
+		<td class="attributes"><code>
+			protected  
+			Symfony\Component\Translation\TranslatorInterface
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#13-18" title="Go to source code"><var>$translator</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$translator" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The Translator implementation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The Translator implementation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="presenceVerifier" id="$presenceVerifier">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Validation.PresenceVerifierInterface.html">Illuminate\Validation\PresenceVerifierInterface</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#20-25" title="Go to source code"><var>$presenceVerifier</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$presenceVerifier" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The Presence Verifier implementation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The Presence Verifier implementation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="failedRules" id="$failedRules">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#27-32" title="Go to source code"><var>$failedRules</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$failedRules" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The failed validation rules.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The failed validation rules.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="messages" id="$messages">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Support.MessageBag.html">Illuminate\Support\MessageBag</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#34-39" title="Go to source code"><var>$messages</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$messages" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The message bag instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The message bag instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="data" id="$data">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#41-46" title="Go to source code"><var>$data</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$data" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The data under validation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The data under validation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="files" id="$files">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#48-53" title="Go to source code"><var>$files</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$files" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The files under validation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The files under validation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="rules" id="$rules">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#55-60" title="Go to source code"><var>$rules</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$rules" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The rules to be applied to the data.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The rules to be applied to the data.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="customMessages" id="$customMessages">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#62-67" title="Go to source code"><var>$customMessages</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$customMessages" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The array of custom error messages.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The array of custom error messages.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="customAttributes" id="$customAttributes">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#69-74" title="Go to source code"><var>$customAttributes</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$customAttributes" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The array of custom attribute names.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The array of custom attribute names.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="extensions" id="$extensions">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#76-81" title="Go to source code"><var>$extensions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$extensions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>All of the custom validator extensions.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>All of the custom validator extensions.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sizeRules" id="$sizeRules">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#83-88" title="Go to source code"><var>$sizeRules</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'Size'</span>, <span class="php-quote">'Between'</span>, <span class="php-quote">'Min'</span>, <span class="php-quote">'Max'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$sizeRules" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The size related validation rules.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The size related validation rules.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="numericRules" id="$numericRules">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#90-95" title="Go to source code"><var>$numericRules</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'Numeric'</span>, <span class="php-quote">'Integer'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$numericRules" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The numeric related validation rules.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The numeric related validation rules.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="implicitRules" id="$implicitRules">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.Validator.html#97-102" title="Go to source code"><var>$implicitRules</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'Required'</span>, <span class="php-quote">'RequiredWith'</span>, <span class="php-quote">'RequiredWithout'</span>, <span class="php-quote">'RequiredIf'</span>, <span class="php-quote">'Accepted'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$implicitRules" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The implicit validation rules.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The implicit validation rules.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

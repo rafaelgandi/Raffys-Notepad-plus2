@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Exception\Handler</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Illuminate.Exception.ExceptionServiceProvider.html">ExceptionServiceProvider</a></li>
+				<li class="active"><a href="class-Illuminate.Exception.Handler.html">Handler</a></li>
+				<li><a href="class-Illuminate.Exception.SymfonyDisplayer.html">SymfonyDisplayer</a></li>
+				<li><a href="class-Illuminate.Exception.WhoopsDisplayer.html">WhoopsDisplayer</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Illuminate.Exception.ExceptionDisplayerInterface.html">ExceptionDisplayerInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Exception.html" title="Summary of Illuminate\Exception"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Handler</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Exception.html">Exception</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Exception.Handler.html#10-375" title="Go to source code">Illuminate/Exception/Handler.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#54-71" title="Go to source code">__construct</a>( <span><code><a href="class-Illuminate.Support.Contracts.ResponsePreparerInterface.html">Illuminate\Support\Contracts\ResponsePreparerInterface</a></code> <var>$responsePreparer</var></span>, <span><code><a href="class-Illuminate.Exception.ExceptionDisplayerInterface.html">Illuminate\Exception\ExceptionDisplayerInterface</a></code> <var>$plainDisplayer</var></span>, <span><code><a href="class-Illuminate.Exception.ExceptionDisplayerInterface.html">Illuminate\Exception\ExceptionDisplayerInterface</a></code> <var>$debugDisplayer</var></span>, <span>mixed <var>$debug</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new error handler instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new error handler instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$responsePreparer</var></dt>
+					<dd><code><code><a href="class-Illuminate.Support.Contracts.ResponsePreparerInterface.html">Illuminate\Support\Contracts\ResponsePreparerInterface</a></code></code><br>$responsePreparer</dd>
+					<dt><var>$plainDisplayer</var></dt>
+					<dd><code><code><a href="class-Illuminate.Exception.ExceptionDisplayerInterface.html">Illuminate\Exception\ExceptionDisplayerInterface</a></code></code><br>$plainDisplayer</dd>
+					<dt><var>$debugDisplayer</var></dt>
+					<dd><code><code><a href="class-Illuminate.Exception.ExceptionDisplayerInterface.html">Illuminate\Exception\ExceptionDisplayerInterface</a></code></code><br>$debugDisplayer</dd>
+					<dt><var>$debug</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="register" id="_register">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_register">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#73-86" title="Go to source code">register</a>( <span>string <var>$environment</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register the exception / error handlers for the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register the exception / error handlers for the application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$environment</var></dt>
+					<dd><code>string</code><br>$environment</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="registerErrorHandler" id="_registerErrorHandler">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_registerErrorHandler">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#88-96" title="Go to source code">registerErrorHandler</a>( )</code>
+
+		<div class="description short">
+			
+<p>Register the PHP error handler.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register the PHP error handler.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="registerExceptionHandler" id="_registerExceptionHandler">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_registerExceptionHandler">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#98-106" title="Go to source code">registerExceptionHandler</a>( )</code>
+
+		<div class="description short">
+			
+<p>Register the PHP exception handler.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register the PHP exception handler.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="registerShutdownHandler" id="_registerShutdownHandler">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_registerShutdownHandler">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#108-116" title="Go to source code">registerShutdownHandler</a>( )</code>
+
+		<div class="description short">
+			
+<p>Register the PHP shutdown handler.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register the PHP shutdown handler.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handleError" id="_handleError">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handleError">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#118-135" title="Go to source code">handleError</a>( <span>integer <var>$level</var></span>, <span>string <var>$message</var></span>, <span>string <var>$file</var></span>, <span>integer <var>$line</var></span>, <span>array <var>$context</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Handle a PHP error for the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle a PHP error for the application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$level</var></dt>
+					<dd><code>integer</code><br>$level</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>$file</dd>
+					<dt><var>$line</var></dt>
+					<dd><code>integer</code><br>$line</dd>
+					<dt><var>$context</var></dt>
+					<dd><code>array</code><br>$context</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handleException" id="_handleException">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handleException">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#137-166" title="Go to source code">handleException</a>( <span><code><a href="class-Exception.html">Exception</a></code> <var>$exception</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Handle an exception for the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle an exception for the application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$exception</var></dt>
+					<dd><code><code><a href="class-Exception.html">Exception</a></code></code><br>$exception</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handleShutdown" id="_handleShutdown">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handleShutdown">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#168-188" title="Go to source code">handleShutdown</a>( )</code>
+
+		<div class="description short">
+			
+<p>Handle the PHP shutdown event.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle the PHP shutdown event.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isFatal" id="_isFatal">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isFatal">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#190-199" title="Go to source code">isFatal</a>( <span>integer <var>$type</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if the error type is fatal.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if the error type is fatal.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>integer</code><br>$type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handleConsole" id="_handleConsole">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handleConsole">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#201-210" title="Go to source code">handleConsole</a>( <span><code><a href="class-Exception.html">Exception</a></code> <var>$exception</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Handle a console exception.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle a console exception.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$exception</var></dt>
+					<dd><code><code><a href="class-Exception.html">Exception</a></code></code><br>$exception</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="callCustomHandlers" id="_callCustomHandlers">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_callCustomHandlers">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#212-263" title="Go to source code">callCustomHandlers</a>( <span><code><a href="class-Exception.html">Exception</a></code> <var>$exception</var></span>, <span>boolean <var>$fromConsole</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Handle the given exception.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle the given exception.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$exception</var></dt>
+					<dd><code><code><a href="class-Exception.html">Exception</a></code></code><br>$exception</dd>
+					<dt><var>$fromConsole</var></dt>
+					<dd><code>boolean</code><br>$fromConsole</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="displayException" id="_displayException">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_displayException">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#265-276" title="Go to source code">displayException</a>( <span><code><a href="class-Exception.html">Exception</a></code> <var>$exception</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Display the given exception to the user.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Display the given exception to the user.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$exception</var></dt>
+					<dd><code><code><a href="class-Exception.html">Exception</a></code></code><br>$exception</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handlesException" id="_handlesException">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handlesException">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#278-290" title="Go to source code">handlesException</a>( <span><code><a href="class-Closure.html">Closure</a></code> <var>$handler</var></span>, <span><code><a href="class-Exception.html">Exception</a></code> <var>$exception</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if the given handler handles this exception.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if the given handler handles this exception.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$handler</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$handler</dd>
+					<dt><var>$exception</var></dt>
+					<dd><code><code><a href="class-Exception.html">Exception</a></code></code><br>$exception</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hints" id="_hints">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hints">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#292-306" title="Go to source code">hints</a>( <span><code><a href="class-ReflectionFunction.html">ReflectionFunction</a></code> <var>$reflection</var></span>, <span><code><a href="class-Exception.html">Exception</a></code> <var>$exception</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if the given handler type hints the exception.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if the given handler type hints the exception.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$reflection</var></dt>
+					<dd><code><code><a href="class-ReflectionFunction.html">ReflectionFunction</a></code></code><br>$reflection</dd>
+					<dt><var>$exception</var></dt>
+					<dd><code><code><a href="class-Exception.html">Exception</a></code></code><br>$exception</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="formatException" id="_formatException">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_formatException">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#308-319" title="Go to source code">formatException</a>( <span><code><a href="class-Exception.html">Exception</a></code> <var>$e</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Format an exception thrown by a handler.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Format an exception thrown by a handler.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$e</var></dt>
+					<dd><code><code><a href="class-Exception.html">Exception</a></code></code><br>$e</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="_error">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_error">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#321-330" title="Go to source code">error</a>( <span><code><a href="class-Closure.html">Closure</a></code> <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register an application error handler.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register an application error handler.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="pushError" id="_pushError">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_pushError">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#332-341" title="Go to source code">pushError</a>( <span><code><a href="class-Closure.html">Closure</a></code> <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register an application error handler at the bottom of the stack.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register an application error handler at the bottom of the stack.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="prepareResponse" id="_prepareResponse">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-Illuminate.Http.Response.html">Illuminate\Http\Response</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_prepareResponse">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#343-352" title="Go to source code">prepareResponse</a>( <span>mixed <var>$response</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Prepare the given response.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prepare the given response.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$response</var></dt>
+					<dd><code>mixed</code><br>$response</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.Response.html">Illuminate\Http\Response</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="bail" id="_bail">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_bail">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#354-362" title="Go to source code">bail</a>( )</code>
+
+		<div class="description short">
+			
+<p>Exit the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Exit the application.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setDebug" id="_setDebug">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setDebug">#</a>
+		<code><a href="source-class-Illuminate.Exception.Handler.html#364-373" title="Go to source code">setDebug</a>( <span>boolean <var>$debug</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the debug level for the handler.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the debug level for the handler.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$debug</var></dt>
+					<dd><code>boolean</code><br>$debug</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="responsePreparer" id="$responsePreparer">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Support.Contracts.ResponsePreparerInterface.html">Illuminate\Support\Contracts\ResponsePreparerInterface</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Exception.Handler.html#12-17" title="Go to source code"><var>$responsePreparer</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$responsePreparer" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The response preparer implementation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The response preparer implementation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="plainDisplayer" id="$plainDisplayer">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Exception.ExceptionDisplayerInterface.html">Illuminate\Exception\ExceptionDisplayerInterface</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Exception.Handler.html#19-24" title="Go to source code"><var>$plainDisplayer</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$plainDisplayer" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The plain exception displayer.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The plain exception displayer.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="debugDisplayer" id="$debugDisplayer">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Exception.ExceptionDisplayerInterface.html">Illuminate\Exception\ExceptionDisplayerInterface</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Exception.Handler.html#26-31" title="Go to source code"><var>$debugDisplayer</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$debugDisplayer" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The debug exception displayer.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The debug exception displayer.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="debug" id="$debug">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Exception.Handler.html#33-38" title="Go to source code"><var>$debug</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$debug" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Indicates if the application is in debug mode.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Indicates if the application is in debug mode.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="handlers" id="$handlers">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Exception.Handler.html#40-45" title="Go to source code"><var>$handlers</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$handlers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>All of the register exception handlers.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>All of the register exception handlers.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="handled" id="$handled">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Exception.Handler.html#47-52" title="Go to source code"><var>$handled</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$handled" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>All of the handled error messages.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>All of the handled error messages.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

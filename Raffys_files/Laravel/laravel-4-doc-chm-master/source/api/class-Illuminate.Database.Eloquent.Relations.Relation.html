@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Database\Eloquent\Relations\Relation</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.BelongsTo.html">BelongsTo</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html">BelongsToMany</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.HasMany.html">HasMany</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.HasOne.html">HasOne</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.HasOneOrMany.html">HasOneOrMany</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.MorphMany.html">MorphMany</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.MorphOne.html">MorphOne</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.MorphOneOrMany.html">MorphOneOrMany</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.Pivot.html">Pivot</a></li>
+				<li class="active"><a href="class-Illuminate.Database.Eloquent.Relations.Relation.html">Relation</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Database.Eloquent.Relations.html" title="Summary of Illuminate\Database\Eloquent\Relations"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Relation</h1>
+
+
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Illuminate.Database.Eloquent.Relations.BelongsTo.html">Illuminate\Database\Eloquent\Relations\BelongsTo</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html">Illuminate\Database\Eloquent\Relations\BelongsToMany</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.HasOneOrMany.html">Illuminate\Database\Eloquent\Relations\HasOneOrMany</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-Illuminate.Database.Eloquent.Relations.HasMany.html">Illuminate\Database\Eloquent\Relations\HasMany</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.HasOne.html">Illuminate\Database\Eloquent\Relations\HasOne</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.MorphMany.html">Illuminate\Database\Eloquent\Relations\MorphMany</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.MorphOne.html">Illuminate\Database\Eloquent\Relations\MorphOne</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.MorphOneOrMany.html">Illuminate\Database\Eloquent\Relations\MorphOneOrMany</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		<b>Abstract</b><br />
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Database.html">Database</a>\<a href="namespace-Illuminate.Database.Eloquent.html">Eloquent</a>\<a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#10-322" title="Go to source code">Illuminate/Database/Eloquent/Relations/Relation.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#33-47" title="Go to source code">__construct</a>( <span><code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code> <var>$query</var></span>, <span><code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code> <var>$parent</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new relation instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new relation instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd><code><code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code></code></dd>
+					<dt><var>$parent</var></dt>
+					<dd><code><code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code></code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addConstraints" id="_addConstraints">
+
+		<td class="attributes"><code>
+			abstract public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addConstraints">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#49-54" title="Go to source code">addConstraints</a>( )</code>
+
+		<div class="description short">
+			
+<p>Set the base constraints on the relation query.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the base constraints on the relation query.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addEagerConstraints" id="_addEagerConstraints">
+
+		<td class="attributes"><code>
+			abstract public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addEagerConstraints">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#56-62" title="Go to source code">addEagerConstraints</a>( <span>array <var>$models</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the constraints for an eager load of the relation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the constraints for an eager load of the relation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$models</var></dt>
+					<dd><code>array</code><br>$models</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="initRelation" id="_initRelation">
+
+		<td class="attributes"><code>
+			abstract public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_initRelation">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#64-71" title="Go to source code">initRelation</a>( <span>array <var>$models</var></span>, <span>string <var>$relation</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Initialize the relation on a set of models.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Initialize the relation on a set of models.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$models</var></dt>
+					<dd><code>array</code><br>$models</dd>
+					<dt><var>$relation</var></dt>
+					<dd><code>string</code><br>$relation</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="match" id="_match">
+
+		<td class="attributes"><code>
+			abstract public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_match">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#73-81" title="Go to source code">match</a>( <span>array <var>$models</var></span>, <span><code><a href="class-Illuminate.Database.Eloquent.Collection.html">Illuminate\Database\Eloquent\Collection</a></code> <var>$results</var></span>, <span>string <var>$relation</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Match the eagerly loaded results to their parents.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Match the eagerly loaded results to their parents.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$models</var></dt>
+					<dd><code>array</code><br>$models</dd>
+					<dt><var>$results</var></dt>
+					<dd><code><code><a href="class-Illuminate.Database.Eloquent.Collection.html">Illuminate\Database\Eloquent\Collection</a></code></code><br>$results</dd>
+					<dt><var>$relation</var></dt>
+					<dd><code>string</code><br>$relation</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getResults" id="_getResults">
+
+		<td class="attributes"><code>
+			abstract public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getResults">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#83-88" title="Go to source code">getResults</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the results of the relationship.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the results of the relationship.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="touch" id="_touch">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_touch">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#90-100" title="Go to source code">touch</a>( )</code>
+
+		<div class="description short">
+			
+<p>Touch all of the related models for the relationship.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Touch all of the related models for the relationship.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="restore" id="_restore">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_restore">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#102-110" title="Go to source code">restore</a>( )</code>
+
+		<div class="description short">
+			
+<p>Restore all of the soft deleted related models.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Restore all of the soft deleted related models.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rawUpdate" id="_rawUpdate">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rawUpdate">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#112-121" title="Go to source code">rawUpdate</a>( <span>array <var>$attributes</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Run a raw update against the base query.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Run a raw update against the base query.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAndResetWheres" id="_getAndResetWheres">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAndResetWheres">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#123-149" title="Go to source code">getAndResetWheres</a>( )</code>
+
+		<div class="description short">
+			
+<p>Remove the original where clause set by the relationship.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove the original where clause set by the relationship.</p>
+
+<p>The remaining constraints on the query will be reset and returned.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeFirstWhereClause" id="_removeFirstWhereClause">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeFirstWhereClause">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#151-161" title="Go to source code">removeFirstWhereClause</a>( )</code>
+
+		<div class="description short">
+			
+<p>Remove the first where clause from the relationship query.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove the first where clause from the relationship query.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeSecondWhereClause" id="_removeSecondWhereClause">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeSecondWhereClause">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#163-180" title="Go to source code">removeSecondWhereClause</a>( )</code>
+
+		<div class="description short">
+			
+<p>Remove the second where clause from the relationship query.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove the second where clause from the relationship query.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeWhereBinding" id="_removeWhereBinding">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeWhereBinding">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#182-203" title="Go to source code">removeWhereBinding</a>( <span>array <var>$clause</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Remove a where clause from the relationship query.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove a where clause from the relationship query.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$clause</var></dt>
+					<dd><code>array</code><br>$clause</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRelationCountQuery" id="_getRelationCountQuery">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRelationCountQuery">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#205-218" title="Go to source code">getRelationCountQuery</a>( <span><code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code> <var>$query</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add the constraints for a relationship count query.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add the constraints for a relationship count query.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd><code><code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code></code><br>$query</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getKeys" id="_getKeys">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getKeys">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#220-233" title="Go to source code">getKeys</a>( <span>array <var>$models</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get all of the primary keys for an array of models.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get all of the primary keys for an array of models.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$models</var></dt>
+					<dd><code>array</code><br>$models</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getQuery" id="_getQuery">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getQuery">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#235-243" title="Go to source code">getQuery</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the underlying query for the relation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the underlying query for the relation.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBaseQuery" id="_getBaseQuery">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Database.Query.Builder.html">Illuminate\Database\Query\Builder</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBaseQuery">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#245-253" title="Go to source code">getBaseQuery</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the base query builder driving the Eloquent builder.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the base query builder driving the Eloquent builder.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Database.Query.Builder.html">Illuminate\Database\Query\Builder</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getParent" id="_getParent">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getParent">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#255-263" title="Go to source code">getParent</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the parent model of the relation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the parent model of the relation.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRelated" id="_getRelated">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRelated">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#265-273" title="Go to source code">getRelated</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the related model of the relation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the related model of the relation.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createdAt" id="_createdAt">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createdAt">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#275-283" title="Go to source code">createdAt</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the name of the "created at" column.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the name of the "created at" column.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="updatedAt" id="_updatedAt">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_updatedAt">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#285-293" title="Go to source code">updatedAt</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the name of the "updated at" column.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the name of the "updated at" column.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="wrap" id="_wrap">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_wrap">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#295-304" title="Go to source code">wrap</a>( <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Wrap the given value with the parent query's grammar.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Wrap the given value with the parent query's grammar.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__call" id="___call">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___call">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#306-320" title="Go to source code">__call</a>( <span>string <var>$method</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Handle dynamic method calls to the relationship.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle dynamic method calls to the relationship.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="query" id="$query">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#12-17" title="Go to source code"><var>$query</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$query" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The Eloquent query builder instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The Eloquent query builder instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="parent" id="$parent">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#19-24" title="Go to source code"><var>$parent</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$parent" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The parent model instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The parent model instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="related" id="$related">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Database.Eloquent.Relations.Relation.html#26-31" title="Go to source code"><var>$related</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$related" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The related model instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The related model instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

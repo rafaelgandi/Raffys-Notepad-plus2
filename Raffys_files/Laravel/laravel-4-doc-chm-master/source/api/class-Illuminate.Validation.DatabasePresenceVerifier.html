@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Validation\DatabasePresenceVerifier</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Illuminate.Validation.DatabasePresenceVerifier.html">DatabasePresenceVerifier</a></li>
+				<li><a href="class-Illuminate.Validation.Factory.html">Factory</a></li>
+				<li><a href="class-Illuminate.Validation.ValidationServiceProvider.html">ValidationServiceProvider</a></li>
+				<li><a href="class-Illuminate.Validation.Validator.html">Validator</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Illuminate.Validation.PresenceVerifierInterface.html">PresenceVerifierInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Validation.html" title="Summary of Illuminate\Validation"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class DatabasePresenceVerifier</h1>
+
+
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>Illuminate\Validation\DatabasePresenceVerifier</span></b>			
+			 implements 
+				<a href="class-Illuminate.Validation.PresenceVerifierInterface.html"><span>Illuminate\Validation\PresenceVerifierInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Validation.html">Validation</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Validation.DatabasePresenceVerifier.html#5-103" title="Go to source code">Illuminate/Validation/DatabasePresenceVerifier.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.Validation.DatabasePresenceVerifier.html#21-30" title="Go to source code">__construct</a>( <span><code><a href="class-Illuminate.Database.ConnectionResolverInterface.html">Illuminate\Database\ConnectionResolverInterface</a></code> <var>$db</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new database presence verifier.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new database presence verifier.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$db</var></dt>
+					<dd><code><code><a href="class-Illuminate.Database.ConnectionResolverInterface.html">Illuminate\Database\ConnectionResolverInterface</a></code></code><br>$db</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCount" id="_getCount">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCount">#</a>
+		<code><a href="source-class-Illuminate.Validation.DatabasePresenceVerifier.html#32-58" title="Go to source code">getCount</a>( <span>string <var>$collection</var></span>, <span>string <var>$column</var></span>, <span>string <var>$value</var></span>, <span>integer <var>$excludeId</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$idColumn</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$extra</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Count the number of objects in a collection having the given value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Count the number of objects in a collection having the given value.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$collection</var></dt>
+					<dd><code>string</code><br>$collection</dd>
+					<dt><var>$column</var></dt>
+					<dd><code>string</code><br>$column</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$excludeId</var></dt>
+					<dd><code>integer</code><br>$excludeId</dd>
+					<dt><var>$idColumn</var></dt>
+					<dd><code>string</code><br>$idColumn</dd>
+					<dt><var>$extra</var></dt>
+					<dd><code>array</code><br>$extra</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Illuminate.Validation.PresenceVerifierInterface.html#_getCount">Illuminate\Validation\PresenceVerifierInterface::getCount()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMultiCount" id="_getMultiCount">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMultiCount">#</a>
+		<code><a href="source-class-Illuminate.Validation.DatabasePresenceVerifier.html#60-79" title="Go to source code">getMultiCount</a>( <span>string <var>$collection</var></span>, <span>string <var>$column</var></span>, <span>array <var>$values</var></span>, <span>array <var>$extra</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Count the number of objects in a collection with the given values.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Count the number of objects in a collection with the given values.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$collection</var></dt>
+					<dd><code>string</code><br>$collection</dd>
+					<dt><var>$column</var></dt>
+					<dd><code>string</code><br>$column</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>$values</dd>
+					<dt><var>$extra</var></dt>
+					<dd><code>array</code><br>$extra</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Illuminate.Validation.PresenceVerifierInterface.html#_getMultiCount">Illuminate\Validation\PresenceVerifierInterface::getMultiCount()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="table" id="_table">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-Illuminate.Database.Query.Builder.html">Illuminate\Database\Query\Builder</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_table">#</a>
+		<code><a href="source-class-Illuminate.Validation.DatabasePresenceVerifier.html#81-90" title="Go to source code">table</a>( <span>string <var>$table</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a query builder for the given table.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a query builder for the given table.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>$table</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Database.Query.Builder.html">Illuminate\Database\Query\Builder</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setConnection" id="_setConnection">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setConnection">#</a>
+		<code><a href="source-class-Illuminate.Validation.DatabasePresenceVerifier.html#92-101" title="Go to source code">setConnection</a>( <span>string <var>$connection</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the connection to be used.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the connection to be used.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$connection</var></dt>
+					<dd><code>string</code><br>$connection</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="db" id="$db">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Database.ConnectionResolverInterface.html">Illuminate\Database\ConnectionResolverInterface</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.DatabasePresenceVerifier.html#7-12" title="Go to source code"><var>$db</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$db" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The database connection instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The database connection instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="connection" id="$connection">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Validation.DatabasePresenceVerifier.html#14-19" title="Go to source code"><var>$connection</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$connection" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The database connection to use.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The database connection to use.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

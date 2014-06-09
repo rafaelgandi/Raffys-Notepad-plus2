@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Routing\Redirector</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Illuminate.Routing.ControllerServiceProvider.html">ControllerServiceProvider</a></li>
+				<li class="active"><a href="class-Illuminate.Routing.Redirector.html">Redirector</a></li>
+				<li><a href="class-Illuminate.Routing.Route.html">Route</a></li>
+				<li><a href="class-Illuminate.Routing.Router.html">Router</a></li>
+				<li><a href="class-Illuminate.Routing.RoutingServiceProvider.html">RoutingServiceProvider</a></li>
+				<li><a href="class-Illuminate.Routing.UrlGenerator.html">UrlGenerator</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Routing.html" title="Summary of Illuminate\Routing"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Redirector</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Routing.html">Routing</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Routing.Redirector.html#6-208" title="Go to source code">Illuminate/Routing/Redirector.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#22-31" title="Go to source code">__construct</a>( <span><code><a href="class-Illuminate.Routing.UrlGenerator.html">Illuminate\Routing\UrlGenerator</a></code> <var>$generator</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new Redirector instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new Redirector instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$generator</var></dt>
+					<dd><code><code><a href="class-Illuminate.Routing.UrlGenerator.html">Illuminate\Routing\UrlGenerator</a></code></code><br>$generator</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="home" id="_home">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_home">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#33-42" title="Go to source code">home</a>( <span>integer <var>$status</var> = <span class="php-num">302</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new redirect response to the "home" route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new redirect response to the "home" route.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$status</var></dt>
+					<dd><code>integer</code><br>$status</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="back" id="_back">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_back">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#44-56" title="Go to source code">back</a>( <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new redirect response to the previous location.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new redirect response to the previous location.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$status</var></dt>
+					<dd><code>integer</code><br>$status</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="refresh" id="_refresh">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_refresh">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#58-68" title="Go to source code">refresh</a>( <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new redirect response to the current URI.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new redirect response to the current URI.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$status</var></dt>
+					<dd><code>integer</code><br>$status</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="guest" id="_guest">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_guest">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#70-84" title="Go to source code">guest</a>( <span>string <var>$path</var></span>, <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$secure</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new redirect response, while putting the current URL in the
+session.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new redirect response, while putting the current URL in the
+session.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+					<dt><var>$status</var></dt>
+					<dd><code>integer</code><br>$status</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+					<dt><var>$secure</var></dt>
+					<dd><code>boolean</code><br>$secure</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="intended" id="_intended">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_intended">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#86-102" title="Go to source code">intended</a>( <span>string <var>$default</var></span>, <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$secure</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new redirect response to the previously intended location.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new redirect response to the previously intended location.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$default</var></dt>
+					<dd><code>string</code><br>$default</dd>
+					<dt><var>$status</var></dt>
+					<dd><code>integer</code><br>$status</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+					<dt><var>$secure</var></dt>
+					<dd><code>boolean</code><br>$secure</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="to" id="_to">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_to">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#104-118" title="Go to source code">to</a>( <span>string <var>$path</var></span>, <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$secure</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new redirect response to the given path.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new redirect response to the given path.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+					<dt><var>$status</var></dt>
+					<dd><code>integer</code><br>$status</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+					<dt><var>$secure</var></dt>
+					<dd><code>boolean</code><br>$secure</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="secure" id="_secure">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_secure">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#120-131" title="Go to source code">secure</a>( <span>string <var>$path</var></span>, <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new redirect response to the given HTTPS path.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new redirect response to the given HTTPS path.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+					<dt><var>$status</var></dt>
+					<dd><code>integer</code><br>$status</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="route" id="_route">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_route">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#133-147" title="Go to source code">route</a>( <span>string <var>$route</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span>, <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new redirect response to a named route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new redirect response to a named route.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$route</var></dt>
+					<dd><code>string</code><br>$route</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+					<dt><var>$status</var></dt>
+					<dd><code>integer</code><br>$status</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="action" id="_action">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_action">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#149-163" title="Go to source code">action</a>( <span>string <var>$action</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span>, <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new redirect response to a controller action.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new redirect response to a controller action.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$action</var></dt>
+					<dd><code>string</code><br>$action</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+					<dt><var>$status</var></dt>
+					<dd><code>integer</code><br>$status</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createRedirect" id="_createRedirect">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createRedirect">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#165-185" title="Go to source code">createRedirect</a>( <span>string <var>$path</var></span>, <span>integer <var>$status</var></span>, <span>array <var>$headers</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new redirect response.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new redirect response.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+					<dt><var>$status</var></dt>
+					<dd><code>integer</code><br>$status</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.RedirectResponse.html">Illuminate\Http\RedirectResponse</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUrlGenerator" id="_getUrlGenerator">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Routing.UrlGenerator.html">Illuminate\Routing\UrlGenerator</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUrlGenerator">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#187-195" title="Go to source code">getUrlGenerator</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the URL generator instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the URL generator instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Routing.UrlGenerator.html">Illuminate\Routing\UrlGenerator</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setSession" id="_setSession">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setSession">#</a>
+		<code><a href="source-class-Illuminate.Routing.Redirector.html#197-206" title="Go to source code">setSession</a>( <span><code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code> <var>$session</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the active session store.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the active session store.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$session</var></dt>
+					<dd><code><code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code></code><br>$session</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="generator" id="$generator">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Routing.UrlGenerator.html">Illuminate\Routing\UrlGenerator</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Routing.Redirector.html#8-13" title="Go to source code"><var>$generator</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$generator" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The URL generator instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The URL generator instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="session" id="$session">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Routing.Redirector.html#15-20" title="Go to source code"><var>$session</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$session" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The session store instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The session store instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\View\View</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Illuminate.View.Environment.html">Environment</a></li>
+				<li><a href="class-Illuminate.View.FileViewFinder.html">FileViewFinder</a></li>
+				<li class="active"><a href="class-Illuminate.View.View.html">View</a></li>
+				<li><a href="class-Illuminate.View.ViewServiceProvider.html">ViewServiceProvider</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Illuminate.View.ViewFinderInterface.html">ViewFinderInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.View.html" title="Summary of Illuminate\View"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class View</h1>
+
+
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>Illuminate\View\View</span></b>			
+			 implements 
+				<a href="class-ArrayAccess.html"><span>ArrayAccess</span></a>, 
+			
+				<a href="class-Illuminate.Support.Contracts.RenderableInterface.html"><span>Illuminate\Support\Contracts\RenderableInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.View.html">View</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.View.View.html#8-317" title="Go to source code">Illuminate/View/View.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#45-63" title="Go to source code">__construct</a>( <span><code><a href="class-Illuminate.View.Environment.html">Illuminate\View\Environment</a></code> <var>$environment</var></span>, <span><code><a href="class-Illuminate.View.Engines.EngineInterface.html">Illuminate\View\Engines\EngineInterface</a></code> <var>$engine</var></span>, <span>string <var>$view</var></span>, <span>string <var>$path</var></span>, <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new view instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new view instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$environment</var></dt>
+					<dd><code><code><a href="class-Illuminate.View.Environment.html">Illuminate\View\Environment</a></code></code><br>$environment</dd>
+					<dt><var>$engine</var></dt>
+					<dd><code><code><a href="class-Illuminate.View.Engines.EngineInterface.html">Illuminate\View\Engines\EngineInterface</a></code></code><br>$engine</dd>
+					<dt><var>$view</var></dt>
+					<dd><code>string</code><br>$view</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="render" id="_render">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_render">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#65-91" title="Go to source code">render</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the string contents of the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the string contents of the view.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Illuminate.Support.Contracts.RenderableInterface.html#_render">Illuminate\Support\Contracts\RenderableInterface::render()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getContents" id="_getContents">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getContents">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#93-101" title="Go to source code">getContents</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the evaluated contents of the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the evaluated contents of the view.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="gatherData" id="_gatherData">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_gatherData">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#103-121" title="Go to source code">gatherData</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the data bound to the view instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the data bound to the view instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="with" id="_with">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.View.View.html">Illuminate\View\View</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_with">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#123-142" title="Go to source code">with</a>( <span>string|array <var>$key</var></span>, <span>mixed <var>$value</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a piece of data to the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a piece of data to the view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string|array</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.View.View.html">Illuminate\View\View</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="nest" id="_nest">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.View.View.html">Illuminate\View\View</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_nest">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#144-155" title="Go to source code">nest</a>( <span>string <var>$key</var></span>, <span>string <var>$view</var></span>, <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Add a view instance to the view data.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a view instance to the view data.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$view</var></dt>
+					<dd><code>string</code><br>$view</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.View.View.html">Illuminate\View\View</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getEnvironment" id="_getEnvironment">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.View.Environment.html">Illuminate\View\Environment</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getEnvironment">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#157-165" title="Go to source code">getEnvironment</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the view environment instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the view environment instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.View.Environment.html">Illuminate\View\Environment</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getEngine" id="_getEngine">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.View.Engines.EngineInterface.html">Illuminate\View\Engines\EngineInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getEngine">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#167-175" title="Go to source code">getEngine</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the view's rendering engine.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the view's rendering engine.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.View.Engines.EngineInterface.html">Illuminate\View\Engines\EngineInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getName" id="_getName">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getName">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#177-185" title="Go to source code">getName</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the name of the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the name of the view.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getData" id="_getData">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getData">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#187-195" title="Go to source code">getData</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the array of view data.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the array of view data.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPath" id="_getPath">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPath">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#197-205" title="Go to source code">getPath</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the path to the view file.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the path to the view file.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setPath" id="_setPath">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setPath">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#207-216" title="Go to source code">setPath</a>( <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the path to the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the path to the view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="offsetExists" id="_offsetExists">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_offsetExists">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#218-227" title="Go to source code">offsetExists</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if a piece of data is bound.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if a piece of data is bound.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-ArrayAccess.html#_offsetExists">ArrayAccess::offsetExists()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="offsetGet" id="_offsetGet">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_offsetGet">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#229-238" title="Go to source code">offsetGet</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a piece of bound data to the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a piece of bound data to the view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-ArrayAccess.html#_offsetGet">ArrayAccess::offsetGet()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="offsetSet" id="_offsetSet">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_offsetSet">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#240-250" title="Go to source code">offsetSet</a>( <span>string <var>$key</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set a piece of data on the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set a piece of data on the view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-ArrayAccess.html#_offsetSet">ArrayAccess::offsetSet()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="offsetUnset" id="_offsetUnset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_offsetUnset">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#252-261" title="Go to source code">offsetUnset</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Unset a piece of data from the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Unset a piece of data from the view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-ArrayAccess.html#_offsetUnset">ArrayAccess::offsetUnset()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__get" id="___get">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___get">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#263-271" title="Go to source code">__get</a>( <span>mixed <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a piece of data from the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a piece of data from the view.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__set" id="___set">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___set">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#273-283" title="Go to source code">__set</a>( <span>string <var>$key</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set a piece of data on the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set a piece of data on the view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__isset" id="___isset">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___isset">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#285-294" title="Go to source code">__isset</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check if a piece of data is bound to the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if a piece of data is bound to the view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__unset" id="___unset">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___unset">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#296-305" title="Go to source code">__unset</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Remove a piece of bound data from the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove a piece of bound data from the view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__toString" id="___toString">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___toString">#</a>
+		<code><a href="source-class-Illuminate.View.View.html#307-315" title="Go to source code">__toString</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the string contents of the view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the string contents of the view.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="environment" id="$environment">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.View.Environment.html">Illuminate\View\Environment</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.View.html#10-15" title="Go to source code"><var>$environment</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$environment" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The view environment instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The view environment instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="engine" id="$engine">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.View.Engines.EngineInterface.html">Illuminate\View\Engines\EngineInterface</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.View.html#17-22" title="Go to source code"><var>$engine</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$engine" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The engine implementation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The engine implementation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="view" id="$view">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.View.html#24-29" title="Go to source code"><var>$view</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$view" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The name of the view.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The name of the view.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="data" id="$data">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.View.html#31-36" title="Go to source code"><var>$data</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$data" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The array of view data.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The array of view data.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="path" id="$path">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.View.html#38-43" title="Go to source code"><var>$path</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$path" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The path to the view file.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The path to the view file.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

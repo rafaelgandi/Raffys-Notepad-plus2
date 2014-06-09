@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Routing\Route</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Illuminate.Routing.ControllerServiceProvider.html">ControllerServiceProvider</a></li>
+				<li><a href="class-Illuminate.Routing.Redirector.html">Redirector</a></li>
+				<li class="active"><a href="class-Illuminate.Routing.Route.html">Route</a></li>
+				<li><a href="class-Illuminate.Routing.Router.html">Router</a></li>
+				<li><a href="class-Illuminate.Routing.RoutingServiceProvider.html">RoutingServiceProvider</a></li>
+				<li><a href="class-Illuminate.Routing.UrlGenerator.html">UrlGenerator</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Routing.html" title="Summary of Illuminate\Routing"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Route</h1>
+
+
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+Symfony\Component\Routing\Route
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Illuminate\Routing\Route</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Routing.html">Routing</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Routing.Route.html#7-461" title="Go to source code">Illuminate/Routing/Route.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="run" id="_run">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_run">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#30-69" title="Go to source code">run</a>( <span>Symfony\Component\HttpFoundation\Request <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Execute the route and return the response.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Execute the route and return the response.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>Symfony\Component\HttpFoundation\Request</code><br>$request</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="callCallable" id="_callCallable">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_callCallable">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#71-81" title="Go to source code">callCallable</a>( )</code>
+
+		<div class="description short">
+			
+<p>Call the callable Closure attached to the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Call the callable Closure attached to the route.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="callBeforeFilters" id="_callBeforeFilters">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_callBeforeFilters">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#83-104" title="Go to source code">callBeforeFilters</a>( <span>Symfony\Component\HttpFoundation\Request <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Call all of the before filters on the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Call all of the before filters on the route.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>Symfony\Component\HttpFoundation\Request</code><br>$request</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAllBeforeFilters" id="_getAllBeforeFilters">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAllBeforeFilters">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#106-117" title="Go to source code">getAllBeforeFilters</a>( <span>Symfony\Component\HttpFoundation\Request <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get all of the before filters to run on the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get all of the before filters to run on the route.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>Symfony\Component\HttpFoundation\Request</code><br>$request</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="callAfterFilters" id="_callAfterFilters">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_callAfterFilters">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#119-132" title="Go to source code">callAfterFilters</a>( <span>Symfony\Component\HttpFoundation\Request <var>$request</var></span>, <span>Symfony\Component\HttpFoundation\Response <var>$response</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Call all of the "after" filters for a route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Call all of the "after" filters for a route.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>Symfony\Component\HttpFoundation\Request</code><br>$request</dd>
+					<dt><var>$response</var></dt>
+					<dd><code>Symfony\Component\HttpFoundation\Response</code><br>$response</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="callFilter" id="_callFilter">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_callFilter">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#134-159" title="Go to source code">callFilter</a>( <span>string <var>$name</var></span>, <span>Symfony\Component\HttpFoundation\Request <var>$request</var></span>, <span>array <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Call a given filter with the parameters.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Call a given filter with the parameters.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$request</var></dt>
+					<dd><code>Symfony\Component\HttpFoundation\Request</code><br>$request</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array</code><br>$params</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseFilter" id="_parseFilter">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseFilter">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#161-188" title="Go to source code">parseFilter</a>( <span>string <var>$name</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Parse a filter name and add any parameters to the array.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parse a filter name and add any parameters to the array.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getParameter" id="_getParameter">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getParameter">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#190-200" title="Go to source code">getParameter</a>( <span>string <var>$name</var></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a parameter by name from the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a parameter by name from the route.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>mixed</code><br>$default</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getParameters" id="_getParameters">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getParameters">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#202-230" title="Go to source code">getParameters</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the parameters to the callback.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the parameters to the callback.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resolveParameter" id="_resolveParameter">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resolveParameter">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#232-251" title="Go to source code">resolveParameter</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Resolve a parameter value for the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resolve a parameter value for the route.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getParametersWithoutDefaults" id="_getParametersWithoutDefaults">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getParametersWithoutDefaults">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#253-274" title="Go to source code">getParametersWithoutDefaults</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the route parameters without missing defaults.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the route parameters without missing defaults.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isMissingDefault" id="_isMissingDefault">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isMissingDefault">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#276-286" title="Go to source code">isMissingDefault</a>( <span>string <var>$key</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if a route parameter is really a missing default.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if a route parameter is really a missing default.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isOptional" id="_isOptional">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isOptional">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#288-297" title="Go to source code">isOptional</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if a given key is optional.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if a given key is optional.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getParameterKeys" id="_getParameterKeys">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getParameterKeys">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#299-307" title="Go to source code">getParameterKeys</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the keys of the variables on the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the keys of the variables on the route.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="where" id="_where">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Routing.Route.html">Illuminate\Routing\Route</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_where">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#309-323" title="Go to source code">where</a>( <span>string <var>$name</var></span>, <span>string <var>$expression</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Force a given parameter to match a regular expression.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Force a given parameter to match a regular expression.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$expression</var></dt>
+					<dd><code>string</code><br>$expression</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Routing.Route.html">Illuminate\Routing\Route</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setArrayOfWheres" id="_setArrayOfWheres">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-Illuminate.Routing.Route.html">Illuminate\Routing\Route</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setArrayOfWheres">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#325-339" title="Go to source code">setArrayOfWheres</a>( <span>array <var>$wheres</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Force a given parameters to match the expressions.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Force a given parameters to match the expressions.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$wheres</var></dt>
+					<dd><code>array</code><br>$wheres</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Routing.Route.html">Illuminate\Routing\Route</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="defaults" id="_defaults">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Routing.Route.html">Illuminate\Routing\Route</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_defaults">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#341-353" title="Go to source code">defaults</a>( <span>string <var>$key</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the default value for a parameter.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the default value for a parameter.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Routing.Route.html">Illuminate\Routing\Route</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="before" id="_before">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Routing.Route.html">Illuminate\Routing\Route</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_before">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#355-366" title="Go to source code">before</a>( )</code>
+
+		<div class="description short">
+			
+<p>Set the before filters on the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the before filters on the route.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Routing.Route.html">Illuminate\Routing\Route</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="after" id="_after">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Routing.Route.html">Illuminate\Routing\Route</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_after">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#368-379" title="Go to source code">after</a>( )</code>
+
+		<div class="description short">
+			
+<p>Set the after filters on the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the after filters on the route.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Routing.Route.html">Illuminate\Routing\Route</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAction" id="_getAction">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAction">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#381-389" title="Go to source code">getAction</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the name of the action (if any) used by the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the name of the action (if any) used by the route.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBeforeFilters" id="_getBeforeFilters">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBeforeFilters">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#391-399" title="Go to source code">getBeforeFilters</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the before filters on the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the before filters on the route.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setBeforeFilters" id="_setBeforeFilters">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setBeforeFilters">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#401-412" title="Go to source code">setBeforeFilters</a>( <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the before filters on the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the before filters on the route.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAfterFilters" id="_getAfterFilters">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAfterFilters">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#414-422" title="Go to source code">getAfterFilters</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the after filters on the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the after filters on the route.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setAfterFilters" id="_setAfterFilters">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setAfterFilters">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#424-435" title="Go to source code">setAfterFilters</a>( <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the after filters on the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the after filters on the route.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setParameters" id="_setParameters">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setParameters">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#437-446" title="Go to source code">setParameters</a>( <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the matching parameter array on the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the matching parameter array on the route.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setRouter" id="_setRouter">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Routing.Route.html">Illuminate\Routing\Route</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setRouter">#</a>
+		<code><a href="source-class-Illuminate.Routing.Route.html#448-459" title="Go to source code">setRouter</a>( <span><code><a href="class-Illuminate.Routing.Router.html">Illuminate\Routing\Router</a></code> <var>$router</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Router instance on the route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Router instance on the route.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$router</var></dt>
+					<dd><code><code><a href="class-Illuminate.Routing.Router.html">Illuminate\Routing\Router</a></code></code><br>$router</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Routing.Route.html">Illuminate\Routing\Route</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="router" id="$router">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Routing.Router.html">Illuminate\Routing\Router</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Routing.Route.html#9-14" title="Go to source code"><var>$router</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$router" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The router instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The router instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="parameters" id="$parameters">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Routing.Route.html#16-21" title="Go to source code"><var>$parameters</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$parameters" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The matching parameter array.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The matching parameter array.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="parsedParameters" id="$parsedParameters">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Routing.Route.html#23-28" title="Go to source code"><var>$parsedParameters</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$parsedParameters" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The parsed parameter array.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The parsed parameter array.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

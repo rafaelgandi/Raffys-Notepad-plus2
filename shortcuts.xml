@@ -637,6 +637,10 @@
         <Command name="JCpicker" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\jcpicker.exe</Command>
         <Command name="Regular Epression" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\notepad++.exe &quot;$(NPP_DIRECTORY)\Raffys_files\RegularExpression.txt&quot;</Command>
         <Command name="Laravel 4 Cheatsheet" Ctrl="no" Alt="no" Shift="no" Key="0">firefox &quot;$(NPP_DIRECTORY)\Raffys_files\Laravel\laravel-cheatsheet-master\index.html&quot;</Command>
+        <Command name="Desktop" Ctrl="no" Alt="no" Shift="no" Key="0">explorer Desktop</Command>
+        <Command name="PHP Docs" Ctrl="no" Alt="no" Shift="no" Key="0">firefox &quot;http://php.net&quot;</Command>
+        <Command name="MS Paint" Ctrl="no" Alt="no" Shift="no" Key="0">mspaint</Command>
+        <Command name="Laravel 4 Documentation" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\Raffys_files\Laravel\laravel-4-doc-chm-master\laravel4doc.chm</Command>
     </UserDefinedCommands>
     <PluginCommands />
     <ScintillaKeys />

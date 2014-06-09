@@ -1,0 +1,2341 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Html\FormBuilder</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Illuminate.Html.FormBuilder.html">FormBuilder</a></li>
+				<li><a href="class-Illuminate.Html.HtmlBuilder.html">HtmlBuilder</a></li>
+				<li><a href="class-Illuminate.Html.HtmlServiceProvider.html">HtmlServiceProvider</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Html.html" title="Summary of Illuminate\Html"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class FormBuilder</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Html.html">Html</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Html.FormBuilder.html#7-833" title="Go to source code">Illuminate/Html/FormBuilder.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#72-85" title="Go to source code">__construct</a>( <span><code><a href="class-Illuminate.Html.HtmlBuilder.html">Illuminate\Html\HtmlBuilder</a></code> <var>$html</var></span>, <span><code><a href="class-Illuminate.Routing.UrlGenerator.html">Illuminate\Routing\UrlGenerator</a></code> <var>$url</var></span>, <span>string <var>$csrfToken</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new form builder instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new form builder instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$html</var></dt>
+					<dd><code><code><a href="class-Illuminate.Routing.UrlGenerator.html">Illuminate\Routing\UrlGenerator</a></code></code><br>$url</dd>
+					<dt><var>$url</var></dt>
+					<dd><code><code><a href="class-Illuminate.Html.HtmlBuilder.html">Illuminate\Html\HtmlBuilder</a></code></code><br>$html</dd>
+					<dt><var>$csrfToken</var></dt>
+					<dd><code>string</code><br>$csrfToken</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="open" id="_open">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_open">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#87-131" title="Go to source code">open</a>( <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Open up a new HTML form.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Open up a new HTML form.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="model" id="_model">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_model">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#133-145" title="Go to source code">model</a>( <span>mixed <var>$model</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new model based form builder.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new model based form builder.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>mixed</code><br>$model</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="close" id="_close">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_close">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#147-159" title="Go to source code">close</a>( )</code>
+
+		<div class="description short">
+			
+<p>Close the current form.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Close the current form.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="token" id="_token">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_token">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#161-169" title="Go to source code">token</a>( )</code>
+
+		<div class="description short">
+			
+<p>Generate a hidden field with the current CSRF token.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generate a hidden field with the current CSRF token.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="label" id="_label">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_label">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#171-188" title="Go to source code">label</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a form label element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a form label element.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="formatLabel" id="_formatLabel">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_formatLabel">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#190-200" title="Go to source code">formatLabel</a>( <span>string <var>$name</var></span>, <span>string|null <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Format the label value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Format the label value.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string|null</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="input" id="_input">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_input">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#202-233" title="Go to source code">input</a>( <span>string <var>$type</var></span>, <span>string <var>$name</var></span>, <span>string <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a form input field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a form input field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="text" id="_text">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_text">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#235-246" title="Go to source code">text</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a text input field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a text input field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="password" id="_password">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_password">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#248-258" title="Go to source code">password</a>( <span>string <var>$name</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a password input field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a password input field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hidden" id="_hidden">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hidden">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#260-271" title="Go to source code">hidden</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a hidden input field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a hidden input field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="email" id="_email">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_email">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#273-284" title="Go to source code">email</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create an e-mail input field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create an e-mail input field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="file" id="_file">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_file">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#286-296" title="Go to source code">file</a>( <span>string <var>$name</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a file input field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a file input field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="textarea" id="_textarea">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_textarea">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#298-327" title="Go to source code">textarea</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a textarea input field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a textarea input field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTextAreaSize" id="_setTextAreaSize">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTextAreaSize">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#329-350" title="Go to source code">setTextAreaSize</a>( <span>array <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the text area size on the attributes.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the text area size on the attributes.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setQuickTextAreaSize" id="_setQuickTextAreaSize">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setQuickTextAreaSize">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#352-363" title="Go to source code">setQuickTextAreaSize</a>( <span>array <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the text area size using the quick "size" attribute.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the text area size using the quick "size" attribute.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="select" id="_select">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_select">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#365-403" title="Go to source code">select</a>( <span>string <var>$name</var></span>, <span>array <var>$list</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$selected</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a select box field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a select box field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$list</var></dt>
+					<dd><code>array</code><br>$list</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>string</code><br>$selected</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSelectOption" id="_getSelectOption">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSelectOption">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#405-421" title="Go to source code">getSelectOption</a>( <span>string <var>$display</var></span>, <span>string <var>$value</var></span>, <span>string <var>$selected</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the select option for the given value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the select option for the given value.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$display</var></dt>
+					<dd><code>string</code><br>$display</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>string</code><br>$selected</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="optionGroup" id="_optionGroup">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_optionGroup">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#423-441" title="Go to source code">optionGroup</a>( <span>array <var>$list</var></span>, <span>string <var>$label</var></span>, <span>string <var>$selected</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create an option group form element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create an option group form element.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$list</var></dt>
+					<dd><code>array</code><br>$list</dd>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code><br>$label</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>string</code><br>$selected</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="option" id="_option">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_option">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#443-458" title="Go to source code">option</a>( <span>string <var>$display</var></span>, <span>string <var>$value</var></span>, <span>string <var>$selected</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a select element option.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a select element option.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$display</var></dt>
+					<dd><code>string</code><br>$display</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>string</code><br>$selected</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSelectedValue" id="_getSelectedValue">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSelectedValue">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#460-475" title="Go to source code">getSelectedValue</a>( <span>string <var>$value</var></span>, <span>string <var>$selected</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if the value is selected.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if the value is selected.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$selected</var></dt>
+					<dd><code>string</code><br>$selected</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checkbox" id="_checkbox">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checkbox">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#477-489" title="Go to source code">checkbox</a>( <span>string <var>$name</var></span>, <span>mixed <var>$value</var> = <span class="php-num">1</span></span>, <span>boolean <var>$checked</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a checkbox input field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a checkbox input field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$checked</var></dt>
+					<dd><code>boolean</code><br>$checked</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="radio" id="_radio">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_radio">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#491-505" title="Go to source code">radio</a>( <span>string <var>$name</var></span>, <span>mixed <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$checked</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a radio button input field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a radio button input field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$checked</var></dt>
+					<dd><code>boolean</code><br>$checked</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checkable" id="_checkable">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checkable">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#507-524" title="Go to source code">checkable</a>( <span>string <var>$type</var></span>, <span>string <var>$name</var></span>, <span>mixed <var>$value</var></span>, <span>boolean <var>$checked</var></span>, <span>array <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a checkable input field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a checkable input field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$checked</var></dt>
+					<dd><code>boolean</code><br>$checked</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCheckedState" id="_getCheckedState">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCheckedState">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#526-539" title="Go to source code">getCheckedState</a>( <span>string <var>$type</var></span>, <span>string <var>$name</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the check state for a checkable input.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the check state for a checkable input.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="reset" id="_reset">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_reset">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#541-551" title="Go to source code">reset</a>( <span>string <var>$value</var></span>, <span>array <var>$attributes</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a HTML reset input element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a HTML reset input element.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="image" id="_image">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_image">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#553-566" title="Go to source code">image</a>( <span>string <var>$url</var></span>, <span>string <var>$name</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$attributes</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a HTML image input element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a HTML image input element.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br>$url</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="submit" id="_submit">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_submit">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#568-578" title="Go to source code">submit</a>( <span>string <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a submit button element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a submit button element.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="button" id="_button">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_button">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#580-595" title="Go to source code">button</a>( <span>string <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a button element.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a button element.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="macro" id="_macro">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_macro">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#597-607" title="Go to source code">macro</a>( <span>string <var>$name</var></span>, <span>callable <var>$macro</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a custom form macro.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a custom form macro.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$macro</var></dt>
+					<dd><code>callable</code><br>$macro</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMethod" id="_getMethod">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMethod">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#609-620" title="Go to source code">getMethod</a>( <span>string <var>$method</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parse the form action method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parse the form action method.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAction" id="_getAction">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAction">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#622-652" title="Go to source code">getAction</a>( <span>array <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the form action from the options.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the form action from the options.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUrlAction" id="_getUrlAction">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUrlAction">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#654-668" title="Go to source code">getUrlAction</a>( <span>array|string <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the action for a "url" option.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the action for a "url" option.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array|string</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRouteAction" id="_getRouteAction">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRouteAction">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#670-684" title="Go to source code">getRouteAction</a>( <span>array|string <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the action for a "route" option.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the action for a "route" option.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array|string</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getControllerAction" id="_getControllerAction">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getControllerAction">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#686-700" title="Go to source code">getControllerAction</a>( <span>array|string <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the action for an "action" option.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the action for an "action" option.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array|string</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAppendage" id="_getAppendage">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAppendage">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#702-729" title="Go to source code">getAppendage</a>( <span>string <var>$method</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the form appendage for the given method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the form appendage for the given method.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getIdAttribute" id="_getIdAttribute">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getIdAttribute">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#731-749" title="Go to source code">getIdAttribute</a>( <span>string <var>$name</var></span>, <span>array <var>$attributes</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the ID attribute for a field name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the ID attribute for a field name.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getValueAttribute" id="_getValueAttribute">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getValueAttribute">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#751-773" title="Go to source code">getValueAttribute</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the value that should be assigned to the field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the value that should be assigned to the field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getModelValueAttribute" id="_getModelValueAttribute">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getModelValueAttribute">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#775-791" title="Go to source code">getModelValueAttribute</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the model value that should be assigned to the field.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the model value that should be assigned to the field.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSessionStore" id="_getSessionStore">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSessionStore">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#793-801" title="Go to source code">getSessionStore</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the session store implementation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the session store implementation.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code></code><br>$session<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setSessionStore" id="_setSessionStore">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Html.FormBuilder.html">Illuminate\Html\FormBuilder</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setSessionStore">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#803-814" title="Go to source code">setSessionStore</a>( <span><code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code> <var>$session</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the session store implementation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the session store implementation.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$session</var></dt>
+					<dd><code><code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code></code><br>$session</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Html.FormBuilder.html">Illuminate\Html\FormBuilder</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__call" id="___call">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___call">#</a>
+		<code><a href="source-class-Illuminate.Html.FormBuilder.html#816-831" title="Go to source code">__call</a>( <span>string <var>$method</var></span>, <span>array <var>$parameters</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Dynamically handle calls to the form builder.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Dynamically handle calls to the form builder.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="html" id="$html">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Html.HtmlBuilder.html">Illuminate\Html\HtmlBuilder</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Html.FormBuilder.html#9-14" title="Go to source code"><var>$html</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$html" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The HTML builder instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The HTML builder instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="url" id="$url">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Routing.UrlGenerator.html">Illuminate\Routing\UrlGenerator</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Html.FormBuilder.html#16-21" title="Go to source code"><var>$url</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$url" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The URL generator instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The URL generator instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="csrfToken" id="$csrfToken">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Html.FormBuilder.html#23-28" title="Go to source code"><var>$csrfToken</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$csrfToken" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The CSRF token used by the form builder.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The CSRF token used by the form builder.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="session" id="$session">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Html.FormBuilder.html#30-35" title="Go to source code"><var>$session</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$session" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The session store implementation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The session store implementation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="model" id="$model">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Html.FormBuilder.html#37-42" title="Go to source code"><var>$model</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$model" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The current model instance for the form.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The current model instance for the form.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="labels" id="$labels">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Html.FormBuilder.html#44-49" title="Go to source code"><var>$labels</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$labels" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>An array of label names we've created.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>An array of label names we've created.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="macros" id="$macros">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Html.FormBuilder.html#51-56" title="Go to source code"><var>$macros</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$macros" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The registered form builder macros.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The registered form builder macros.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="reserved" id="$reserved">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Html.FormBuilder.html#58-63" title="Go to source code"><var>$reserved</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'method'</span>, <span class="php-quote">'url'</span>, <span class="php-quote">'route'</span>, <span class="php-quote">'action'</span>, <span class="php-quote">'files'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$reserved" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The reserved form open attributes.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The reserved form open attributes.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="spoofedMethods" id="$spoofedMethods">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Html.FormBuilder.html#65-70" title="Go to source code"><var>$spoofedMethods</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'DELETE'</span>, <span class="php-quote">'PATCH'</span>, <span class="php-quote">'PUT'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$spoofedMethods" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The form methods that should be spoofed, in uppercase.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The form methods that should be spoofed, in uppercase.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

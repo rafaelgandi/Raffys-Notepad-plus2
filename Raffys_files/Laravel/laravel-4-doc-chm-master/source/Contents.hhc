@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Precision Helper 2.0.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+    <OBJECT type="text/site properties">
+      <param name="FrameName" value="right">
+      <param name="Window Styles" value="0x00800025">
+      <param name="comment" value="title:Laravel 4 Documentation">
+      <param name="comment" value="base:">
+    </OBJECT>
+    <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Home">
+          <param name="Local" value="index.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Documentation">
+          <param name="Local" value="docs.html">
+        </OBJECT>
+        <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Preface">
+            </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Introduction">
+                  <param name="Local" value="docs\introduction.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Quickstart">
+                  <param name="Local" value="docs\quick.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Contributing">
+                  <param name="Local" value="docs\contributing.html">
+                </OBJECT>
+            </UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Getting Started">
+            </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Installation">
+                  <param name="Local" value="docs\installation.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Configuration">
+                  <param name="Local" value="docs\configuration.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Request Lifecycle">
+                  <param name="Local" value="docs\lifecycle.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Routing">
+                  <param name="Local" value="docs\routing.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Requests & Input">
+                  <param name="Local" value="docs\requests.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Views & Responses">
+                  <param name="Local" value="docs\responses.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Controllers">
+                  <param name="Local" value="docs\controllers.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Errors & Logging">
+                  <param name="Local" value="docs\errors.html">
+                </OBJECT>
+            </UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Learning More">
+            </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Cache">
+                  <param name="Local" value="docs\cache.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Events">
+                  <param name="Local" value="docs\events.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Facades">
+                  <param name="Local" value="docs\facades.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Forms & HTML">
+                  <param name="Local" value="docs\html.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Helpers">
+                  <param name="Local" value="docs\helpers.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="IoC Container">
+                  <param name="Local" value="docs\ioc.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Localization">
+                  <param name="Local" value="docs\localization.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Mail">
+                  <param name="Local" value="docs\mail.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Package Development">
+                  <param name="Local" value="docs\packages.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Pagination">
+                  <param name="Local" value="docs\pagination.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Queues">
+                  <param name="Local" value="docs\queues.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Security">
+                  <param name="Local" value="docs\security.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Session">
+                  <param name="Local" value="docs\session.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Templates">
+                  <param name="Local" value="docs\templates.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Unit Testing">
+                  <param name="Local" value="docs\testing.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Validation">
+                  <param name="Local" value="docs\validation.html">
+                </OBJECT>
+            </UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Database">
+            </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Basic Usage">
+                  <param name="Local" value="docs\database.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Query Builder">
+                  <param name="Local" value="docs\queries.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Eloquent ORM">
+                  <param name="Local" value="docs\eloquent.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Schema Builder">
+                  <param name="Local" value="docs\schema.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Migrations & Seeding">
+                  <param name="Local" value="docs\migrations.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Redis">
+                  <param name="Local" value="docs\redis.html">
+                </OBJECT>
+            </UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Artisan CLI">
+            </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Overview">
+                  <param name="Local" value="docs\artisan.html">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="Development">
+                  <param name="Local" value="docs\commands.html">
+                </OBJECT>
+            </UL>
+        </UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="API">
+          <param name="Local" value="api\api.html">
+        </OBJECT>
+    </UL>
+</BODY>
+</HTML>

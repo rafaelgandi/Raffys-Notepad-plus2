@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Console\Application</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Illuminate.Console.Application.html">Application</a></li>
+				<li><a href="class-Illuminate.Console.Command.html">Command</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Console.html" title="Summary of Illuminate\Console"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Application</h1>
+
+
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+Symfony\Component\Console\Application
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Illuminate\Console\Application</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Console.html">Console</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Console.Application.html#7-168" title="Go to source code">Illuminate/Console/Application.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="start" id="_start">
+
+		<td class="attributes"><code>
+			 public static
+			<code><a href="class-Illuminate.Console.Application.html">Illuminate\Console\Application</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_start">#</a>
+		<code><a href="source-class-Illuminate.Console.Application.html#23-44" title="Go to source code">start</a>( <span><code><a href="class-Illuminate.Foundation.Application.html">Illuminate\Foundation\Application</a></code> <var>$app</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Start a new Console application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Start a new Console application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$app</var></dt>
+					<dd><code><code><a href="class-Illuminate.Foundation.Application.html">Illuminate\Foundation\Application</a></code></code><br>$app</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Console.Application.html">Illuminate\Console\Application</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="add" id="_add">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\Console\Command\Command
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_add">#</a>
+		<code><a href="source-class-Illuminate.Console.Application.html#46-60" title="Go to source code">add</a>( <span>Symfony\Component\Console\Command\Command <var>$command</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a command to the console.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a command to the console.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$command</var></dt>
+					<dd><code>Symfony\Component\Console\Command\Command</code><br>$command</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\Console\Command\Command</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addToParent" id="_addToParent">
+
+		<td class="attributes"><code>
+			 protected 
+			Symfony\Component\Console\Command
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addToParent">#</a>
+		<code><a href="source-class-Illuminate.Console.Application.html#62-71" title="Go to source code">addToParent</a>( <span>Symfony\Component\Console\Command <var>$command</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add the command to the parent instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add the command to the parent instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$command</var></dt>
+					<dd><code>Symfony\Component\Console\Command</code><br>$command</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\Console\Command</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resolve" id="_resolve">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resolve">#</a>
+		<code><a href="source-class-Illuminate.Console.Application.html#73-82" title="Go to source code">resolve</a>( <span>string <var>$command</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a command, resolving through the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a command, resolving through the application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$command</var></dt>
+					<dd><code>string</code><br>$command</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resolveCommands" id="_resolveCommands">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resolveCommands">#</a>
+		<code><a href="source-class-Illuminate.Console.Application.html#84-98" title="Go to source code">resolveCommands</a>( <span>array|dynamic <var>$commands</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Resolve an array of commands through the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resolve an array of commands through the application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$commands</var></dt>
+					<dd><code>array|dynamic</code><br>$commands</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getDefaultInputDefinition" id="_getDefaultInputDefinition">
+
+		<td class="attributes"><code>
+			 protected 
+			Symfony\Component\Console\Input\InputDefinition
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getDefaultInputDefinition">#</a>
+		<code><a href="source-class-Illuminate.Console.Application.html#100-112" title="Go to source code">getDefaultInputDefinition</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the default input definitions for the applications.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the default input definitions for the applications.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\Console\Input\InputDefinition</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getEnvironmentOption" id="_getEnvironmentOption">
+
+		<td class="attributes"><code>
+			 protected 
+			Symfony\Component\Console\Input\InputOption
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getEnvironmentOption">#</a>
+		<code><a href="source-class-Illuminate.Console.Application.html#114-124" title="Go to source code">getEnvironmentOption</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the global environment option for the definition.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the global environment option for the definition.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\Console\Input\InputOption</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderException" id="_renderException">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderException">#</a>
+		<code><a href="source-class-Illuminate.Console.Application.html#126-144" title="Go to source code">renderException</a>( <span><code><a href="class-Exception.html">Exception</a></code> <var>$e</var></span>, <span>Symfony\Component\Console\Output\OutputInterface <var>$output</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Render the given exception.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Render the given exception.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$e</var></dt>
+					<dd><code><code><a href="class-Exception.html">Exception</a></code></code><br>$e</dd>
+					<dt><var>$output</var></dt>
+					<dd><code>Symfony\Component\Console\Output\OutputInterface</code><br>$output</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setExceptionHandler" id="_setExceptionHandler">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setExceptionHandler">#</a>
+		<code><a href="source-class-Illuminate.Console.Application.html#146-155" title="Go to source code">setExceptionHandler</a>( <span><code><a href="class-Illuminate.Exception.Handler.html">Illuminate\Exception\Handler</a></code> <var>$handler</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the exception handler instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the exception handler instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$handler</var></dt>
+					<dd><code><code><a href="class-Illuminate.Exception.Handler.html">Illuminate\Exception\Handler</a></code></code><br>$handler</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLaravel" id="_setLaravel">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLaravel">#</a>
+		<code><a href="source-class-Illuminate.Console.Application.html#157-166" title="Go to source code">setLaravel</a>( <span><code><a href="class-Illuminate.Foundation.Application.html">Illuminate\Foundation\Application</a></code> <var>$laravel</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Laravel application instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Laravel application instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$laravel</var></dt>
+					<dd><code><code><a href="class-Illuminate.Foundation.Application.html">Illuminate\Foundation\Application</a></code></code><br>$laravel</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="exceptionHandler" id="$exceptionHandler">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Exception.Handler.html">Illuminate\Exception\Handler</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Console.Application.html#9-14" title="Go to source code"><var>$exceptionHandler</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$exceptionHandler" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The exception handler instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The exception handler instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="laravel" id="$laravel">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Foundation.Application.html">Illuminate\Foundation\Application</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Console.Application.html#16-21" title="Go to source code"><var>$laravel</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$laravel" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The Laravel application instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The Laravel application instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

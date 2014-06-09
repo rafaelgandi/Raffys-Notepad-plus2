@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Console\Command</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Illuminate.Console.Application.html">Application</a></li>
+				<li class="active"><a href="class-Illuminate.Console.Command.html">Command</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Console.html" title="Summary of Illuminate\Console"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Command</h1>
+
+
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+Symfony\Component\Console\Command\Command
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Illuminate\Console\Command</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Illuminate.Auth.Console.MakeRemindersCommand.html">Illuminate\Auth\Console\MakeRemindersCommand</a>, 
+			<a href="class-Illuminate.Cache.Console.ClearCommand.html">Illuminate\Cache\Console\ClearCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.ChangesCommand.html">Illuminate\Foundation\Console\ChangesCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.ClearCompiledCommand.html">Illuminate\Foundation\Console\ClearCompiledCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.CommandMakeCommand.html">Illuminate\Foundation\Console\CommandMakeCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.ConfigPublishCommand.html">Illuminate\Foundation\Console\ConfigPublishCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.DownCommand.html">Illuminate\Foundation\Console\DownCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.KeyGenerateCommand.html">Illuminate\Foundation\Console\KeyGenerateCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.OptimizeCommand.html">Illuminate\Foundation\Console\OptimizeCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.RoutesCommand.html">Illuminate\Foundation\Console\RoutesCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.ServeCommand.html">Illuminate\Foundation\Console\ServeCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.TinkerCommand.html">Illuminate\Foundation\Console\TinkerCommand</a>, 
+			<a href="class-Illuminate.Database.Console.Migrations.BaseCommand.html">Illuminate\Database\Console\Migrations\BaseCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.UpCommand.html">Illuminate\Foundation\Console\UpCommand</a>, 
+			<a href="class-Illuminate.Queue.Console.ListenCommand.html">Illuminate\Queue\Console\ListenCommand</a>, 
+			<a href="class-Illuminate.Queue.Console.SubscribeCommand.html">Illuminate\Queue\Console\SubscribeCommand</a>, 
+			<a href="class-Illuminate.Queue.Console.WorkCommand.html">Illuminate\Queue\Console\WorkCommand</a>, 
+			<a href="class-Illuminate.Routing.Console.MakeControllerCommand.html">Illuminate\Routing\Console\MakeControllerCommand</a>, 
+			<a href="class-Illuminate.Session.Console.MakeTableCommand.html">Illuminate\Session\Console\MakeTableCommand</a>, 
+			<a href="class-Illuminate.Workbench.Console.WorkbenchMakeCommand.html">Illuminate\Workbench\Console\WorkbenchMakeCommand</a>, 
+			<a href="class-Illuminate.Database.Console.Migrations.InstallCommand.html">Illuminate\Database\Console\Migrations\InstallCommand</a>, 
+			<a href="class-Illuminate.Database.Console.Migrations.RefreshCommand.html">Illuminate\Database\Console\Migrations\RefreshCommand</a>, 
+			<a href="class-Illuminate.Database.Console.Migrations.ResetCommand.html">Illuminate\Database\Console\Migrations\ResetCommand</a>, 
+			<a href="class-Illuminate.Database.Console.Migrations.RollbackCommand.html">Illuminate\Database\Console\Migrations\RollbackCommand</a>, 
+			<a href="class-Illuminate.Database.Console.SeedCommand.html">Illuminate\Database\Console\SeedCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.AssetPublishCommand.html">Illuminate\Foundation\Console\AssetPublishCommand</a>, 
+			<a href="class-Illuminate.Foundation.Console.AutoloadCommand.html">Illuminate\Foundation\Console\AutoloadCommand</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-Illuminate.Database.Console.Migrations.MakeCommand.html">Illuminate\Database\Console\Migrations\MakeCommand</a>, 
+			<a href="class-Illuminate.Database.Console.Migrations.MigrateCommand.html">Illuminate\Database\Console\Migrations\MigrateCommand</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Console.html">Console</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Console.Command.html#8-317" title="Go to source code">Illuminate/Console/Command.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#45-60" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			
+<p>Create a new console command instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new console command instance.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="specifyParameters" id="_specifyParameters">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_specifyParameters">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#62-81" title="Go to source code">specifyParameters</a>( )</code>
+
+		<div class="description short">
+			
+<p>Specify the arguments and options on the command.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Specify the arguments and options on the command.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="run" id="_run">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_run">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#83-97" title="Go to source code">run</a>( <span>Symfony\Component\Console\Input\InputInterface <var>$input</var></span>, <span>Symfony\Component\Console\Output\OutputInterface <var>$output</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Run the console command.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Run the console command.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$input</var></dt>
+					<dd><code>Symfony\Component\Console\Input\InputInterface</code><br>$input</dd>
+					<dt><var>$output</var></dt>
+					<dd><code>Symfony\Component\Console\Output\OutputInterface</code><br>$output</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="execute" id="_execute">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_execute">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#99-109" title="Go to source code">execute</a>( <span>Symfony\Component\Console\Input\InputInterface <var>$input</var></span>, <span>Symfony\Component\Console\Output\OutputInterface <var>$output</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Execute the console command.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Execute the console command.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$input</var></dt>
+					<dd><code>Symfony\Component\Console\Input\InputInterface</code><br>$input</dd>
+					<dt><var>$output</var></dt>
+					<dd><code>Symfony\Component\Console\Output\OutputInterface</code><br>$output</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="call" id="_call">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_call">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#111-125" title="Go to source code">call</a>( <span>string <var>$command</var></span>, <span>array <var>$arguments</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Call another console command.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Call another console command.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$command</var></dt>
+					<dd><code>string</code><br>$command</dd>
+					<dt><var>$arguments</var></dt>
+					<dd><code>array</code><br>$arguments</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="callSilent" id="_callSilent">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_callSilent">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#127-141" title="Go to source code">callSilent</a>( <span>string <var>$command</var></span>, <span>array <var>$arguments</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Call another console command silently.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Call another console command silently.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$command</var></dt>
+					<dd><code>string</code><br>$command</dd>
+					<dt><var>$arguments</var></dt>
+					<dd><code>array</code><br>$arguments</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="argument" id="_argument">
+
+		<td class="attributes"><code>
+			 public 
+			string|array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_argument">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#143-154" title="Go to source code">argument</a>( <span>string <var>$key</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the value of a command argument.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the value of a command argument.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string|array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="option" id="_option">
+
+		<td class="attributes"><code>
+			 public 
+			string|array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_option">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#156-167" title="Go to source code">option</a>( <span>string <var>$key</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the value of a command option.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the value of a command option.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string|array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="confirm" id="_confirm">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_confirm">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#169-181" title="Go to source code">confirm</a>( <span>string <var>$question</var></span>, <span>boolean <var>$default</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Confirm a question with the user.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Confirm a question with the user.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$question</var></dt>
+					<dd><code>string</code><br>$question</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>boolean</code><br>$default</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ask" id="_ask">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ask">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#183-195" title="Go to source code">ask</a>( <span>string <var>$question</var></span>, <span>string <var>$default</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Prompt the user for input.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prompt the user for input.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$question</var></dt>
+					<dd><code>string</code><br>$question</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>string</code><br>$default</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="secret" id="_secret">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_secret">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#197-209" title="Go to source code">secret</a>( <span>string <var>$question</var></span>, <span>boolean <var>$fallback</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Prompt the user for input but hide the answer from the console.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prompt the user for input but hide the answer from the console.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$question</var></dt>
+					<dd><code>string</code><br>$question</dd>
+					<dt><var>$fallback</var></dt>
+					<dd><code>boolean</code><br>$fallabck</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="line" id="_line">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_line">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#211-220" title="Go to source code">line</a>( <span>string <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Write a string as standard output.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Write a string as standard output.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="info" id="_info">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_info">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#222-231" title="Go to source code">info</a>( <span>string <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Write a string as information output.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Write a string as information output.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="comment" id="_comment">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_comment">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#233-242" title="Go to source code">comment</a>( <span>string <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Write a string as comment output.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Write a string as comment output.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="question" id="_question">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_question">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#244-253" title="Go to source code">question</a>( <span>string <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Write a string as question output.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Write a string as question output.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="_error">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_error">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#255-264" title="Go to source code">error</a>( <span>string <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Write a string as error output.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Write a string as error output.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getArguments" id="_getArguments">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getArguments">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#266-274" title="Go to source code">getArguments</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the console command arguments.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the console command arguments.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getOptions" id="_getOptions">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getOptions">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#276-284" title="Go to source code">getOptions</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the console command options.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the console command options.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getOutput" id="_getOutput">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\Console\Output\OutputInterface
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getOutput">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#286-294" title="Go to source code">getOutput</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the output implementation.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the output implementation.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\Console\Output\OutputInterface</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLaravel" id="_getLaravel">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Foundation.Application.html">Illuminate\Foundation\Application</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLaravel">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#296-304" title="Go to source code">getLaravel</a>( )</code>
+
+		<div class="description short">
+			
+<p>Set the Laravel application instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Laravel application instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Foundation.Application.html">Illuminate\Foundation\Application</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLaravel" id="_setLaravel">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLaravel">#</a>
+		<code><a href="source-class-Illuminate.Console.Command.html#306-315" title="Go to source code">setLaravel</a>( <span><code><a href="class-Illuminate.Foundation.Application.html">Illuminate\Foundation\Application</a></code> <var>$laravel</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Laravel application instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Laravel application instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$laravel</var></dt>
+					<dd><code><code><a href="class-Illuminate.Foundation.Application.html">Illuminate\Foundation\Application</a></code></code><br>$laravel</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="laravel" id="$laravel">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Foundation.Application.html">Illuminate\Foundation\Application</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Console.Command.html#10-15" title="Go to source code"><var>$laravel</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$laravel" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The Laravel application instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The Laravel application instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="input" id="$input">
+		<td class="attributes"><code>
+			protected  
+			Symfony\Component\Console\Input\InputInterface
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Console.Command.html#17-22" title="Go to source code"><var>$input</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$input" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The input interface implementation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The input interface implementation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="output" id="$output">
+		<td class="attributes"><code>
+			protected  
+			Symfony\Component\Console\Output\OutputInterface
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Console.Command.html#24-29" title="Go to source code"><var>$output</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$output" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The output interface implementation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The output interface implementation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="name" id="$name">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Console.Command.html#31-36" title="Go to source code"><var>$name</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$name" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The console command name.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The console command name.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="description" id="$description">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Console.Command.html#38-43" title="Go to source code"><var>$description</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$description" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The console command description.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The console command description.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

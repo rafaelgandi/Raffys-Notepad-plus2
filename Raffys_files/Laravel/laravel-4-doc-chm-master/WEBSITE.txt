@@ -1,0 +1,1 @@
+https://github.com/andyhu/laravel-4-doc-chm

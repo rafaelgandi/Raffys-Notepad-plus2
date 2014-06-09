@@ -1,25 +1,17 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="6">
-            <File firstVisibleLine="45" xOffset="0" scrollWidth="1704" startPos="3138" endPos="3138" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Windows\System32\drivers\etc\hosts" backupFilePath="" originalFileLastModifTimestamp="1400554085" />
-            <File firstVisibleLine="12" xOffset="0" scrollWidth="616" startPos="1237" endPos="1237" selMode="0" lang="HTML" encoding="-1" filename="C:\xampp\apache\conf\extra\httpd-vhosts.conf" backupFilePath="" originalFileLastModifTimestamp="1401267758" />
-            <File firstVisibleLine="587" xOffset="0" scrollWidth="2456" startPos="10155" endPos="10155" selMode="0" lang="MS INI file" encoding="-1" filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\mmmm.ini" backupFilePath="" originalFileLastModifTimestamp="1399972438" />
-            <File firstVisibleLine="53" xOffset="0" scrollWidth="2752" startPos="2616" endPos="2616" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\uwaclubsocieties_files\uwaeventscrmdemo_wp" backupFilePath="" originalFileLastModifTimestamp="1401847104" />
-            <File firstVisibleLine="18" xOffset="617" scrollWidth="4808" startPos="4216" endPos="4216" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwaclubsocieties\wp-content\themes\sushi\page-club-society2.php" backupFilePath="" originalFileLastModifTimestamp="1401854482" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="880" startPos="320" endPos="324" selMode="0" lang="Normal Text" encoding="-1" filename="new  1" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  1@2014-06-04_094434" originalFileLastModifTimestamp="0" />
-            <File firstVisibleLine="557" xOffset="0" scrollWidth="1688" startPos="18850" endPos="18850" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwaeventscrmdemo\wp-content\themes\sushi\application\model\class-uwa-events.php" backupFilePath="" originalFileLastModifTimestamp="1401862114">
-                <Mark line="1624" />
-            </File>
+        <mainView activeIndex="7">
+            <File firstVisibleLine="734" xOffset="0" scrollWidth="2456" startPos="10902" endPos="10902" selMode="0" lang="MS INI file" encoding="-1" filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\mmmm.ini" backupFilePath="" originalFileLastModifTimestamp="1399972438" />
+            <File firstVisibleLine="52" xOffset="0" scrollWidth="1704" startPos="3516" endPos="3516" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Windows\System32\drivers\etc\hosts" backupFilePath="" originalFileLastModifTimestamp="1400554085" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="616" startPos="2051" endPos="2051" selMode="0" lang="HTML" encoding="-1" filename="C:\xampp\apache\conf\extra\httpd-vhosts.conf" backupFilePath="" originalFileLastModifTimestamp="1401267758" />
+            <File firstVisibleLine="156" xOffset="0" scrollWidth="2032" startPos="7441" endPos="7441" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwaeventscrmdemo\wp-content\themes\sushi\page-events-db-api.php" backupFilePath="" originalFileLastModifTimestamp="1402026545" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="968" startPos="783" endPos="783" selMode="0" lang="Normal Text" encoding="-1" filename="new  1" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  1@2014-06-04_094434" originalFileLastModifTimestamp="0" />
+            <File firstVisibleLine="44" xOffset="0" scrollWidth="1120" startPos="2711" endPos="2711" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\eebudee\bootstrap\eebudee.config.php" backupFilePath="" originalFileLastModifTimestamp="1402283591" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="664" startPos="389" endPos="389" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\eebudee\app\routes.php" backupFilePath="" originalFileLastModifTimestamp="1402038436" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="224" startPos="60" endPos="65" selMode="0" lang="Normal Text" encoding="-1" filename="C:\xampp\Raffys-Notepad-plus2\.gitignore" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\.gitignore@2014-06-09_111742" originalFileLastModifTimestamp="1401780996" />
         </mainView>
-        <subView activeIndex="3">
-            <File firstVisibleLine="45" xOffset="0" scrollWidth="1512" startPos="2510" endPos="2510" selMode="0" lang="Normal Text" encoding="-1" filename="C:\xampp\htdocs\eebudee\README.md" backupFilePath="" originalFileLastModifTimestamp="1401677873" />
-            <File firstVisibleLine="117" xOffset="0" scrollWidth="552" startPos="3957" endPos="3957" selMode="0" lang="SQL" encoding="-1" filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\uwaevents_files\sql_dumps_bk\2014-06-04-uwaeventscrm.sql" backupFilePath="" originalFileLastModifTimestamp="1401854382">
-                <Mark line="148" />
-                <Mark line="175" />
-                <Mark line="832" />
-            </File>
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="272" startPos="146" endPos="146" selMode="0" lang="Normal Text" encoding="-1" filename="new  2" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  2@2014-06-04_114133" originalFileLastModifTimestamp="0" />
-            <File firstVisibleLine="2" xOffset="0" scrollWidth="2032" startPos="727" endPos="727" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwaeventscrmdemo\wp-content\themes\sushi\page-events-db-api.php" backupFilePath="" originalFileLastModifTimestamp="1401869999" />
+        <subView activeIndex="0">
+            <File firstVisibleLine="156" xOffset="0" scrollWidth="2032" startPos="7106" endPos="7106" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwaeventscrmdemo\wp-content\themes\sushi\page-events-db-api.php" backupFilePath="" originalFileLastModifTimestamp="1402026545" />
         </subView>
     </Session>
 </NotepadPlus>

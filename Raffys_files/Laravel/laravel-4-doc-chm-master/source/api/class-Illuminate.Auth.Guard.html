@@ -1,0 +1,1815 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Auth\Guard</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Illuminate.Auth.AuthManager.html">AuthManager</a></li>
+				<li><a href="class-Illuminate.Auth.AuthServiceProvider.html">AuthServiceProvider</a></li>
+				<li><a href="class-Illuminate.Auth.DatabaseUserProvider.html">DatabaseUserProvider</a></li>
+				<li><a href="class-Illuminate.Auth.EloquentUserProvider.html">EloquentUserProvider</a></li>
+				<li><a href="class-Illuminate.Auth.GenericUser.html">GenericUser</a></li>
+				<li class="active"><a href="class-Illuminate.Auth.Guard.html">Guard</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Illuminate.Auth.UserInterface.html">UserInterface</a></li>
+				<li><a href="class-Illuminate.Auth.UserProviderInterface.html">UserProviderInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Auth.html" title="Summary of Illuminate\Auth"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Guard</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Auth.html">Auth</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Auth.Guard.html#10-568" title="Go to source code">Illuminate/Auth/Guard.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#68-80" title="Go to source code">__construct</a>( <span><code><a href="class-Illuminate.Auth.UserProviderInterface.html">Illuminate\Auth\UserProviderInterface</a></code> <var>$provider</var></span>, <span><code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code> <var>$session</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new authentication guard.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new authentication guard.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$provider</var></dt>
+					<dd><code><code><a href="class-Illuminate.Auth.UserProviderInterface.html">Illuminate\Auth\UserProviderInterface</a></code></code><br>$provider</dd>
+					<dt><var>$session</var></dt>
+					<dd><code><code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code></code><br>$session</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="check" id="_check">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_check">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#82-90" title="Go to source code">check</a>( )</code>
+
+		<div class="description short">
+			
+<p>Determine if the current user is authenticated.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if the current user is authenticated.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="guest" id="_guest">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_guest">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#92-100" title="Go to source code">guest</a>( )</code>
+
+		<div class="description short">
+			
+<p>Determine if the current user is a guest.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if the current user is a guest.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="user" id="_user">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Auth.UserInterface.html">Illuminate\Auth\UserInterface</a></code>|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_user">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#102-142" title="Go to source code">user</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the currently authenticated user.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the currently authenticated user.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Auth.UserInterface.html">Illuminate\Auth\UserInterface</a></code>|null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRecaller" id="_getRecaller">
+
+		<td class="attributes"><code>
+			 protected 
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRecaller">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#144-155" title="Go to source code">getRecaller</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the decrypted recaller cookie for the request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the decrypted recaller cookie for the request.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string|null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="once" id="_once">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_once">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#157-173" title="Go to source code">once</a>( <span>array <var>$credentials</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Log a user into the application without sessions or cookies.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Log a user into the application without sessions or cookies.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$credentials</var></dt>
+					<dd><code>array</code><br>$credentials</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validate" id="_validate">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validate">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#175-184" title="Go to source code">validate</a>( <span>array <var>$credentials</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Validate a user's credentials.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate a user's credentials.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$credentials</var></dt>
+					<dd><code>array</code><br>$credentials</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="basic" id="_basic">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\HttpFoundation\Response|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_basic">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#186-206" title="Go to source code">basic</a>( <span>string <var>$field</var> = <span class="php-quote">'email'</span></span>, <span>Symfony\Component\HttpFoundation\Request <var>$request</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Attempt to authenticate using HTTP Basic Auth.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Attempt to authenticate using HTTP Basic Auth.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code><br>$field</dd>
+					<dt><var>$request</var></dt>
+					<dd><code>Symfony\Component\HttpFoundation\Request</code><br>$request</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\Response|null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="onceBasic" id="_onceBasic">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\HttpFoundation\Response|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_onceBasic">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#208-223" title="Go to source code">onceBasic</a>( <span>string <var>$field</var> = <span class="php-quote">'email'</span></span>, <span>Symfony\Component\HttpFoundation\Request <var>$request</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Perform a stateless HTTP Basic login attempt.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Perform a stateless HTTP Basic login attempt.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code><br>$field</dd>
+					<dt><var>$request</var></dt>
+					<dd><code>Symfony\Component\HttpFoundation\Request</code><br>$request</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\Response|null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="attemptBasic" id="_attemptBasic">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_attemptBasic">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#225-237" title="Go to source code">attemptBasic</a>( <span>Symfony\Component\HttpFoundation\Request <var>$request</var></span>, <span>string <var>$field</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Attempt to authenticate using basic authentication.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Attempt to authenticate using basic authentication.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>Symfony\Component\HttpFoundation\Request</code><br>$request</dd>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code><br>$field</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBasicCredentials" id="_getBasicCredentials">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBasicCredentials">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#239-249" title="Go to source code">getBasicCredentials</a>( <span>Symfony\Component\HttpFoundation\Request <var>$request</var></span>, <span>string <var>$field</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the credential array for a HTTP Basic request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the credential array for a HTTP Basic request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>Symfony\Component\HttpFoundation\Request</code><br>$request</dd>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code><br>$field</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBasicResponse" id="_getBasicResponse">
+
+		<td class="attributes"><code>
+			 protected 
+			Symfony\Component\HttpFoundation\Response
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBasicResponse">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#251-261" title="Go to source code">getBasicResponse</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the response for basic authentication.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the response for basic authentication.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\Response</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="attempt" id="_attempt">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_attempt">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#263-291" title="Go to source code">attempt</a>( <span>array <var>$credentials</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$remember</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$login</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Attempt to authenticate a user using the given credentials.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Attempt to authenticate a user using the given credentials.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$credentials</var></dt>
+					<dd><code>array</code><br>$credentials</dd>
+					<dt><var>$remember</var></dt>
+					<dd><code>boolean</code><br>$remember</dd>
+					<dt><var>$login</var></dt>
+					<dd><code>boolean</code><br>$login</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fireAttemptEvent" id="_fireAttemptEvent">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fireAttemptEvent">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#293-309" title="Go to source code">fireAttemptEvent</a>( <span>array <var>$credentials</var></span>, <span>boolean <var>$remember</var></span>, <span>boolean <var>$login</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Fire the attempt event with the arguments.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fire the attempt event with the arguments.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$credentials</var></dt>
+					<dd><code>array</code><br>$credentials</dd>
+					<dt><var>$remember</var></dt>
+					<dd><code>boolean</code><br>$remember</dd>
+					<dt><var>$login</var></dt>
+					<dd><code>boolean</code><br>$login</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="attempting" id="_attempting">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_attempting">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#311-323" title="Go to source code">attempting</a>( <span>mixed <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register an authentication attempt event listener.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register an authentication attempt event listener.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code>mixed</code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="login" id="_login">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_login">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#325-355" title="Go to source code">login</a>( <span><code><a href="class-Illuminate.Auth.UserInterface.html">Illuminate\Auth\UserInterface</a></code> <var>$user</var></span>, <span>boolean <var>$remember</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Log a user into the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Log a user into the application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$user</var></dt>
+					<dd><code><code><a href="class-Illuminate.Auth.UserInterface.html">Illuminate\Auth\UserInterface</a></code></code><br>$user</dd>
+					<dt><var>$remember</var></dt>
+					<dd><code>boolean</code><br>$remember</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="loginUsingId" id="_loginUsingId">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Auth.UserInterface.html">Illuminate\Auth\UserInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_loginUsingId">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#357-369" title="Go to source code">loginUsingId</a>( <span>mixed <var>$id</var></span>, <span>boolean <var>$remember</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Log the given user ID into the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Log the given user ID into the application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>mixed</code><br>$id</dd>
+					<dt><var>$remember</var></dt>
+					<dd><code>boolean</code><br>$remember</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Auth.UserInterface.html">Illuminate\Auth\UserInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createRecaller" id="_createRecaller">
+
+		<td class="attributes"><code>
+			 protected 
+			Symfony\Component\HttpFoundation\Cookie
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createRecaller">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#371-380" title="Go to source code">createRecaller</a>( <span>mixed <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a remember me cookie for a given ID.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a remember me cookie for a given ID.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>mixed</code><br>$id</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\Cookie</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="logout" id="_logout">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_logout">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#382-399" title="Go to source code">logout</a>( )</code>
+
+		<div class="description short">
+			
+<p>Log the user out of the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Log the user out of the application.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clearUserDataFromStorage" id="_clearUserDataFromStorage">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clearUserDataFromStorage">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#401-413" title="Go to source code">clearUserDataFromStorage</a>( )</code>
+
+		<div class="description short">
+			
+<p>Remove the user data from the session and cookies.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove the user data from the session and cookies.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getQueuedCookies" id="_getQueuedCookies">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getQueuedCookies">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#415-423" title="Go to source code">getQueuedCookies</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the cookies queued by the guard.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the cookies queued by the guard.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCookieJar" id="_getCookieJar">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Cookie.CookieJar.html">Illuminate\Cookie\CookieJar</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCookieJar">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#425-438" title="Go to source code">getCookieJar</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the cookie creator instance used by the guard.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the cookie creator instance used by the guard.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Cookie.CookieJar.html">Illuminate\Cookie\CookieJar</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCookieJar" id="_setCookieJar">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCookieJar">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#440-449" title="Go to source code">setCookieJar</a>( <span><code><a href="class-Illuminate.Cookie.CookieJar.html">Illuminate\Cookie\CookieJar</a></code> <var>$cookie</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the cookie creator instance used by the guard.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the cookie creator instance used by the guard.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$cookie</var></dt>
+					<dd><code><code><a href="class-Illuminate.Cookie.CookieJar.html">Illuminate\Cookie\CookieJar</a></code></code><br>$cookie</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getDispatcher" id="_getDispatcher">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Events.Dispatcher.html">Illuminate\Events\Dispatcher</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getDispatcher">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#451-459" title="Go to source code">getDispatcher</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the event dispatcher instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the event dispatcher instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Events.Dispatcher.html">Illuminate\Events\Dispatcher</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setDispatcher" id="_setDispatcher">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setDispatcher">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#461-469" title="Go to source code">setDispatcher</a>( <span><code><a href="class-Illuminate.Events.Dispatcher.html">Illuminate\Events\Dispatcher</a></code> <var>$events</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the event dispatcher instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the event dispatcher instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$events</var></dt>
+					<dd><code><code><a href="class-Illuminate.Events.Dispatcher.html">Illuminate\Events\Dispatcher</a></code></code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSession" id="_getSession">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSession">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#471-479" title="Go to source code">getSession</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the session store used by the guard.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the session store used by the guard.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getProvider" id="_getProvider">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Auth.UserProviderInterface.html">Illuminate\Auth\UserProviderInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getProvider">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#481-489" title="Go to source code">getProvider</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the user provider used by the guard.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the user provider used by the guard.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Auth.UserProviderInterface.html">Illuminate\Auth\UserProviderInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setProvider" id="_setProvider">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setProvider">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#491-500" title="Go to source code">setProvider</a>( <span><code><a href="class-Illuminate.Auth.UserProviderInterface.html">Illuminate\Auth\UserProviderInterface</a></code> <var>$provider</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the user provider used by the guard.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the user provider used by the guard.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$provider</var></dt>
+					<dd><code><code><a href="class-Illuminate.Auth.UserProviderInterface.html">Illuminate\Auth\UserProviderInterface</a></code></code><br>$provider</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUser" id="_getUser">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Auth.UserInterface.html">Illuminate\Auth\UserInterface</a></code>|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUser">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#502-510" title="Go to source code">getUser</a>( )</code>
+
+		<div class="description short">
+			
+<p>Return the currently cached user of the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return the currently cached user of the application.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Auth.UserInterface.html">Illuminate\Auth\UserInterface</a></code>|null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUser" id="_setUser">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUser">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#512-523" title="Go to source code">setUser</a>( <span><code><a href="class-Illuminate.Auth.UserInterface.html">Illuminate\Auth\UserInterface</a></code> <var>$user</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the current user of the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the current user of the application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$user</var></dt>
+					<dd><code><code><a href="class-Illuminate.Auth.UserInterface.html">Illuminate\Auth\UserInterface</a></code></code><br>$user</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRequest" id="_getRequest">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\HttpFoundation\Request
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRequest">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#525-533" title="Go to source code">getRequest</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the current request instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the current request instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\Request</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setRequest" id="_setRequest">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Auth.Guard.html">Illuminate\Auth\Guard</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setRequest">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#535-546" title="Go to source code">setRequest</a>( <span>Symfony\Component\HttpFoundation\Request <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the current request instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the current request instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>Symfony\Component\HttpFoundation\Request</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Auth.Guard.html">Illuminate\Auth\Guard</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getName" id="_getName">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getName">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#548-556" title="Go to source code">getName</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get a unique identifier for the auth session value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a unique identifier for the auth session value.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRecallerName" id="_getRecallerName">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRecallerName">#</a>
+		<code><a href="source-class-Illuminate.Auth.Guard.html#558-566" title="Go to source code">getRecallerName</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the name of the cookie used to store the "recaller".</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the name of the cookie used to store the "recaller".</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="user" id="$user">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Auth.UserInterface.html">Illuminate\Auth\UserInterface</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Auth.Guard.html#12-17" title="Go to source code"><var>$user</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$user" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The currently authenticated user.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The currently authenticated user.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="provider" id="$provider">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Auth.UserProviderInterface.html">Illuminate\Auth\UserProviderInterface</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Auth.Guard.html#19-24" title="Go to source code"><var>$provider</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$provider" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The user provider implementation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The user provider implementation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="session" id="$session">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Session.Store.html">Illuminate\Session\Store</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Auth.Guard.html#26-31" title="Go to source code"><var>$session</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$session" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The session store used by the guard.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The session store used by the guard.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="cookie" id="$cookie">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Cookie.CookieJar.html">Illuminate\Cookie\CookieJar</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Auth.Guard.html#33-38" title="Go to source code"><var>$cookie</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$cookie" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The Illuminate cookie creator service.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The Illuminate cookie creator service.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="request" id="$request">
+		<td class="attributes"><code>
+			protected  
+			Symfony\Component\HttpFoundation\Request
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Auth.Guard.html#40-45" title="Go to source code"><var>$request</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$request" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The request instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The request instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="queuedCookies" id="$queuedCookies">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Auth.Guard.html#47-52" title="Go to source code"><var>$queuedCookies</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$queuedCookies" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The cookies queued by the guards.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The cookies queued by the guards.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="events" id="$events">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Events.Dispatcher.html">Illuminate\Events\Dispatcher</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Auth.Guard.html#54-59" title="Go to source code"><var>$events</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$events" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The event dispatcher instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The event dispatcher instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="loggedOut" id="$loggedOut">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Auth.Guard.html#61-66" title="Go to source code"><var>$loggedOut</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$loggedOut" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Indicates if the logout method has been called.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Indicates if the logout method has been called.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

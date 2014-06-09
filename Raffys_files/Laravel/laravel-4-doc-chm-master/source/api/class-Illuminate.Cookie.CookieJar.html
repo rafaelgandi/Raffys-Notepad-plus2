@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Cookie\CookieJar</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Illuminate.Cookie.CookieJar.html">CookieJar</a></li>
+				<li><a href="class-Illuminate.Cookie.CookieServiceProvider.html">CookieServiceProvider</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Cookie.html" title="Summary of Illuminate\Cookie"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CookieJar</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Cookie.html">Cookie</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Cookie.CookieJar.html#9-199" title="Go to source code">Illuminate/Cookie/CookieJar.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.Cookie.CookieJar.html#39-50" title="Go to source code">__construct</a>( <span>Symfony\Component\HttpFoundation\Request <var>$request</var></span>, <span><code><a href="class-Illuminate.Encryption.Encrypter.html">Illuminate\Encryption\Encrypter</a></code> <var>$encrypter</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new cookie manager instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new cookie manager instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>Symfony\Component\HttpFoundation\Request</code><br>$request</dd>
+					<dt><var>$encrypter</var></dt>
+					<dd><code><code><a href="class-Illuminate.Encryption.Encrypter.html">Illuminate\Encryption\Encrypter</a></code></code><br>$encrypter</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="has" id="_has">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_has">#</a>
+		<code><a href="source-class-Illuminate.Cookie.CookieJar.html#52-61" title="Go to source code">has</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if a cookie exists and is not null.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if a cookie exists and is not null.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-Illuminate.Cookie.CookieJar.html#63-80" title="Go to source code">get</a>( <span>string <var>$key</var></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the value of the given cookie.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the value of the given cookie.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>mixed</code><br>$default</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="decrypt" id="_decrypt">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_decrypt">#</a>
+		<code><a href="source-class-Illuminate.Cookie.CookieJar.html#82-98" title="Go to source code">decrypt</a>( <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Decrypt the given cookie value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Decrypt the given cookie value.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed|null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="make" id="_make">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\HttpFoundation\Cookie
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_make">#</a>
+		<code><a href="source-class-Illuminate.Cookie.CookieJar.html#100-124" title="Go to source code">make</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span>, <span>integer <var>$minutes</var> = <span class="php-num">0</span></span>, <span>string <var>$path</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$domain</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$secure</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$httpOnly</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new cookie instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new cookie instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$minutes</var></dt>
+					<dd><code>integer</code><br>$minutes</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+					<dt><var>$domain</var></dt>
+					<dd><code>string</code><br>$domain</dd>
+					<dt><var>$secure</var></dt>
+					<dd><code>boolean</code><br>$secure</dd>
+					<dt><var>$httpOnly</var></dt>
+					<dd><code>boolean</code><br>$httpOnly</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\Cookie</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="forever" id="_forever">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\HttpFoundation\Cookie
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_forever">#</a>
+		<code><a href="source-class-Illuminate.Cookie.CookieJar.html#126-140" title="Go to source code">forever</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span>, <span>string <var>$path</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$domain</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$secure</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$httpOnly</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a cookie that lasts "forever" (five years).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a cookie that lasts "forever" (five years).</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>$value</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+					<dt><var>$domain</var></dt>
+					<dd><code>string</code><br>$domain</dd>
+					<dt><var>$secure</var></dt>
+					<dd><code>boolean</code><br>$secure</dd>
+					<dt><var>$httpOnly</var></dt>
+					<dd><code>boolean</code><br>$httpOnly</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\Cookie</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="forget" id="_forget">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\HttpFoundation\Cookie
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_forget">#</a>
+		<code><a href="source-class-Illuminate.Cookie.CookieJar.html#142-151" title="Go to source code">forget</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Expire the given cookie.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Expire the given cookie.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\Cookie</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPathAndDomain" id="_getPathAndDomain">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPathAndDomain">#</a>
+		<code><a href="source-class-Illuminate.Cookie.CookieJar.html#153-163" title="Go to source code">getPathAndDomain</a>( <span>string <var>$path</var></span>, <span>string <var>$domain</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the path and domain, or the default values.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the path and domain, or the default values.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+					<dt><var>$domain</var></dt>
+					<dd><code>string</code><br>$domain</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setDefaultPathAndDomain" id="_setDefaultPathAndDomain">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setDefaultPathAndDomain">#</a>
+		<code><a href="source-class-Illuminate.Cookie.CookieJar.html#165-177" title="Go to source code">setDefaultPathAndDomain</a>( <span>string <var>$path</var></span>, <span>string <var>$domain</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the default path and domain for the jar.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the default path and domain for the jar.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+					<dt><var>$domain</var></dt>
+					<dd><code>string</code><br>$domain</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRequest" id="_getRequest">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\HttpFoundation\Request
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRequest">#</a>
+		<code><a href="source-class-Illuminate.Cookie.CookieJar.html#179-187" title="Go to source code">getRequest</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the request instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the request instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\Request</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getEncrypter" id="_getEncrypter">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Encryption.Encrypter.html">Illuminate\Encryption\Encrypter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getEncrypter">#</a>
+		<code><a href="source-class-Illuminate.Cookie.CookieJar.html#189-197" title="Go to source code">getEncrypter</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the encrypter instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the encrypter instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Encryption.Encrypter.html">Illuminate\Encryption\Encrypter</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="request" id="$request">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Cookie.CookieJar.html#16" title="Go to source code"><var>$request</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$request" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="encrypter" id="$encrypter">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Encryption.Encrypter.html">Illuminate\Encryption\Encrypter</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Cookie.CookieJar.html#18-23" title="Go to source code"><var>$encrypter</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$encrypter" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The encrypter instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The encrypter instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="path" id="$path">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Cookie.CookieJar.html#25-30" title="Go to source code"><var>$path</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'/'</span></code></td>
+		<td class="description"><div>
+			<a href="#$path" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The default path (if specified).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The default path (if specified).</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="domain" id="$domain">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Cookie.CookieJar.html#32-37" title="Go to source code"><var>$domain</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$domain" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The default domain (if specified).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The default domain (if specified).</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,2407 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Foundation\Application</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Illuminate.Foundation.AliasLoader.html">AliasLoader</a></li>
+				<li class="active"><a href="class-Illuminate.Foundation.Application.html">Application</a></li>
+				<li><a href="class-Illuminate.Foundation.Artisan.html">Artisan</a></li>
+				<li><a href="class-Illuminate.Foundation.AssetPublisher.html">AssetPublisher</a></li>
+				<li><a href="class-Illuminate.Foundation.Composer.html">Composer</a></li>
+				<li><a href="class-Illuminate.Foundation.ConfigPublisher.html">ConfigPublisher</a></li>
+				<li><a href="class-Illuminate.Foundation.ProviderRepository.html">ProviderRepository</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Foundation.html" title="Summary of Illuminate\Foundation"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Application</h1>
+
+
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Illuminate.Container.Container.html"><span>Illuminate\Container\Container</span></a>
+			
+			 implements 
+				<a href="class-ArrayAccess.html"><span>ArrayAccess</span></a>
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Illuminate\Foundation\Application</span></b>			
+			 implements 
+<span>Symfony\Component\HttpKernel\HttpKernelInterface</span>, 
+			
+				<a href="class-Illuminate.Support.Contracts.ResponsePreparerInterface.html"><span>Illuminate\Support\Contracts\ResponsePreparerInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Foundation.html">Foundation</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Foundation.Application.html#28-810" title="Go to source code">Illuminate/Foundation/Application.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#86-104" title="Go to source code">__construct</a>( <span><code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code> <var>$request</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new Illuminate application instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new Illuminate application instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code><code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code></code><br>$request</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createRequest" id="_createRequest">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createRequest">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#106-115" title="Go to source code">createRequest</a>( <span><code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code> <var>$request</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Create the request for the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create the request for the application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code><code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code></code><br>$request</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setRequestForConsoleEnvironment" id="_setRequestForConsoleEnvironment">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setRequestForConsoleEnvironment">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#117-127" title="Go to source code">setRequestForConsoleEnvironment</a>( )</code>
+
+		<div class="description short">
+			
+<p>Set the application request for the console environment.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the application request for the console environment.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="redirectIfTrailingSlash" id="_redirectIfTrailingSlash">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\HttpFoundation\RedirectResponse|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_redirectIfTrailingSlash">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#129-149" title="Go to source code">redirectIfTrailingSlash</a>( )</code>
+
+		<div class="description short">
+			
+<p>Redirect the request if it has a trailing slash.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Redirect the request if it has a trailing slash.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\RedirectResponse|null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="bindInstallPaths" id="_bindInstallPaths">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_bindInstallPaths">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#151-165" title="Go to source code">bindInstallPaths</a>( <span>array <var>$paths</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Bind the installation paths to the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Bind the installation paths to the application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$paths</var></dt>
+					<dd><code>array</code><br>$paths</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBootstrapFile" id="_getBootstrapFile">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBootstrapFile">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#167-175" title="Go to source code">getBootstrapFile</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the application bootstrap file.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the application bootstrap file.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="startExceptionHandling" id="_startExceptionHandling">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_startExceptionHandling">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#177-187" title="Go to source code">startExceptionHandling</a>( )</code>
+
+		<div class="description short">
+			
+<p>Start the exception handling for the request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Start the exception handling for the request.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="environment" id="_environment">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_environment">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#189-197" title="Go to source code">environment</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the current application environment.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the current application environment.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="detectEnvironment" id="_detectEnvironment">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_detectEnvironment">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#199-217" title="Go to source code">detectEnvironment</a>( <span>array|string <var>$environments</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Detect the application's current environment.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Detect the application's current environment.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$environments</var></dt>
+					<dd><code>array|string</code><br>$environments</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="detectWebEnvironment" id="_detectWebEnvironment">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_detectWebEnvironment">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#219-251" title="Go to source code">detectWebEnvironment</a>( <span>string <var>$base</var></span>, <span>array|string <var>$environments</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the application environment for a web request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the application environment for a web request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$base</var></dt>
+					<dd><code>string</code><br>$base</dd>
+					<dt><var>$environments</var></dt>
+					<dd><code>array|string</code><br>$environments</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="detectConsoleEnvironment" id="_detectConsoleEnvironment">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_detectConsoleEnvironment">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#253-277" title="Go to source code">detectConsoleEnvironment</a>( <span>string <var>$base</var></span>, <span>mixed <var>$environments</var></span>, <span>array <var>$arguments</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the application environment from command-line arguments.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the application environment from command-line arguments.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$base</var></dt>
+					<dd><code>string</code><br>$base</dd>
+					<dt><var>$environments</var></dt>
+					<dd><code>mixed</code><br>$environments</dd>
+					<dt><var>$arguments</var></dt>
+					<dd><code>array</code><br>$arguments</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isMachine" id="_isMachine">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isMachine">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#279-288" title="Go to source code">isMachine</a>( <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if the name matches the machine name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if the name matches the machine name.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="runningInConsole" id="_runningInConsole">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_runningInConsole">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#290-298" title="Go to source code">runningInConsole</a>( )</code>
+
+		<div class="description short">
+			
+<p>Determine if we are running in the console.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if we are running in the console.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="runningUnitTests" id="_runningUnitTests">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_runningUnitTests">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#300-308" title="Go to source code">runningUnitTests</a>( )</code>
+
+		<div class="description short">
+			
+<p>Determine if we are running unit tests.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if we are running unit tests.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="register" id="_register">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_register">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#310-340" title="Go to source code">register</a>( <span><code><a href="class-Illuminate.Support.ServiceProvider.html">Illuminate\Support\ServiceProvider</a></code>|string <var>$provider</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Register a service provider with the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a service provider with the application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$provider</var></dt>
+					<dd><code><code><a href="class-Illuminate.Support.ServiceProvider.html">Illuminate\Support\ServiceProvider</a></code>|string</code><br>$provider</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resolveProviderClass" id="_resolveProviderClass">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-Illuminate.Support.ServiceProvider.html">Illuminate\Support\ServiceProvider</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resolveProviderClass">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#342-351" title="Go to source code">resolveProviderClass</a>( <span>string <var>$provider</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Resolve a service provider instance from the class name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resolve a service provider instance from the class name.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$provider</var></dt>
+					<dd><code>string</code><br>$provider</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Support.ServiceProvider.html">Illuminate\Support\ServiceProvider</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="loadDeferredProviders" id="_loadDeferredProviders">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_loadDeferredProviders">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#353-371" title="Go to source code">loadDeferredProviders</a>( )</code>
+
+		<div class="description short">
+			
+<p>Load and boot all of the remaining deferred providers.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Load and boot all of the remaining deferred providers.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="loadDeferredProvider" id="_loadDeferredProvider">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_loadDeferredProvider">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#373-394" title="Go to source code">loadDeferredProvider</a>( <span>string <var>$service</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Load the provider for a deferred service.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Load the provider for a deferred service.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$service</var></dt>
+					<dd><code>string</code><br>$service</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setupDeferredBoot" id="_setupDeferredBoot">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setupDeferredBoot">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#396-407" title="Go to source code">setupDeferredBoot</a>( <span><code><a href="class-Illuminate.Support.ServiceProvider.html">Illuminate\Support\ServiceProvider</a></code> <var>$instance</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Handle the booting of a deferred service provider.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle the booting of a deferred service provider.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$instance</var></dt>
+					<dd><code><code><a href="class-Illuminate.Support.ServiceProvider.html">Illuminate\Support\ServiceProvider</a></code></code><br>$instance</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="make" id="_make">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_make">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#409-426" title="Go to source code">make</a>( <span>string <var>$abstract</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Resolve the given type from the container.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resolve the given type from the container.</p>
+
+<p>(Overriding Container::make)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$abstract</var></dt>
+					<dd><code>string</code><br>$abstract</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Illuminate.Container.Container.html#_make">Illuminate\Container\Container::make()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="before" id="_before">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_before">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#428-437" title="Go to source code">before</a>( <span><code><a href="class-Closure.html">Closure</a></code>|string <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a "before" application filter.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a "before" application filter.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code>|string</code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="after" id="_after">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_after">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#439-448" title="Go to source code">after</a>( <span><code><a href="class-Closure.html">Closure</a></code>|string <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register an "after" application filter.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register an "after" application filter.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code>|string</code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="close" id="_close">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_close">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#450-459" title="Go to source code">close</a>( <span><code><a href="class-Closure.html">Closure</a></code>|string <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a "close" application filter.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a "close" application filter.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code>|string</code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="finish" id="_finish">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_finish">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#461-470" title="Go to source code">finish</a>( <span><code><a href="class-Closure.html">Closure</a></code>|string <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a "finish" application filter.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a "finish" application filter.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code>|string</code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="shutdown" id="_shutdown">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_shutdown">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#472-488" title="Go to source code">shutdown</a>( <span>callable <var>$callback</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a "shutdown" callback.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a "shutdown" callback.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code>callable</code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="run" id="_run">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_run">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#490-504" title="Go to source code">run</a>( )</code>
+
+		<div class="description short">
+			
+<p>Handles the given request and delivers the response.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handles the given request and delivers the response.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dispatch" id="_dispatch">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\HttpFoundation\Response
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dispatch">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#506-524" title="Go to source code">dispatch</a>( <span><code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code> <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Handle the given request and get the response.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle the given request and get the response.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code><code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code></code><br>$request</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\Response</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handle" id="_handle">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\HttpFoundation\Response
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handle">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#526-545" title="Go to source code">handle</a>( <span>Symfony\Component\HttpFoundation\Request <var>$request</var></span>, <span>integer <var>$type</var> = Illuminate\Foundation\HttpKernelInterface::MASTER_REQUEST</span>, <span>boolean <var>$catch</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Handle the given request and get the response.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle the given request and get the response.</p>
+
+<p>Provides compatibility with BrowserKit functional testing.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code><code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code></code><br>$request</dd>
+					<dt><var>$type</var></dt>
+					<dd><code>integer</code><br>$type</dd>
+					<dt><var>$catch</var></dt>
+					<dd><code>boolean</code><br>$catch</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\Response</code><br />
+				</div>
+
+
+				<h4>Implements</h4>
+				<div class="list">
+						HttpKernelInterface::handle<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="boot" id="_boot">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_boot">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#547-572" title="Go to source code">boot</a>( )</code>
+
+		<div class="description short">
+			
+<p>Boot the application's service providers.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Boot the application's service providers.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="booting" id="_booting">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_booting">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#574-583" title="Go to source code">booting</a>( <span>mixed <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a new boot listener.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a new boot listener.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code>mixed</code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="booted" id="_booted">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_booted">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#585-594" title="Go to source code">booted</a>( <span>mixed <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a new "booted" listener.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a new "booted" listener.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code>mixed</code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fireAppCallbacks" id="_fireAppCallbacks">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fireAppCallbacks">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#596-607" title="Go to source code">fireAppCallbacks</a>( <span>array <var>$callbacks</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Call the booting callbacks for the application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Call the booting callbacks for the application.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="prepareRequest" id="_prepareRequest">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_prepareRequest">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#609-623" title="Go to source code">prepareRequest</a>( <span><code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code> <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Prepare the request by injecting any services.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prepare the request by injecting any services.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code><code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code></code><br>$request</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Http.Request.html">Illuminate\Http\Request</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="prepareResponse" id="_prepareResponse">
+
+		<td class="attributes"><code>
+			 public 
+			Symfony\Component\HttpFoundation\Response
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_prepareResponse">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#625-636" title="Go to source code">prepareResponse</a>( <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Prepare the given value as a Response object.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prepare the given value as a Response object.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\Response</code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Illuminate.Support.Contracts.ResponsePreparerInterface.html#_prepareResponse">Illuminate\Support\Contracts\ResponsePreparerInterface::prepareResponse()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isDownForMaintenance" id="_isDownForMaintenance">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isDownForMaintenance">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#638-646" title="Go to source code">isDownForMaintenance</a>( )</code>
+
+		<div class="description short">
+			
+<p>Determine if the application is currently down for maintenance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if the application is currently down for maintenance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="down" id="_down">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_down">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#648-657" title="Go to source code">down</a>( <span><code><a href="class-Closure.html">Closure</a></code> <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a maintenance mode event listener.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a maintenance mode event listener.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="abort" id="_abort">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_abort">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#659-677" title="Go to source code">abort</a>( <span>integer <var>$code</var></span>, <span>string <var>$message</var> = <span class="php-quote">''</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Throw an HttpException with the given data.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Throw an HttpException with the given data.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$code</var></dt>
+					<dd><code>integer</code><br>$code</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="missing" id="_missing">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_missing">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#679-691" title="Go to source code">missing</a>( <span><code><a href="class-Closure.html">Closure</a></code> <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a 404 error handler.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a 404 error handler.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="_error">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_error">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#693-702" title="Go to source code">error</a>( <span><code><a href="class-Closure.html">Closure</a></code> <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register an application error handler.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register an application error handler.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="pushError" id="_pushError">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_pushError">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#704-713" title="Go to source code">pushError</a>( <span><code><a href="class-Closure.html">Closure</a></code> <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register an error handler at the bottom of the stack.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register an error handler at the bottom of the stack.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fatal" id="_fatal">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fatal">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#715-727" title="Go to source code">fatal</a>( <span><code><a href="class-Closure.html">Closure</a></code> <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register an error handler for fatal errors.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register an error handler for fatal errors.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getConfigLoader" id="_getConfigLoader">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Config.LoaderInterface.html">Illuminate\Config\LoaderInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getConfigLoader">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#729-737" title="Go to source code">getConfigLoader</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the configuration loader instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the configuration loader instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Config.LoaderInterface.html">Illuminate\Config\LoaderInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getProviderRepository" id="_getProviderRepository">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Foundation.ProviderRepository.html">Illuminate\Foundation\ProviderRepository</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getProviderRepository">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#739-749" title="Go to source code">getProviderRepository</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the service provider repository instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the service provider repository instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Foundation.ProviderRepository.html">Illuminate\Foundation\ProviderRepository</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLocale" id="_setLocale">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLocale">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#751-764" title="Go to source code">setLocale</a>( <span>string <var>$locale</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the current application locale.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the current application locale.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$locale</var></dt>
+					<dd><code>string</code><br>$locale</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLoadedProviders" id="_getLoadedProviders">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLoadedProviders">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#766-774" title="Go to source code">getLoadedProviders</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the service providers that have been loaded.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the service providers that have been loaded.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setDeferredServices" id="_setDeferredServices">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setDeferredServices">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#776-785" title="Go to source code">setDeferredServices</a>( <span>array <var>$services</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the application's deferred services.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the application's deferred services.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$services</var></dt>
+					<dd><code>array</code><br>$services</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__get" id="___get">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___get">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#787-796" title="Go to source code">__get</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Dynamically access application services.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Dynamically access application services.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__set" id="___set">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___set">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Application.html#798-808" title="Go to source code">__set</a>( <span>string <var>$key</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Dynamically set application services.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Dynamically set application services.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Illuminate.Container.Container.html#methods">Illuminate\Container\Container</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Illuminate.Container.Container.html#_alias">alias()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_bind">bind()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_bindIf">bindIf()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_bound">bound()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_build">build()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_extend">extend()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_extractAlias">extractAlias()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_fireResolvingCallbacks">fireResolvingCallbacks()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_getAlias">getAlias()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_getBindings">getBindings()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_getConcrete">getConcrete()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_getDependencies">getDependencies()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_instance">instance()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_isBuildable">isBuildable()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_isShared">isShared()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_offsetExists">offsetExists()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_offsetGet">offsetGet()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_offsetSet">offsetSet()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_offsetUnset">offsetUnset()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_resolveNonClass">resolveNonClass()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_resolving">resolving()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_share">share()</a>, 
+			<a href="class-Illuminate.Container.Container.html#_singleton">singleton()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="VERSION" id="VERSION">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-Illuminate.Foundation.Application.html#30-35" title="Go to source code"><b>VERSION</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'4.0.3'</span></code></td>
+		<td class="description"><div>
+			<a href="#VERSION" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The Laravel framework version.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The Laravel framework version.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="booted" id="$booted">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Foundation.Application.html#37-42" title="Go to source code"><var>$booted</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$booted" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Indicates if the application has "booted".</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Indicates if the application has "booted".</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="bootingCallbacks" id="$bootingCallbacks">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Foundation.Application.html#44-49" title="Go to source code"><var>$bootingCallbacks</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$bootingCallbacks" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The array of booting callbacks.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The array of booting callbacks.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="bootedCallbacks" id="$bootedCallbacks">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Foundation.Application.html#51-56" title="Go to source code"><var>$bootedCallbacks</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$bootedCallbacks" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The array of booted callbacks.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The array of booted callbacks.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="shutdownCallbacks" id="$shutdownCallbacks">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Foundation.Application.html#58-63" title="Go to source code"><var>$shutdownCallbacks</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$shutdownCallbacks" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The array of shutdown callbacks.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The array of shutdown callbacks.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="serviceProviders" id="$serviceProviders">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Foundation.Application.html#65-70" title="Go to source code"><var>$serviceProviders</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$serviceProviders" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>All of the registered service providers.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>All of the registered service providers.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="loadedProviders" id="$loadedProviders">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Foundation.Application.html#72-77" title="Go to source code"><var>$loadedProviders</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$loadedProviders" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The names of the loaded service providers.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The names of the loaded service providers.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="deferredServices" id="$deferredServices">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Foundation.Application.html#79-84" title="Go to source code"><var>$deferredServices</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$deferredServices" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The deferred services and their providers.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The deferred services and their providers.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Illuminate.Container.Container.html#properties">Illuminate\Container\Container</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Illuminate.Container.Container.html#$aliases"><var>$aliases</var></a>, 
+			<a href="class-Illuminate.Container.Container.html#$bindings"><var>$bindings</var></a>, 
+			<a href="class-Illuminate.Container.Container.html#$instances"><var>$instances</var></a>, 
+			<a href="class-Illuminate.Container.Container.html#$resolvingCallbacks"><var>$resolvingCallbacks</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

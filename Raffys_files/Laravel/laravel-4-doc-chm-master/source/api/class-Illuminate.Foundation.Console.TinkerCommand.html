@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Foundation\Console\TinkerCommand</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Illuminate.Foundation.Console.AssetPublishCommand.html">AssetPublishCommand</a></li>
+				<li><a href="class-Illuminate.Foundation.Console.AutoloadCommand.html">AutoloadCommand</a></li>
+				<li><a href="class-Illuminate.Foundation.Console.ChangesCommand.html">ChangesCommand</a></li>
+				<li><a href="class-Illuminate.Foundation.Console.ClearCompiledCommand.html">ClearCompiledCommand</a></li>
+				<li><a href="class-Illuminate.Foundation.Console.CommandMakeCommand.html">CommandMakeCommand</a></li>
+				<li><a href="class-Illuminate.Foundation.Console.ConfigPublishCommand.html">ConfigPublishCommand</a></li>
+				<li><a href="class-Illuminate.Foundation.Console.DownCommand.html">DownCommand</a></li>
+				<li><a href="class-Illuminate.Foundation.Console.KeyGenerateCommand.html">KeyGenerateCommand</a></li>
+				<li><a href="class-Illuminate.Foundation.Console.OptimizeCommand.html">OptimizeCommand</a></li>
+				<li><a href="class-Illuminate.Foundation.Console.RoutesCommand.html">RoutesCommand</a></li>
+				<li><a href="class-Illuminate.Foundation.Console.ServeCommand.html">ServeCommand</a></li>
+				<li class="active"><a href="class-Illuminate.Foundation.Console.TinkerCommand.html">TinkerCommand</a></li>
+				<li><a href="class-Illuminate.Foundation.Console.UpCommand.html">UpCommand</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Foundation.Console.html" title="Summary of Illuminate\Foundation\Console"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class TinkerCommand</h1>
+
+
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+Symfony\Component\Console\Command\Command
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Illuminate.Console.Command.html"><span>Illuminate\Console\Command</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Illuminate\Foundation\Console\TinkerCommand</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Foundation.html">Foundation</a>\<a href="namespace-Illuminate.Foundation.Console.html">Console</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Foundation.Console.TinkerCommand.html#5-69" title="Go to source code">Illuminate/Foundation/Console/TinkerCommand.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="fire" id="_fire">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fire">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Console.TinkerCommand.html#21-55" title="Go to source code">fire</a>( )</code>
+
+		<div class="description short">
+			
+<p>Execute the console command.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Execute the console command.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="prompt" id="_prompt">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_prompt">#</a>
+		<code><a href="source-class-Illuminate.Foundation.Console.TinkerCommand.html#57-67" title="Go to source code">prompt</a>( )</code>
+
+		<div class="description short">
+			
+<p>Prompt the developer for a command.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prompt the developer for a command.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Illuminate.Console.Command.html#methods">Illuminate\Console\Command</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Illuminate.Console.Command.html#___construct">__construct()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_argument">argument()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_ask">ask()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_call">call()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_callSilent">callSilent()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_comment">comment()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_confirm">confirm()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_error">error()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_execute">execute()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_getArguments">getArguments()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_getLaravel">getLaravel()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_getOptions">getOptions()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_getOutput">getOutput()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_info">info()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_line">line()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_option">option()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_question">question()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_run">run()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_secret">secret()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_setLaravel">setLaravel()</a>, 
+			<a href="class-Illuminate.Console.Command.html#_specifyParameters">specifyParameters()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="name" id="$name">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Foundation.Console.TinkerCommand.html#7-12" title="Go to source code"><var>$name</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'tinker'</span></code></td>
+		<td class="description"><div>
+			<a href="#$name" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The console command name.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The console command name.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="description" id="$description">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Foundation.Console.TinkerCommand.html#14-19" title="Go to source code"><var>$description</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">&quot;Interact with your application&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$description" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The console command description.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The console command description.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Illuminate.Console.Command.html#properties">Illuminate\Console\Command</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Illuminate.Console.Command.html#$input"><var>$input</var></a>, 
+			<a href="class-Illuminate.Console.Command.html#$laravel"><var>$laravel</var></a>, 
+			<a href="class-Illuminate.Console.Command.html#$output"><var>$output</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

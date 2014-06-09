@@ -1,0 +1,2076 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\View\Environment</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Illuminate.View.Environment.html">Environment</a></li>
+				<li><a href="class-Illuminate.View.FileViewFinder.html">FileViewFinder</a></li>
+				<li><a href="class-Illuminate.View.View.html">View</a></li>
+				<li><a href="class-Illuminate.View.ViewServiceProvider.html">ViewServiceProvider</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Illuminate.View.ViewFinderInterface.html">ViewFinderInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.View.html" title="Summary of Illuminate\View"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Environment</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.View.html">View</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.View.Environment.html#9-646" title="Go to source code">Illuminate/View/Environment.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#88-103" title="Go to source code">__construct</a>( <span><code><a href="class-Illuminate.View.Engines.EngineResolver.html">Illuminate\View\Engines\EngineResolver</a></code> <var>$engines</var></span>, <span><code><a href="class-Illuminate.View.ViewFinderInterface.html">Illuminate\View\ViewFinderInterface</a></code> <var>$finder</var></span>, <span><code><a href="class-Illuminate.Events.Dispatcher.html">Illuminate\Events\Dispatcher</a></code> <var>$events</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new view environment instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new view environment instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$engines</var></dt>
+					<dd><code><code><a href="class-Illuminate.View.Engines.EngineResolver.html">Illuminate\View\Engines\EngineResolver</a></code></code><br>$engines</dd>
+					<dt><var>$finder</var></dt>
+					<dd><code><code><a href="class-Illuminate.View.ViewFinderInterface.html">Illuminate\View\ViewFinderInterface</a></code></code><br>$finder</dd>
+					<dt><var>$events</var></dt>
+					<dd><code><code><a href="class-Illuminate.Events.Dispatcher.html">Illuminate\Events\Dispatcher</a></code></code><br>$events</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="make" id="_make">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.View.View.html">Illuminate\View\View</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_make">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#105-120" title="Go to source code">make</a>( <span>string <var>$view</var></span>, <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$mergeData</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Get a evaluated view contents for the given view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a evaluated view contents for the given view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$view</var></dt>
+					<dd><code>string</code><br>$view</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data</dd>
+					<dt><var>$mergeData</var></dt>
+					<dd><code>array</code><br>$mergeData</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.View.View.html">Illuminate\View\View</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseData" id="_parseData">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseData">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#122-131" title="Go to source code">parseData</a>( <span>mixed <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parse the given data into a raw array.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parse the given data into a raw array.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br>$data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="of" id="_of">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.View.View.html">Illuminate\View\View</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_of">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#133-143" title="Go to source code">of</a>( <span>string <var>$view</var></span>, <span>mixed <var>$data</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Get a evaluated view contents for a named view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a evaluated view contents for a named view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$view</var></dt>
+					<dd><code>string</code><br>$view</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br>$data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.View.View.html">Illuminate\View\View</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="name" id="_name">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_name">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#145-155" title="Go to source code">name</a>( <span>string <var>$view</var></span>, <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a named view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a named view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$view</var></dt>
+					<dd><code>string</code><br>$view</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="exists" id="_exists">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_exists">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#157-175" title="Go to source code">exists</a>( <span>string <var>$view</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine if a given view exists.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine if a given view exists.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$view</var></dt>
+					<dd><code>string</code><br>$view</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderEach" id="_renderEach">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderEach">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#177-219" title="Go to source code">renderEach</a>( <span>string <var>$view</var></span>, <span>array <var>$data</var></span>, <span>string <var>$iterator</var></span>, <span>string <var>$empty</var> = <span class="php-quote">'raw|'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the rendered contents of a partial from a loop.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the rendered contents of a partial from a loop.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$view</var></dt>
+					<dd><code>string</code><br>$view</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data</dd>
+					<dt><var>$iterator</var></dt>
+					<dd><code>string</code><br>$iterator</dd>
+					<dt><var>$empty</var></dt>
+					<dd><code>string</code><br>$empty</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getEngineFromPath" id="_getEngineFromPath">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-Illuminate.View.Engines.EngineInterface.html">Illuminate\View\Engines\EngineInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getEngineFromPath">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#221-232" title="Go to source code">getEngineFromPath</a>( <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the appropriate view engine for the given path.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the appropriate view engine for the given path.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.View.Engines.EngineInterface.html">Illuminate\View\Engines\EngineInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getExtension" id="_getExtension">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getExtension">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#234-248" title="Go to source code">getExtension</a>( <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the extension used by the view file.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the extension used by the view file.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="share" id="_share">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_share">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#250-265" title="Go to source code">share</a>( <span>string <var>$key</var></span>, <span>mixed <var>$value</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a piece of shared data to the environment.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a piece of shared data to the environment.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="composer" id="_composer">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Closure.html">Closure</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_composer">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#267-284" title="Go to source code">composer</a>( <span>array|string <var>$views</var></span>, <span><code><a href="class-Closure.html">Closure</a></code>|string <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a view composer event.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a view composer event.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$views</var></dt>
+					<dd><code>array|string</code><br>$views</dd>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code>|string</code><br>$callback</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Closure.html">Closure</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addComposer" id="_addComposer">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-Closure.html">Closure</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addComposer">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#286-305" title="Go to source code">addComposer</a>( <span>string <var>$view</var></span>, <span><code><a href="class-Closure.html">Closure</a></code>|string <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a composer for a given view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a composer for a given view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$view</var></dt>
+					<dd><code>string</code><br>$view</dd>
+					<dt><var>$callback</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code>|string</code><br>$callback</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Closure.html">Closure</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addClassComposer" id="_addClassComposer">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-Closure.html">Closure</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addClassComposer">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#307-326" title="Go to source code">addClassComposer</a>( <span>string <var>$view</var></span>, <span>string <var>$class</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a class based view composer.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a class based view composer.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$view</var></dt>
+					<dd><code>string</code><br>$view</dd>
+					<dt><var>$class</var></dt>
+					<dd><code>string</code><br>$class</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Closure.html">Closure</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="buildClassComposerCallback" id="_buildClassComposerCallback">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-Closure.html">Closure</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_buildClassComposerCallback">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#328-349" title="Go to source code">buildClassComposerCallback</a>( <span>string <var>$class</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Build a class based container callback Closure.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Build a class based container callback Closure.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$class</var></dt>
+					<dd><code>string</code><br>$class</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Closure.html">Closure</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseClassComposer" id="_parseClassComposer">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseClassComposer">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#351-360" title="Go to source code">parseClassComposer</a>( <span>string <var>$class</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parse a class based composer name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parse a class based composer name.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$class</var></dt>
+					<dd><code>string</code><br>$class</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="callComposer" id="_callComposer">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_callComposer">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#362-371" title="Go to source code">callComposer</a>( <span><code><a href="class-Illuminate.View.View.html">Illuminate\View\View</a></code> <var>$view</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Call the composer for a given view.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Call the composer for a given view.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$view</var></dt>
+					<dd><code><code><a href="class-Illuminate.View.View.html">Illuminate\View\View</a></code></code><br>$view</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="startSection" id="_startSection">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_startSection">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#373-390" title="Go to source code">startSection</a>( <span>string <var>$section</var></span>, <span>string <var>$content</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Start injecting content into a section.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Start injecting content into a section.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$section</var></dt>
+					<dd><code>string</code><br>$section</dd>
+					<dt><var>$content</var></dt>
+					<dd><code>string</code><br>$content</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="inject" id="_inject">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_inject">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#392-402" title="Go to source code">inject</a>( <span>string <var>$section</var></span>, <span>string <var>$content</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Inject inline content into a section.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Inject inline content into a section.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$section</var></dt>
+					<dd><code>string</code><br>$section</dd>
+					<dt><var>$content</var></dt>
+					<dd><code>string</code><br>$content</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="yieldSection" id="_yieldSection">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_yieldSection">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#404-412" title="Go to source code">yieldSection</a>( )</code>
+
+		<div class="description short">
+			
+<p>Stop injecting content into a section and return its contents.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Stop injecting content into a section and return its contents.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="stopSection" id="_stopSection">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_stopSection">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#414-434" title="Go to source code">stopSection</a>( <span>boolean <var>$overwrite</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Stop injecting content into a section.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Stop injecting content into a section.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$overwrite</var></dt>
+					<dd><code>boolean</code><br>$overwrite</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="extendSection" id="_extendSection">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_extendSection">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#436-455" title="Go to source code">extendSection</a>( <span>string <var>$section</var></span>, <span>string <var>$content</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Append content to a given section.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Append content to a given section.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$section</var></dt>
+					<dd><code>string</code><br>$section</dd>
+					<dt><var>$content</var></dt>
+					<dd><code>string</code><br>$content</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="yieldContent" id="_yieldContent">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_yieldContent">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#457-466" title="Go to source code">yieldContent</a>( <span>string <var>$section</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the string contents of a section.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the string contents of a section.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$section</var></dt>
+					<dd><code>string</code><br>$section</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="flushSections" id="_flushSections">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_flushSections">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#468-478" title="Go to source code">flushSections</a>( )</code>
+
+		<div class="description short">
+			
+<p>Flush all of the section contents.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Flush all of the section contents.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="incrementRender" id="_incrementRender">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_incrementRender">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#480-488" title="Go to source code">incrementRender</a>( )</code>
+
+		<div class="description short">
+			
+<p>Increment the rendering counter.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Increment the rendering counter.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="decrementRender" id="_decrementRender">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_decrementRender">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#490-498" title="Go to source code">decrementRender</a>( )</code>
+
+		<div class="description short">
+			
+<p>Decrement the rendering counter.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Decrement the rendering counter.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="doneRendering" id="_doneRendering">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_doneRendering">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#500-508" title="Go to source code">doneRendering</a>( )</code>
+
+		<div class="description short">
+			
+<p>Check if there are no active render operations.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if there are no active render operations.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addLocation" id="_addLocation">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addLocation">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#510-519" title="Go to source code">addLocation</a>( <span>string <var>$location</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a location to the array of view locations.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a location to the array of view locations.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$location</var></dt>
+					<dd><code>string</code><br>$location</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addNamespace" id="_addNamespace">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addNamespace">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#521-531" title="Go to source code">addNamespace</a>( <span>string <var>$namespace</var></span>, <span>string|array <var>$hints</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a new namespace to the loader.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a new namespace to the loader.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$namespace</var></dt>
+					<dd><code>string</code><br>$namespace</dd>
+					<dt><var>$hints</var></dt>
+					<dd><code>string|array</code><br>$hints</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addExtension" id="_addExtension">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addExtension">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#533-553" title="Go to source code">addExtension</a>( <span>string <var>$extension</var></span>, <span>string <var>$engine</var></span>, <span><code><a href="class-Closure.html">Closure</a></code> <var>$resolver</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Register a valid view extension and its engine.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Register a valid view extension and its engine.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$extension</var></dt>
+					<dd><code>string</code><br>$extension</dd>
+					<dt><var>$engine</var></dt>
+					<dd><code>string</code><br>$engine</dd>
+					<dt><var>$resolver</var></dt>
+					<dd><code><code><a href="class-Closure.html">Closure</a></code></code><br>$resolver</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getExtensions" id="_getExtensions">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getExtensions">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#555-563" title="Go to source code">getExtensions</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the extension to engine bindings.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the extension to engine bindings.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getEngineResolver" id="_getEngineResolver">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.View.Engines.EngineResolver.html">Illuminate\View\Engines\EngineResolver</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getEngineResolver">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#565-573" title="Go to source code">getEngineResolver</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the engine resolver instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the engine resolver instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.View.Engines.EngineResolver.html">Illuminate\View\Engines\EngineResolver</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFinder" id="_getFinder">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.View.ViewFinderInterface.html">Illuminate\View\ViewFinderInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFinder">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#575-583" title="Go to source code">getFinder</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the view finder instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the view finder instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.View.ViewFinderInterface.html">Illuminate\View\ViewFinderInterface</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getDispatcher" id="_getDispatcher">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Events.Dispatcher.html">Illuminate\Events\Dispatcher</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getDispatcher">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#585-593" title="Go to source code">getDispatcher</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the event dispatcher instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the event dispatcher instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Events.Dispatcher.html">Illuminate\Events\Dispatcher</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getContainer" id="_getContainer">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Illuminate.Container.Container.html">Illuminate\Container\Container</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getContainer">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#595-603" title="Go to source code">getContainer</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the IoC container instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the IoC container instance.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Illuminate.Container.Container.html">Illuminate\Container\Container</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setContainer" id="_setContainer">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setContainer">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#605-614" title="Go to source code">setContainer</a>( <span><code><a href="class-Illuminate.Container.Container.html">Illuminate\Container\Container</a></code> <var>$container</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the IoC container instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the IoC container instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$container</var></dt>
+					<dd><code><code><a href="class-Illuminate.Container.Container.html">Illuminate\Container\Container</a></code></code><br>$container</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getShared" id="_getShared">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getShared">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#616-624" title="Go to source code">getShared</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get all of the shared data for the environment.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get all of the shared data for the environment.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSections" id="_getSections">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSections">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#626-634" title="Go to source code">getSections</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the entire array of sections.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the entire array of sections.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getNames" id="_getNames">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getNames">#</a>
+		<code><a href="source-class-Illuminate.View.Environment.html#636-644" title="Go to source code">getNames</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get all of the registered named views in environment.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get all of the registered named views in environment.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="engines" id="$engines">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.View.Engines.EngineResolver.html">Illuminate\View\Engines\EngineResolver</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.Environment.html#11-16" title="Go to source code"><var>$engines</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$engines" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The engine implementation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The engine implementation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="finder" id="$finder">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.View.ViewFinderInterface.html">Illuminate\View\ViewFinderInterface</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.Environment.html#18-23" title="Go to source code"><var>$finder</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$finder" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The view finder implementation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The view finder implementation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="events" id="$events">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Events.Dispatcher.html">Illuminate\Events\Dispatcher</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.Environment.html#25-30" title="Go to source code"><var>$events</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$events" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The event dispatcher instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The event dispatcher instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="container" id="$container">
+		<td class="attributes"><code>
+			protected  
+			Illuminate\Container
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.Environment.html#32-37" title="Go to source code"><var>$container</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$container" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The IoC container instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The IoC container instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="shared" id="$shared">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.Environment.html#39-44" title="Go to source code"><var>$shared</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$shared" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Data that should be available to all templates.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Data that should be available to all templates.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="names" id="$names">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.Environment.html#46-51" title="Go to source code"><var>$names</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$names" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>All of the registered view names.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>All of the registered view names.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="extensions" id="$extensions">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.Environment.html#53-58" title="Go to source code"><var>$extensions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'blade.php'</span> =&gt; <span class="php-quote">'blade'</span>, <span class="php-quote">'php'</span> =&gt; <span class="php-quote">'php'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$extensions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The extension to engine bindings.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The extension to engine bindings.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="composers" id="$composers">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.Environment.html#60-65" title="Go to source code"><var>$composers</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$composers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The view composer events.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The view composer events.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sections" id="$sections">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.Environment.html#67-72" title="Go to source code"><var>$sections</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$sections" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>All of the finished, captured sections.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>All of the finished, captured sections.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sectionStack" id="$sectionStack">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.Environment.html#74-79" title="Go to source code"><var>$sectionStack</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$sectionStack" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The stack of in-progress sections.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The stack of in-progress sections.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderCount" id="$renderCount">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.View.Environment.html#81-86" title="Go to source code"><var>$renderCount</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$renderCount" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The number of active rendering operations.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The number of active rendering operations.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Illuminate\Routing\Generators\ControllerGenerator</title>
+
+	<script type="text/javascript" src="resources/combined.js"></script>
+	<script type="text/javascript" src="elementlist.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style514a.css" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index-2.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Illuminate.html">Illuminate<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Auth.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Auth.Reminders.html">Reminders</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Cache.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Config.html">Config</a>
+						</li>
+				<li><a href="namespace-Illuminate.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Container.html">Container</a>
+						</li>
+				<li><a href="namespace-Illuminate.Cookie.html">Cookie</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Capsule.html">Capsule</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Console.Migrations.html">Migrations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Eloquent.html">Eloquent<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Migrations.html">Migrations</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.html">Query<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Query.Grammars.html">Grammars</a>
+						</li>
+				<li><a href="namespace-Illuminate.Database.Query.Processors.html">Processors</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Database.Schema.html">Schema<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Database.Schema.Grammars.html">Grammars</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Illuminate.Encryption.html">Encryption</a>
+						</li>
+				<li><a href="namespace-Illuminate.Events.html">Events</a>
+						</li>
+				<li><a href="namespace-Illuminate.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Illuminate.Filesystem.html">Filesystem</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Foundation.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-Illuminate.Foundation.Testing.html">Testing</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Hashing.html">Hashing</a>
+						</li>
+				<li><a href="namespace-Illuminate.Html.html">Html</a>
+						</li>
+				<li><a href="namespace-Illuminate.Http.html">Http</a>
+						</li>
+				<li><a href="namespace-Illuminate.Log.html">Log</a>
+						</li>
+				<li><a href="namespace-Illuminate.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Illuminate.Pagination.html">Pagination</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.html">Queue<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Queue.Connectors.html">Connectors</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Queue.Jobs.html">Jobs</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Redis.html">Redis</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Routing.html">Routing<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Routing.Console.html">Console</a>
+						</li>
+				<li><a href="namespace-Illuminate.Routing.Controllers.html">Controllers</a>
+						</li>
+				<li class="active"><a href="namespace-Illuminate.Routing.Generators.html">Generators</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Session.html">Session<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Session.Console.html">Console</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Support.html">Support<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Support.Contracts.html">Contracts</a>
+						</li>
+				<li><a href="namespace-Illuminate.Support.Facades.html">Facades</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Illuminate.Validation.html">Validation</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.View.Compilers.html">Compilers</a>
+						</li>
+				<li><a href="namespace-Illuminate.View.Engines.html">Engines</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Illuminate.Workbench.html">Workbench<span></span></a>
+						<ul>
+				<li><a href="namespace-Illuminate.Workbench.Console.html">Console</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Illuminate.Routing.Generators.ControllerGenerator.html">ControllerGenerator</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index-2.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Routing.Generators.html" title="Summary of Illuminate\Routing\Generators"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class ControllerGenerator</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Routing.html">Routing</a>\<a href="namespace-Illuminate.Routing.Generators.html">Generators</a><br />
+		
+
+		<b>Located at</b> <a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#5-209" title="Go to source code">Illuminate/Routing/Generators/ControllerGenerator.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#29-38" title="Go to source code">__construct</a>( <span><code><a href="class-Illuminate.Filesystem.Filesystem.html">Illuminate\Filesystem\Filesystem</a></code> <var>$files</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new controller generator instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new controller generator instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$files</var></dt>
+					<dd><code><code><a href="class-Illuminate.Filesystem.Filesystem.html">Illuminate\Filesystem\Filesystem</a></code></code><br>$files</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="make" id="_make">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_make">#</a>
+		<code><a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#40-55" title="Go to source code">make</a>( <span>string <var>$controller</var></span>, <span>string <var>$path</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new resourceful controller file.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new resourceful controller file.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>string</code><br>$controller</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="writeFile" id="_writeFile">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_writeFile">#</a>
+		<code><a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#57-78" title="Go to source code">writeFile</a>( <span>string <var>$stub</var></span>, <span>string <var>$controller</var></span>, <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Write the completed stub to disk.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Write the completed stub to disk.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$stub</var></dt>
+					<dd><code>string</code><br>$stub</dd>
+					<dt><var>$controller</var></dt>
+					<dd><code>string</code><br>$controller</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="makeDirectory" id="_makeDirectory">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_makeDirectory">#</a>
+		<code><a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#80-95" title="Go to source code">makeDirectory</a>( <span>string <var>$controller</var></span>, <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create the directory for the controller.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create the directory for the controller.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>string</code><br>$controller</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getDirectory" id="_getDirectory">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getDirectory">#</a>
+		<code><a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#97-106" title="Go to source code">getDirectory</a>( <span>string <var>$controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the directory the controller should live in.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the directory the controller should live in.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>string</code><br>$controller</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getController" id="_getController">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getController">#</a>
+		<code><a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#108-126" title="Go to source code">getController</a>( <span>string <var>$controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the controller class stub.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the controller class stub.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>string</code><br>$controller</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replaceNamespace" id="_replaceNamespace">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replaceNamespace">#</a>
+		<code><a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#128-147" title="Go to source code">replaceNamespace</a>( <span>array <var>$segments</var></span>, <span>string <var>$stub</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace the namespace on the controller.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace the namespace on the controller.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$segments</var></dt>
+					<dd><code>array</code><br>$segments</dd>
+					<dt><var>$stub</var></dt>
+					<dd><code>string</code><br>$stub</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addMethods" id="_addMethods">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addMethods">#</a>
+		<code><a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#149-166" title="Go to source code">addMethods</a>( <span>string <var>$stub</var></span>, <span>array <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add the method stubs to the controller.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add the method stubs to the controller.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$stub</var></dt>
+					<dd><code>string</code><br>$stub</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMethodStubs" id="_getMethodStubs">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMethodStubs">#</a>
+		<code><a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#168-187" title="Go to source code">getMethodStubs</a>( <span>array <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get all of the method stubs for the given options.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get all of the method stubs for the given options.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMethods" id="_getMethods">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMethods">#</a>
+		<code><a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#189-207" title="Go to source code">getMethods</a>( <span>array <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the applicable methods based on the options.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the applicable methods based on the options.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="files" id="$files">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Illuminate.Filesystem.Filesystem.html">Illuminate\Filesystem\Filesystem</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#7-12" title="Go to source code"><var>$files</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$files" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The filesystem instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The filesystem instance.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="defaults" id="$defaults">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Routing.Generators.ControllerGenerator.html#14-27" title="Go to source code"><var>$defaults</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+	<span class="php-quote">'index'</span>,
+	<span class="php-quote">'create'</span>,
+	<span class="php-quote">'store'</span>,
+	<span class="php-quote">'show'</span>,
+	<span class="php-quote">'edit'</span>,
+	<span class="php-quote">'update'</span>,
+	<span class="php-quote">'destroy'</span>
+)</code></td>
+		<td class="description"><div>
+			<a href="#$defaults" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The default resource controller methods.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The default resource controller methods.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org/">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
