@@ -623,6 +623,77 @@
             <Action type="0" message="2302" wParam="0" lParam="0" sParam="" />
             <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
         </Macro>
+        <Macro name="&lt;link...&gt;" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&lt;" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="&gt;" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="l" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="i" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="n" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="k" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
+            <Action type="0" message="2326" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="r" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="e" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="l" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam='&quot;' />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam='&quot;' />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="s" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="t" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="y" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="l" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="e" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="s" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="h" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="e" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="e" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="t" />
+            <Action type="0" message="2306" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="h" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="r" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="e" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="f" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam='&quot;' />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam='&quot;' />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="t" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="y" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="p" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="e" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam='&quot;' />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam='&quot;' />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="t" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="e" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="x" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="t" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="/" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="c" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="s" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="s" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
+        </Macro>
     </Macros>
     <UserDefinedCommands>
         <Command name="Launch in Firefox" Ctrl="yes" Alt="yes" Shift="yes" Key="88">firefox &quot;$(FULL_CURRENT_PATH)&quot;</Command>
@@ -641,6 +712,7 @@
         <Command name="PHP Docs" Ctrl="no" Alt="no" Shift="no" Key="0">firefox &quot;http://php.net&quot;</Command>
         <Command name="MS Paint" Ctrl="no" Alt="no" Shift="no" Key="0">mspaint</Command>
         <Command name="Laravel 4 Documentation" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\Raffys_files\Laravel\laravel-4-doc-chm-master\laravel4doc.chm</Command>
+        <Command name="Laravel Eloquent" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\notepad++.exe &quot;$(NPP_DIRECTORY)\Raffys_files\Laravel\eloquent_condition_methods.txt&quot;</Command>
     </UserDefinedCommands>
     <PluginCommands />
     <ScintillaKeys />

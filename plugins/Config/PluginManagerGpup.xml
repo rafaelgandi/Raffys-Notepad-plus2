@@ -1,0 +1,8 @@
+<install>
+    <delete file="C:\xampp\Raffys-Notepad-plus2\plugins\SessionMgr.dll" />
+    <delete file="C:\xampp\Raffys-Notepad-plus2\plugins\SessionMgr.dll" isDirectory="false" />
+    <delete file="C:\xampp\Raffys-Notepad-plus2\plugins\SessionMgr.dll" />
+    <delete file="C:\xampp\Raffys-Notepad-plus2\plugins\SessionMgr.dll" isDirectory="false" />
+    <delete file="C:\xampp\Raffys-Notepad-plus2\plugins\doc\SessionMgr.css" isDirectory="false" />
+    <delete file="C:\xampp\Raffys-Notepad-plus2\plugins\doc\SessionMgr.html" isDirectory="false" />
+</install>

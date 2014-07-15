@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="2085" y="382" width="1494" height="847" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="2085" y="153" width="1494" height="847" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -90,50 +90,47 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="258" topHeight="200" bottomHeight="200">
-            <FloatingWindow cont="4" x="3577" y="686" width="3848" height="953" />
-            <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
+            <FloatingWindow cont="4" x="3582" y="692" width="3840" height="959" />
+            <FloatingWindow cont="5" x="2091" y="778" width="3541" height="953" />
+            <PluginDlg pluginName="Explorer.dll" id="0" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="4" prev="3" isVisible="no" />
+            <PluginDlg pluginName="dummy" id="0" curr="5" prev="3" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
-            <ActiveTabs cont="0" activeTab="-1" />
+            <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
-            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
-        <Find name="ods" />
-        <Find name="clone" />
-        <Find name="done" />
-        <Find name="done " />
-        <Find name="a.done " />
-        <Find name=".minor-list a.done " />
-        <Find name="minor-forms li.minor-list a.done " />
-        <Find name="#new_event_form_con ul.minor-forms li.minor-list a.done " />
-        <Find name="add_clone" />
-        <Find name="Event Staff" />
+        <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
+        <Find name="createUser" />
+        <Find name="who_has_access_list" />
+        <Find name="addUserAsFamily" />
+        <Find name="addUser" />
+        <Find name="validator" />
+        <Find name="table-data" />
+        <Find name="user-invi" />
+        <Find name="setAccountInvitationForFamily" />
+        <Find name='$(&quot;.accnt&quot;).mouseout' />
+        <Find name="$new_user" />
+        <Replace name="$invited_user" />
+        <Replace name="premade_avatar_dir" />
+        <Replace name=" =&gt;" />
         <Replace name="http://localhost/uwaclubsocieties" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\apache\conf\httpd.conf" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\NppFTP\Cache\raffy@192.168.6.5\var\www\html\eebudee\app\storage\logs\laravel.log" />
-        <File filename="C:\xampp\htdocs\eebudee\app\views\pages\redirect_js.blade.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\Raffys_files\Laravel\laravel-4-doc-chm-master\WEBSITE.txt" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\shortcuts.xml" />
-        <File filename="C:\xampp\htdocs\eebudee\app\config\database.php" />
-        <File filename="C:\xampp\htdocs\eebudee\app\config\app.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\NppFTP\Cache\raffy@192.168.6.5\var\www\html\eebudee\bootstrap\eebudee.config.php" />
-        <File filename="C:\xampp\htdocs\eebudee\app\controllers\UserController.php" />
-        <File filename="C:\xampp\htdocs\eebudee\app\config\oauth-4-laravel.php" />
-        <File filename="C:\xampp\htdocs\eebudee\app\library\Eb\OAuth.php" />
-        <File filename="C:\xampp\htdocs\eebudee\app\routes\user_login.routes.php" />
-        <File filename="C:\xampp\htdocs\eebudee\app\views\layouts\default.blade.php" />
-        <File filename="C:\xampp\htdocs\eebudee\app\routes.php" />
-        <File filename="C:\xampp\htdocs\eebudee\composer.json" />
+        <File filename="C:\xampp\htdocs\laravel\app\storage\logs\eebudee.log" />
+        <File filename="C:\xampp\htdocs\laravel\app\views\pages\home.blade.php" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\Raffys_files\Laravel\eloquent_condition_methods.txt" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\laravel\app\routes.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\laravel\app\controllers\UserController.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\laravel\app\views\pages\login\user-invitefamilymembers.blade.php" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
