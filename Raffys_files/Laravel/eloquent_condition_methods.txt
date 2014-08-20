@@ -1,6 +1,6 @@
 LARAVEL(eloquent condition methods)
 -------
-
+See: http://daylerees.com/codebright/eloquent-queries
 Find
 All
 First
@@ -24,3 +24,6 @@ Take
 Skip
 
 http://www.google.com/design/spec/style/color.html#color-ui-color-palette
+
+Possible WHERE operators:(http://www.laravel-tricks.com/tricks/possible-operators-on-eloquents-where-function)
+'=', '<', '>', '<=', '>=', '<>', '!=', 'like', 'not like', 'between', 'ilike'
