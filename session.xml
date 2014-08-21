@@ -1,33 +1,37 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="6">
-            <File firstVisibleLine="1257" xOffset="0" scrollWidth="2528" startPos="25112" endPos="25112" selMode="0" lang="MS INI file" encoding="-1" filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\mmmm.ini" backupFilePath="" originalFileLastModifTimestamp="1407807208" />
-            <File firstVisibleLine="38" xOffset="0" scrollWidth="1704" startPos="2869" endPos="2869" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Windows\System32\drivers\etc\hosts" backupFilePath="" originalFileLastModifTimestamp="1400554085" />
-            <File firstVisibleLine="77" xOffset="0" scrollWidth="1520" startPos="3660" endPos="3631" selMode="0" lang="Normal Text" encoding="-1" filename="new  3" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  3@2014-07-25_084113" originalFileLastModifTimestamp="0" />
-            <File firstVisibleLine="80" xOffset="0" scrollWidth="1216" startPos="3909" endPos="3909" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\routes\raffy_testing_routes.php" backupFilePath="" originalFileLastModifTimestamp="1408348457" />
-            <File firstVisibleLine="12" xOffset="0" scrollWidth="992" startPos="595" endPos="595" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\includes\eebudee-functions.php" backupFilePath="" originalFileLastModifTimestamp="1408433425" />
-            <File firstVisibleLine="4" xOffset="0" scrollWidth="1280" startPos="956" endPos="956" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\controllers\ImageController.php" backupFilePath="" originalFileLastModifTimestamp="1408428332" />
-            <File firstVisibleLine="21" xOffset="0" scrollWidth="1128" startPos="1295" endPos="1295" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\views\pages\login\user-myaccount.blade.php" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\user-myaccount.blade.php@2014-08-20_102402" originalFileLastModifTimestamp="1407222762" />
+        <mainView activeIndex="8">
+            <File firstVisibleLine="1369" xOffset="0" scrollWidth="2528" startPos="27539" endPos="27539" selMode="0" lang="MS INI file" encoding="-1" filename="C:\xampp\Raffys-Notepad-plus2\Raffys_files\mmmm.ini" backupFilePath="" originalFileLastModifTimestamp="1408518857" />
+            <File firstVisibleLine="31" xOffset="0" scrollWidth="1704" startPos="2782" endPos="2782" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Windows\System32\drivers\etc\hosts" backupFilePath="" originalFileLastModifTimestamp="1400554085" />
+            <File firstVisibleLine="73" xOffset="0" scrollWidth="1520" startPos="3166" endPos="3166" selMode="0" lang="Normal Text" encoding="-1" filename="new  3" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  3@2014-07-25_084113" originalFileLastModifTimestamp="0" />
+            <File firstVisibleLine="50" xOffset="0" scrollWidth="1641" startPos="1534" endPos="1534" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\routes\raffy_testing_routes.php" backupFilePath="" originalFileLastModifTimestamp="1408516951" />
+            <File firstVisibleLine="27" xOffset="0" scrollWidth="992" startPos="1456" endPos="1456" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\includes\eebudee-functions.php" backupFilePath="" originalFileLastModifTimestamp="1408433425" />
+            <File firstVisibleLine="86" xOffset="0" scrollWidth="1280" startPos="3438" endPos="3460" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\laravel\public\js\Eb\eb_notes_widget.js" backupFilePath="" originalFileLastModifTimestamp="1408604423" />
+            <File firstVisibleLine="14" xOffset="0" scrollWidth="584" startPos="1222" endPos="1222" selMode="0" lang="CSS" encoding="-1" filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\laravel\public\css\Eb\notes_widget.css" backupFilePath="" originalFileLastModifTimestamp="1408605149" />
+            <File firstVisibleLine="1460" xOffset="0" scrollWidth="928" startPos="41795" endPos="41787" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\laravel\public\js\global.js" backupFilePath="" originalFileLastModifTimestamp="1408606141">
+                <Mark line="1470" />
+            </File>
+            <File firstVisibleLine="364" xOffset="0" scrollWidth="2232" startPos="15870" endPos="15870" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\laravel\public\js\assets\widget\fridge-photos.js" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\fridge-photos.js@2014-08-21_155955" originalFileLastModifTimestamp="1408607900">
+                <Mark line="413" />
+                <Mark line="425" />
+                <Mark line="469" />
+            </File>
         </mainView>
         <subView activeIndex="6">
-            <File firstVisibleLine="127" xOffset="0" scrollWidth="1152" startPos="4497" endPos="4513" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\bootstrap\eebudee.config.php" backupFilePath="" originalFileLastModifTimestamp="1408340020" />
-            <File firstVisibleLine="36" xOffset="0" scrollWidth="1096" startPos="1536" endPos="1547" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\Eb\WidgetEvents.php" backupFilePath="" originalFileLastModifTimestamp="1408326727" />
-            <File firstVisibleLine="41" xOffset="0" scrollWidth="1112" startPos="2442" endPos="2442" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\Eb\WidgetNotes.php" backupFilePath="" originalFileLastModifTimestamp="1408326319" />
-            <File firstVisibleLine="366" xOffset="0" scrollWidth="1152" startPos="9846" endPos="9846" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\controllers\WebserviceController.php" backupFilePath="" originalFileLastModifTimestamp="1408334397">
+            <File firstVisibleLine="6" xOffset="0" scrollWidth="1096" startPos="108" endPos="120" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\Eb\WidgetEvents.php" backupFilePath="" originalFileLastModifTimestamp="1408326727" />
+            <File firstVisibleLine="50" xOffset="0" scrollWidth="1112" startPos="2098" endPos="2098" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\Eb\WidgetNotes.php" backupFilePath="" originalFileLastModifTimestamp="1408513050" />
+            <File firstVisibleLine="395" xOffset="0" scrollWidth="1152" startPos="13184" endPos="13184" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\controllers\WebserviceController.php" backupFilePath="" originalFileLastModifTimestamp="1408520887">
                 <Mark line="349" />
                 <Mark line="352" />
                 <Mark line="433" />
+                <Mark line="451" />
             </File>
-            <File firstVisibleLine="222" xOffset="0" scrollWidth="1192" startPos="8585" endPos="8585" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\Eb\UserAvatar.php" backupFilePath="" originalFileLastModifTimestamp="1408429078">
-                <Mark line="24" />
-                <Mark line="167" />
+            <File firstVisibleLine="110" xOffset="0" scrollWidth="704" startPos="3474" endPos="3474" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\controllers\WidgetPostController.php" backupFilePath="" originalFileLastModifTimestamp="1408326894" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1009" startPos="530" endPos="530" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\Eb\Mobile.php" backupFilePath="" originalFileLastModifTimestamp="1408520702" />
+            <File firstVisibleLine="148" xOffset="0" scrollWidth="1152" startPos="5280" endPos="5280" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\bootstrap\eebudee.config.php" backupFilePath="" originalFileLastModifTimestamp="1408521751" />
+            <File firstVisibleLine="398" xOffset="278" scrollWidth="2232" startPos="16534" endPos="16690" selMode="0" lang="Javascript" encoding="-1" filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\laravel\public\js\assets\widget\fridge-photos.js" backupFilePath="" originalFileLastModifTimestamp="1408606945">
+                <Mark line="420" />
             </File>
-            <File firstVisibleLine="122" xOffset="0" scrollWidth="2752" startPos="4621" endPos="4621" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\laravel\public\js\Eb\eb_events_widget.js" backupFilePath="" originalFileLastModifTimestamp="1408434411">
-                <Mark line="140" />
-            </File>
-            <File firstVisibleLine="102" xOffset="0" scrollWidth="704" startPos="3353" endPos="3353" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\controllers\WidgetPostController.php" backupFilePath="" originalFileLastModifTimestamp="1408326894" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="1080" startPos="867" endPos="867" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\routes\fridge_widget.php" backupFilePath="" originalFileLastModifTimestamp="1408412875" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="1280" startPos="59" endPos="59" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\laravel\public\js\Eb\eb_notes_widget.js" backupFilePath="" originalFileLastModifTimestamp="1408419102" />
         </subView>
     </Session>
 </NotepadPlus>
