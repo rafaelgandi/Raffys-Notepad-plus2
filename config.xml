@@ -90,16 +90,15 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="228" rightWidth="258" topHeight="200" bottomHeight="200">
-            <FloatingWindow cont="4" x="707" y="311" width="1229" height="811" />
-            <FloatingWindow cont="4" x="777" y="221" width="1299" height="721" />
-            <FloatingWindow cont="5" x="2091" y="778" width="3541" height="953" />
+            <FloatingWindow cont="4" x="1204" y="349" width="1734" height="878" />
+            <FloatingWindow cont="5" x="335" y="206" width="1560" height="723" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="4" prev="3" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="5" prev="3" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
@@ -107,21 +106,25 @@
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
             <ActiveTabs cont="4" activeTab="-1" />
+            <ActiveTabs cont="5" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
-        <Find name="Rafael" />
-        <Find name="rwerewr" />
-        <Find name="vzvzxvzcxv" />
-        <Find name="asdfadsfdasf" />
-        <Find name="Monika Lorraine Ros" />
-        <Find name="make =" />
-        <Find name="split" />
-        <Find name="_resize(" />
-        <Find name="getCoverPhoto" />
-        <Find name="$c_photo" />
+        <Find name="field cannot be empty" />
+        <Find name="registerToken" />
+        <Find name="getFridgeIdByUserId" />
+        <Find name="createPostComment" />
+        <Find name="updatePostHighFive" />
+        <Find name="push_notification(" />
+        <Find name="_uids" />
+        <Find name="s CssMin" />
+        <Find name="CssMin" />
+        <Find name="Change password" />
+        <Replace name="_device_ids" />
+        <Replace name="eb_log" />
         <Replace name="rrrrrrrrrrrrrrrrrrrrrr" />
         <Replace name="mmmmmmmmmmmmmmmmmmm" />
         <Replace name="InviteFriendsWidget" />
@@ -130,25 +133,22 @@
         <Replace name="$ifwInput" />
         <Replace name="/profile-settings" />
         <Replace name="if (trim($_username) !== eb_url_username()) {" />
-        <Replace name="if (trim($_username) !== eb_url_username())" />
-        <Replace name="eb_url_username())" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\laravel\app\views\pages\login\user-myaccount.blade.php" />
-        <File filename="C:\xampp\htdocs\laravel\public\js\Eb\eb_notes_widget.js" />
-        <File filename="C:\xampp\htdocs\laravel\app\filters.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\controllers\OAuthController.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\lib\Eb\Curl.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\lib\Eb\Searcher.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\lib\Eb\UserAvatar.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\routes\fridge_widget.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\controllers\ImageController.php" />
-        <File filename="C:\xampp\htdocs\laravel\public\js\Eb\eb_events_widget.js" />
-        <File filename="C:\xampp\htdocs\laravel\app\storage\logs\eebudee.log" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\NppFTP\Cache\raffy@192.168.6.5\var\www\html\laravel\app\storage\logs\eebudee.log" />
-        <File filename="C:\xampp\htdocs\laravel\bootstrap\eebudee.config.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\laravel\bootstrap\eebudee.config.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\NppFTP\Cache\raffy@192.168.6.5\var\www\html\laravel\app\storage\logs\laravel.log" />
+        <File filename="C:\xampp\htdocs\laravel\app\controllers\WidgetAjaxControllerAudioVideo.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\models\User.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\controllers\API2Controller.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\models\Post.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\routes\api_routes.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\lib\Eb\WidgetEvents.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\controllers\WidgetPostController.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\controllers\WebserviceController.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\lib\Eb\WidgetNotes.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\lib\includes\eebudee-functions.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\controllers\PostController.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\views\pages\login\user-profilesettings.blade.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\controllers\UserAccountController.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\models\WidgetPost.php" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
