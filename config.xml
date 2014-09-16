@@ -90,12 +90,12 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="228" rightWidth="258" topHeight="200" bottomHeight="200">
-            <FloatingWindow cont="4" x="1204" y="349" width="1734" height="878" />
+            <FloatingWindow cont="4" x="1129" y="393" width="1659" height="922" />
             <FloatingWindow cont="5" x="335" y="206" width="1560" height="723" />
-            <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
+            <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="5" prev="3" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
@@ -105,24 +105,24 @@
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
-            <ActiveTabs cont="4" activeTab="-1" />
-            <ActiveTabs cont="5" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
-        <Find name="field cannot be empty" />
-        <Find name="registerToken" />
-        <Find name="getFridgeIdByUserId" />
-        <Find name="createPostComment" />
-        <Find name="updatePostHighFive" />
-        <Find name="push_notification(" />
-        <Find name="_uids" />
-        <Find name="s CssMin" />
-        <Find name="CssMin" />
-        <Find name="Change password" />
+        <Find name="333333" />
+        <Find name="272822" />
+        <Find name="dragStopSavePos" />
+        <Find name="calendarclose" />
+        <Find name="post_photo_comment" />
+        <Find name="post_phot" />
+        <Find name="post_photo_c" />
+        <Find name="post_photo_comm" />
+        <Find name="comment" />
+        <Find name="updateWelldonePostPhoto" />
+        <Replace name="272822" />
+        <Replace name="333333" />
         <Replace name="_device_ids" />
         <Replace name="eb_log" />
         <Replace name="rrrrrrrrrrrrrrrrrrrrrr" />
@@ -131,24 +131,19 @@
         <Replace name="$ifwForm" />
         <Replace name="$ifwName" />
         <Replace name="$ifwInput" />
-        <Replace name="/profile-settings" />
-        <Replace name="if (trim($_username) !== eb_url_username()) {" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\laravel\app\controllers\WidgetAjaxControllerAudioVideo.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\models\User.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\controllers\API2Controller.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\models\Post.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\routes\api_routes.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\lib\Eb\WidgetEvents.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\controllers\WidgetPostController.php" />
+        <File filename="C:\xampp\htdocs\laravel\public\css\Eb\invite_friends_widget.css" />
+        <File filename="C:\xampp\htdocs\laravel\app\lib\Eb\Mobile.php" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\Raffys_files\RegularExpression.txt" />
+        <File filename="C:\xampp\htdocs\laravel\app\routes\fridge_widget.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\laravel\public\css\Eb\events_widget.css" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\laravel\app\views\includes\login-popups\widget-events-popup.blade.php" />
+        <File filename="C:\xampp\htdocs\laravel\bootstrap\eebudee.config.php" />
         <File filename="C:\xampp\htdocs\laravel\app\controllers\WebserviceController.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\lib\Eb\WidgetNotes.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\lib\includes\eebudee-functions.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\controllers\PostController.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\views\pages\login\user-profilesettings.blade.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\controllers\UserAccountController.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\models\WidgetPost.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\controllers\FrontendController.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\views\includes\login-popups\widget-events-popup.blade.php" />
+        <File filename="C:\xampp\htdocs\laravel\public\js\Eb\eb_notes_widget.js" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

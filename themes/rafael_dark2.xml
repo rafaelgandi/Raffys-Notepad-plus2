@@ -27,8 +27,8 @@
             <WordsStyle name="WORD" styleID="121" fgColor="C10057" bgColor="272822" fontName="Consolas" fontStyle="1" fontSize="" keywordClass="instre1" />
             <WordsStyle name="NUMBER" styleID="122" fgColor="FF0000" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="" />
             <WordsStyle name="VARIABLE" styleID="123" fgColor="FF9A35" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="124" fgColor="FFFF80" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="11" />
-            <WordsStyle name="COMMENTLINE" styleID="125" fgColor="FFFF80" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="11" />
+            <WordsStyle name="COMMENT" styleID="124" fgColor="888888" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="11" />
+            <WordsStyle name="COMMENTLINE" styleID="125" fgColor="888888" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="11" />
             <WordsStyle name="OPERATOR" styleID="127" fgColor="FFFF80" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="" />
         </LexerType>
         <!-- JAVASCRIPT -->
@@ -42,14 +42,14 @@
             <WordsStyle name="SYMBOLS" styleID="50" fgColor="FFFF80" bgColor="272822" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="STRINGEOL" styleID="51" fgColor="F7F99D" bgColor="272822" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="REGEX" styleID="52" fgColor="8000FF" bgColor="272822" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="42" fgColor="FFFF80" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="11" />
-            <WordsStyle name="COMMENTLINE" styleID="43" fgColor="FFFF80" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="11" />
-            <WordsStyle name="COMMENTDOC" styleID="44" fgColor="FFFF80" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="11" />
+            <WordsStyle name="COMMENT" styleID="42" fgColor="888888" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="11" />
+            <WordsStyle name="COMMENTLINE" styleID="43" fgColor="888888" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="11" />
+            <WordsStyle name="COMMENTDOC" styleID="44" fgColor="888888" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="11" />
         </LexerType>
         <!-- HTML -->
         <LexerType name="html" desc="HTML" ext="erb">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="D3D3D3" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="9" fgColor="FFFF80" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="11" />
+            <WordsStyle name="COMMENT" styleID="9" fgColor="888888" bgColor="272822" fontName="Consolas" fontStyle="0" fontSize="11" />
             <WordsStyle name="NUMBER" styleID="5" fgColor="FF8080" bgColor="272822" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DOUBLESTRING" styleID="6" fgColor="0080FF" bgColor="272822" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="SINGLESTRING" styleID="7" fgColor="0080FF" bgColor="272822" fontName="" fontStyle="0" fontSize="" />

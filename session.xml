@@ -4,48 +4,24 @@
             <File firstVisibleLine="1369" xOffset="0" scrollWidth="2528" startPos="27539" endPos="27539" selMode="0" lang="MS INI file" encoding="-1" filename="C:\xampp\Raffys-Notepad-plus2\Raffys_files\mmmm.ini" backupFilePath="" originalFileLastModifTimestamp="1408518857" />
             <File firstVisibleLine="31" xOffset="0" scrollWidth="1704" startPos="2782" endPos="2782" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Windows\System32\drivers\etc\hosts" backupFilePath="" originalFileLastModifTimestamp="1409653978" />
             <File firstVisibleLine="141" xOffset="0" scrollWidth="776" startPos="8666" endPos="8666" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\vendor\mailchimp\mailchimp\src\Mailchimp.php" backupFilePath="" originalFileLastModifTimestamp="1403579718" />
-            <File firstVisibleLine="82" xOffset="96" scrollWidth="1416" startPos="4172" endPos="4172" selMode="0" lang="Normal Text" encoding="-1" filename="C:\xampp\htdocs\laravel\CODING GUIDELINES.txt" backupFilePath="" originalFileLastModifTimestamp="1409899121" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\NppFTP\Cache\raffy@192.168.6.5\var\www\html\laravel\app\storage\logs\eebudee.log" backupFilePath="" originalFileLastModifTimestamp="1410332873" />
-            <File firstVisibleLine="28" xOffset="0" scrollWidth="704" startPos="1327" endPos="1327" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\controllers\PostController.php" backupFilePath="" originalFileLastModifTimestamp="1409207459">
-                <Mark line="16" />
-                <Mark line="41" />
-                <Mark line="61" />
-            </File>
-            <File firstVisibleLine="185" xOffset="0" scrollWidth="1728" startPos="6513" endPos="6513" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\models\WidgetPost.php" backupFilePath="" originalFileLastModifTimestamp="1410241986">
-                <Mark line="51" />
-                <Mark line="434" />
-                <Mark line="615" />
-            </File>
-            <File firstVisibleLine="89" xOffset="0" scrollWidth="1040" startPos="4842" endPos="4842" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\laravel\public\js\Eb\user_profile_settings.page.js" backupFilePath="" originalFileLastModifTimestamp="1410338719" />
+            <File firstVisibleLine="55" xOffset="0" scrollWidth="1416" startPos="3029" endPos="3029" selMode="0" lang="Normal Text" encoding="-1" filename="C:\xampp\htdocs\laravel\CODING GUIDELINES.txt" backupFilePath="" originalFileLastModifTimestamp="1410441160" />
+            <File firstVisibleLine="86" xOffset="0" scrollWidth="408" startPos="913" endPos="913" selMode="0" lang="Normal Text" encoding="-1" filename="new  2" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  2@2014-09-11_091315" originalFileLastModifTimestamp="0" />
+            <File firstVisibleLine="66" xOffset="0" scrollWidth="2752" startPos="2582" endPos="2582" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\laravel\public\js\Eb\eb_events_widget.js" backupFilePath="" originalFileLastModifTimestamp="1410834542" />
         </mainView>
-        <subView activeIndex="3">
-            <File firstVisibleLine="90" xOffset="0" scrollWidth="2059" startPos="3598" endPos="3598" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\routes\raffy_testing_routes.php" backupFilePath="" originalFileLastModifTimestamp="1410251871" />
-            <File firstVisibleLine="109" xOffset="0" scrollWidth="1152" startPos="3368" endPos="3368" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\bootstrap\eebudee.config.php" backupFilePath="" originalFileLastModifTimestamp="1410245772">
-                <Mark line="17" />
+        <subView activeIndex="2">
+            <File firstVisibleLine="90" xOffset="0" scrollWidth="2059" startPos="3815" endPos="3815" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\routes\raffy_testing_routes.php" backupFilePath="" originalFileLastModifTimestamp="1410251871" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1096" startPos="551" endPos="551" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\Eb\WidgetEvents.php" backupFilePath="" originalFileLastModifTimestamp="1410241620">
+                <Mark line="41" />
             </File>
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="232" startPos="25" endPos="25" selMode="0" lang="Normal Text" encoding="-1" filename="new  1" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  1@2014-09-04_094717" originalFileLastModifTimestamp="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1352" startPos="1709" endPos="1709" selMode="0" lang="XML" encoding="1252" filename="C:\xampp\Raffys-Notepad-plus2\themes\rafael_dark2.xml" backupFilePath="" originalFileLastModifTimestamp="1410836308" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="232" startPos="62" endPos="62" selMode="0" lang="Normal Text" encoding="-1" filename="new  1" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  1@2014-09-04_094717" originalFileLastModifTimestamp="0">
                 <Mark line="2" />
             </File>
-            <File firstVisibleLine="11" xOffset="0" scrollWidth="1096" startPos="400" endPos="400" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\Eb\WidgetEvents.php" backupFilePath="" originalFileLastModifTimestamp="1410241620">
-                <Mark line="41" />
-            </File>
-            <File firstVisibleLine="15" xOffset="0" scrollWidth="704" startPos="735" endPos="752" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\controllers\WidgetPostController.php" backupFilePath="" originalFileLastModifTimestamp="1408326894">
+            <File firstVisibleLine="90" xOffset="0" scrollWidth="704" startPos="3243" endPos="3243" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\controllers\WidgetPostController.php" backupFilePath="" originalFileLastModifTimestamp="1410834086">
                 <Mark line="38" />
             </File>
-            <File firstVisibleLine="18" xOffset="0" scrollWidth="1152" startPos="714" endPos="714" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\controllers\WebserviceController.php" backupFilePath="" originalFileLastModifTimestamp="1410331694">
-                <Mark line="16" />
-                <Mark line="44" />
-                <Mark line="92" />
-                <Mark line="152" />
-                <Mark line="186" />
-                <Mark line="371" />
-            </File>
-            <File firstVisibleLine="60" xOffset="0" scrollWidth="1232" startPos="2392" endPos="2392" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\Eb\Mobile.php" backupFilePath="" originalFileLastModifTimestamp="1410332772" />
-            <File firstVisibleLine="3" xOffset="0" scrollWidth="1112" startPos="1657" endPos="1735" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\Eb\WidgetNotes.php" backupFilePath="" originalFileLastModifTimestamp="1410315366" />
-            <File firstVisibleLine="66" xOffset="0" scrollWidth="1176" startPos="2099" endPos="2099" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\laravel\app\lib\includes\eebudee-functions.php" backupFilePath="" originalFileLastModifTimestamp="1410243226">
-                <Mark line="19" />
-                <Mark line="97" />
-            </File>
+            <File firstVisibleLine="86" xOffset="0" scrollWidth="1224" startPos="2314" endPos="2314" selMode="0" lang="CSS" encoding="-1" filename="C:\xampp\htdocs\laravel\public\css\Eb\events_widget.css" backupFilePath="" originalFileLastModifTimestamp="1410831786" />
+            <File firstVisibleLine="108" xOffset="0" scrollWidth="2648" startPos="1306" endPos="1306" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\laravel\public\js\Eb\Eb.js" backupFilePath="" originalFileLastModifTimestamp="1410751619" />
         </subView>
     </Session>
 </NotepadPlus>
