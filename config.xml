@@ -90,12 +90,12 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="228" rightWidth="258" topHeight="200" bottomHeight="200">
-            <FloatingWindow cont="4" x="1129" y="393" width="1659" height="922" />
+            <FloatingWindow cont="4" x="2074" y="282" width="2604" height="811" />
             <FloatingWindow cont="5" x="335" y="206" width="1560" height="723" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
-            <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
+            <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="5" prev="3" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
@@ -108,42 +108,46 @@
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
-        <Find name="333333" />
-        <Find name="272822" />
-        <Find name="dragStopSavePos" />
-        <Find name="calendarclose" />
-        <Find name="post_photo_comment" />
-        <Find name="post_phot" />
-        <Find name="post_photo_c" />
-        <Find name="post_photo_comm" />
-        <Find name="comment" />
-        <Find name="updateWelldonePostPhoto" />
+        <Find name="getLatestActiveCount" />
+        <Find name="active" />
+        <Find name="active count" />
+        <Find name="active counte" />
+        <Find name='&quot;report_type&quot;:' />
+        <Find name="filter_by(" />
+        <Find name="filter_by" />
+        <Find name="#mui_header_side_button_con button &gt; img" />
+        <Find name="makePieChartForHabit" />
+        <Find name="calculateHabitPieChartButtonPressed" />
+        <Replace name="TYPE_CLASS" />
+        <Replace name="localhost/sharkpatrol" />
+        <Replace name="http://localhost/sharkpatrol/" />
+        <Replace name="http://localhost/sharkpatrol" />
         <Replace name="272822" />
         <Replace name="333333" />
         <Replace name="_device_ids" />
         <Replace name="eb_log" />
         <Replace name="rrrrrrrrrrrrrrrrrrrrrr" />
         <Replace name="mmmmmmmmmmmmmmmmmmm" />
-        <Replace name="InviteFriendsWidget" />
-        <Replace name="$ifwForm" />
-        <Replace name="$ifwName" />
-        <Replace name="$ifwInput" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\laravel\public\css\Eb\invite_friends_widget.css" />
-        <File filename="C:\xampp\htdocs\laravel\app\lib\Eb\Mobile.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\Raffys_files\RegularExpression.txt" />
-        <File filename="C:\xampp\htdocs\laravel\app\routes\fridge_widget.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\laravel\public\css\Eb\events_widget.css" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\laravel\app\views\includes\login-popups\widget-events-popup.blade.php" />
-        <File filename="C:\xampp\htdocs\laravel\bootstrap\eebudee.config.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\controllers\WebserviceController.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\controllers\FrontendController.php" />
-        <File filename="C:\xampp\htdocs\laravel\app\views\includes\login-popups\widget-events-popup.blade.php" />
-        <File filename="C:\xampp\htdocs\laravel\public\js\Eb\eb_notes_widget.js" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\sharkpatrol\wp-content\themes\sushi\js\Sharkmap.js" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\sharkpatrol\wp-content\themes\sushi\admin\page-manage-shark-sighting.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\sharkpatrol\wp-content\themes\sushi\application\controller\sp-sighting-function.php" />
+        <File filename="C:\xampp\htdocs\Habitrac\css\Mui.css" />
+        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.Storage.js" />
+        <File filename="C:\xampp\htdocs\Habitrac\config.xml" />
+        <File filename="C:\xampp\htdocs\Habitrac\templates\menu_page.html" />
+        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.Chart.js" />
+        <File filename="C:\xampp\htdocs\sharkpatrol\wp-content\themes\sushi\js\shark_list.js" />
+        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.Startups.js" />
+        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.js" />
+        <File filename="C:\xampp\htdocs\Habitrac\js\lib\Mui.js" />
+        <File filename="C:\xampp\htdocs\Habitrac\index.html" />
+        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.Events.js" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\Ledgerist - Copy\classes.dex" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
