@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="1920" y="0" width="1680" height="998" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="2106" y="0" width="1680" height="998" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -90,14 +90,13 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="228" rightWidth="258" topHeight="200" bottomHeight="200">
-            <FloatingWindow cont="4" x="2074" y="282" width="2604" height="811" />
-            <FloatingWindow cont="5" x="335" y="206" width="1560" height="723" />
+            <FloatingWindow cont="4" x="567" y="523" width="1792" height="1040" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="4" prev="3" isVisible="no" />
-            <PluginDlg pluginName="dummy" id="0" curr="5" prev="3" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
@@ -108,19 +107,23 @@
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="144" dotMatchesNewline="no">
+        <Path name="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi" />
+        <Path name="C:\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Database" />
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
-        <Find name="getLatestActiveCount" />
-        <Find name="active" />
-        <Find name="active count" />
-        <Find name="active counte" />
-        <Find name='&quot;report_type&quot;:' />
-        <Find name="filter_by(" />
-        <Find name="filter_by" />
-        <Find name="#mui_header_side_button_con button &gt; img" />
-        <Find name="makePieChartForHabit" />
-        <Find name="calculateHabitPieChartButtonPressed" />
+        <Find name="n get_reports" />
+        <Find name="aaac_get_reports" />
+        <Find name="fetch_new_reports" />
+        <Find name="get-report" />
+        <Find name="&apos;.next" />
+        <Find name="next" />
+        <Find name="file-upload-wrapper" />
+        <Find name=".nxt" />
+        <Find name="ul.stall-forms" />
+        <Find name="stall" />
+        <Replace name="http://localhost/uwaeventscrm" />
+        <Replace name="http://localhost/econsult" />
         <Replace name="TYPE_CLASS" />
         <Replace name="localhost/sharkpatrol" />
         <Replace name="http://localhost/sharkpatrol/" />
@@ -129,25 +132,23 @@
         <Replace name="333333" />
         <Replace name="_device_ids" />
         <Replace name="eb_log" />
-        <Replace name="rrrrrrrrrrrrrrrrrrrrrr" />
-        <Replace name="mmmmmmmmmmmmmmmmmmm" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\sharkpatrol\wp-content\themes\sushi\js\Sharkmap.js" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\sharkpatrol\wp-content\themes\sushi\admin\page-manage-shark-sighting.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\sharkpatrol\wp-content\themes\sushi\application\controller\sp-sighting-function.php" />
-        <File filename="C:\xampp\htdocs\Habitrac\css\Mui.css" />
-        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.Storage.js" />
-        <File filename="C:\xampp\htdocs\Habitrac\config.xml" />
-        <File filename="C:\xampp\htdocs\Habitrac\templates\menu_page.html" />
-        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.Chart.js" />
-        <File filename="C:\xampp\htdocs\sharkpatrol\wp-content\themes\sushi\js\shark_list.js" />
-        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.Startups.js" />
-        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.js" />
-        <File filename="C:\xampp\htdocs\Habitrac\js\lib\Mui.js" />
-        <File filename="C:\xampp\htdocs\Habitrac\index.html" />
-        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.Events.js" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\Ledgerist - Copy\classes.dex" />
+        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\app\helpers\base_helper.php" />
+        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\app\controllers\page-ev-admin-userlist.ctrl.php" />
+        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\page-ev-admin-userlist.php" />
+        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\page-edit-account.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaeventscrm\wp-content\themes\sushi\page-add-stalls.php" />
+        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\app\App\NinDo.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\aaactowing\wp-content\themes\sushi\single.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\aaactowing\wp-content\themes\sushi\page-registration.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\aaactowing\wp-content\themes\sushi\classes\sushi-webservices.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\aaactowing_wp.sql" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\aaactowing\wp-content\themes\sushi\functions.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\aaactowing\wp-content\themes\sushi\js\global.js" />
+        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\app\Uwa\Clubs.php" />
+        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\app\Uwa\Base.php" />
+        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\app\controllers\page-create-account.ctrl.php" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
