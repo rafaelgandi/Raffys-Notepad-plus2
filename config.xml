@@ -90,7 +90,7 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="228" rightWidth="258" topHeight="200" bottomHeight="200">
-            <FloatingWindow cont="4" x="567" y="523" width="1792" height="1040" />
+            <FloatingWindow cont="4" x="574" y="217" width="1799" height="734" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
@@ -107,21 +107,25 @@
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="144" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="144" dotMatchesNewline="no">
         <Path name="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi" />
+        <Path name="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\application" />
         <Path name="C:\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Database" />
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
-        <Find name="n get_reports" />
-        <Find name="aaac_get_reports" />
-        <Find name="fetch_new_reports" />
-        <Find name="get-report" />
-        <Find name="&apos;.next" />
-        <Find name="next" />
-        <Find name="file-upload-wrapper" />
-        <Find name=".nxt" />
-        <Find name="ul.stall-forms" />
-        <Find name="stall" />
+        <Filter name="*.*" />
+        <Find name="username or pass" />
+        <Find name="UWA_" />
+        <Find name="base_u" />
+        <Find name="nonclub" />
+        <Find name="getSingleEventByNonClubUserId" />
+        <Find name="uwa_club_id" />
+        <Find name="is_non_club_user" />
+        <Find name="uwa_user_id_input" />
+        <Find name="getEventsByFilter" />
+        <Find name="needed" />
+        <Replace name="localhost/uwastudentguild" />
+        <Replace name="localhost/uwaeventscrm/uwastudentguild" />
         <Replace name="http://localhost/uwaeventscrm" />
         <Replace name="http://localhost/econsult" />
         <Replace name="TYPE_CLASS" />
@@ -130,25 +134,20 @@
         <Replace name="http://localhost/sharkpatrol" />
         <Replace name="272822" />
         <Replace name="333333" />
-        <Replace name="_device_ids" />
-        <Replace name="eb_log" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\app\helpers\base_helper.php" />
-        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\app\controllers\page-ev-admin-userlist.ctrl.php" />
-        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\page-ev-admin-userlist.php" />
-        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\page-edit-account.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaeventscrm\wp-content\themes\sushi\page-add-stalls.php" />
-        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\app\App\NinDo.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\aaactowing\wp-content\themes\sushi\single.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\aaactowing\wp-content\themes\sushi\page-registration.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\aaactowing\wp-content\themes\sushi\classes\sushi-webservices.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\aaactowing_wp.sql" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\aaactowing\wp-content\themes\sushi\functions.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\aaactowing\wp-content\themes\sushi\js\global.js" />
-        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\app\Uwa\Clubs.php" />
-        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\app\Uwa\Base.php" />
-        <File filename="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\app\controllers\page-create-account.ctrl.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\uwaguild.sql" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-add-pubcrawl.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-admin-userlist.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-create-account.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-edit-account.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-events-list.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-notification.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-create-account.ctrl.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-edit-account.ctrl.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-login.ctrl.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\base.ctrl.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\uwacrm.sql" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
