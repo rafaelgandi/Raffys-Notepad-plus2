@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="2106" y="0" width="1680" height="998" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="1920" y="0" width="1680" height="998" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -90,40 +90,45 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="228" rightWidth="258" topHeight="200" bottomHeight="200">
-            <FloatingWindow cont="4" x="574" y="217" width="1799" height="734" />
+            <FloatingWindow cont="4" x="2221" y="251" width="2953" height="696" />
+            <FloatingWindow cont="4" x="2457" y="457" width="3189" height="902" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44081" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
+            <PluginDlg pluginName="LocationNavigate.dll" id="4" curr="4" prev="1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
-            <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="144" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="144" dotMatchesNewline="no">
         <Path name="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi" />
         <Path name="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\application" />
         <Path name="C:\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Database" />
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
         <Filter name="*.*" />
-        <Find name="username or pass" />
-        <Find name="UWA_" />
-        <Find name="base_u" />
-        <Find name="nonclub" />
-        <Find name="getSingleEventByNonClubUserId" />
-        <Find name="uwa_club_id" />
-        <Find name="is_non_club_user" />
-        <Find name="uwa_user_id_input" />
-        <Find name="getEventsByFilter" />
-        <Find name="needed" />
+        <Find name="display" />
+        <Find name="FilesystemIterator" />
+        <Find name="isDirectory" />
+        <Find name="read" />
+        <Find name="public" />
+        <Find name="uwa_event_cover_photo" />
+        <Find name="first aid" />
+        <Find name="first auid" />
+        <Find name="cm_charter_student_name_date" />
+        <Find name="cm_mngr-2nd-trainings[]" />
+        <Replace name="protected" />
         <Replace name="localhost/uwastudentguild" />
         <Replace name="localhost/uwaeventscrm/uwastudentguild" />
         <Replace name="http://localhost/uwaeventscrm" />
@@ -133,21 +138,23 @@
         <Replace name="http://localhost/sharkpatrol/" />
         <Replace name="http://localhost/sharkpatrol" />
         <Replace name="272822" />
-        <Replace name="333333" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\uwaguild.sql" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-add-pubcrawl.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-admin-userlist.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-create-account.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-edit-account.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-events-list.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-notification.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-create-account.ctrl.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-edit-account.ctrl.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-login.ctrl.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\base.ctrl.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Desktop\uwacrm.sql" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-history-log.ctrl.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\database.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\App\Nkie12\NinDo.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\debug.logs" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\uploads\bundles\wasabif0af49404f379a800b9a3337d73236a8630e1cf09f6e86f629840e02e63955bf.js" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Files.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\site.config.php" />
+        <File filename="C:\xampp\htdocs\laravel\vendor\symfony\finder\Symfony\Component\Finder\Finder.php" />
+        <File filename="C:\xampp\htdocs\laravel\vendor\symfony\finder\Symfony\Component\Finder\README.md" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\hooks.php" />
+        <File filename="C:\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\App\Files.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwastudentguild\wp-content\themes\sushi\functions.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwastudentguild\wp-content\themes\sushi\page-home.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\header-loggedon.php" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
