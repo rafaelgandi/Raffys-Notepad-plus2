@@ -91,10 +91,9 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="228" rightWidth="258" topHeight="200" bottomHeight="200">
             <FloatingWindow cont="4" x="2221" y="251" width="2953" height="696" />
-            <FloatingWindow cont="4" x="2457" y="457" width="3189" height="902" />
+            <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44081" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="LocationNavigate.dll" id="4" curr="4" prev="1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
@@ -107,7 +106,6 @@
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
-            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
@@ -118,16 +116,17 @@
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
         <Filter name="*.*" />
+        <Find name="_GET" />
+        <Find name="registerEvent" />
+        <Find name="before-update" />
+        <Find name="after-update" />
+        <Find name="$view-&gt;" />
         <Find name="display" />
         <Find name="FilesystemIterator" />
         <Find name="isDirectory" />
         <Find name="read" />
         <Find name="public" />
-        <Find name="uwa_event_cover_photo" />
-        <Find name="first aid" />
-        <Find name="first auid" />
-        <Find name="cm_charter_student_name_date" />
-        <Find name="cm_mngr-2nd-trainings[]" />
+        <Replace name="g" />
         <Replace name="protected" />
         <Replace name="localhost/uwastudentguild" />
         <Replace name="localhost/uwaeventscrm/uwastudentguild" />
@@ -137,24 +136,23 @@
         <Replace name="localhost/sharkpatrol" />
         <Replace name="http://localhost/sharkpatrol/" />
         <Replace name="http://localhost/sharkpatrol" />
-        <Replace name="272822" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-history-log.ctrl.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\start.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Theme.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\vendors\swiftmailer\lib\classes\Swift\Transport\EsmtpTransport.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\email_templates\test.tpl.html" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\email_templates\test.tpl.html" />
+        <File filename="C:\xampp\htdocs\laravel\app\views\emails\invitations\add_more_member.blade.php" />
+        <File filename="C:\xampp\htdocs\laravel\bootstrap\eebudee.config.php" />
+        <File filename="C:\xampp\htdocs\laravel\app\config\local\mail.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\database.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\App\Nkie12\NinDo.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\debug.logs" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\uploads\bundles\wasabif0af49404f379a800b9a3337d73236a8630e1cf09f6e86f629840e02e63955bf.js" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Files.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\site.config.php" />
-        <File filename="C:\xampp\htdocs\laravel\vendor\symfony\finder\Symfony\Component\Finder\Finder.php" />
-        <File filename="C:\xampp\htdocs\laravel\vendor\symfony\finder\Symfony\Component\Finder\README.md" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\hooks.php" />
-        <File filename="C:\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\App\Files.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwastudentguild\wp-content\themes\sushi\functions.php" />
-        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwastudentguild\wp-content\themes\sushi\page-home.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\header-loggedon.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\routes\events\page_creation_routes.php" />
+        <File filename="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwastudentguild\wp-content\themes\sushi\eventscrm\page-event-forms.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-edit-account.ctrl.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-create-account.ctrl.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-admin-userlist.ctrl.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\App\Paths.php" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
