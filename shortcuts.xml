@@ -714,6 +714,8 @@
         <Command name="Laravel 4 Documentation" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\Raffys_files\Laravel\laravel-4-doc-chm-master\laravel4doc.chm</Command>
         <Command name="Laravel Eloquent" Ctrl="no" Alt="no" Shift="no" Key="0">$(NPP_DIRECTORY)\notepad++.exe &quot;$(NPP_DIRECTORY)\Raffys_files\Laravel\eloquent_condition_methods.txt&quot;</Command>
     </UserDefinedCommands>
-    <PluginCommands />
+    <PluginCommands>
+        <PluginCommand moduleName="NppTaskList.dll" internalID="0" Ctrl="yes" Alt="no" Shift="yes" Key="84" />
+    </PluginCommands>
     <ScintillaKeys />
 </NotepadPlus>
