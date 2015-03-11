@@ -89,7 +89,7 @@
         <GUIConfig name="stylerTheme" path="C:\xampp\Raffys-Notepad-plus2\themes\rafael_dark2.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
-        <GUIConfig name="DockingManager" leftWidth="242" rightWidth="82" topHeight="200" bottomHeight="200">
+        <GUIConfig name="DockingManager" leftWidth="242" rightWidth="68" topHeight="200" bottomHeight="200">
             <FloatingWindow cont="4" x="680" y="251" width="892" height="740" />
             <FloatingWindow cont="4" x="680" y="251" width="892" height="740" />
             <PluginDlg pluginName="NppTaskList.dll" id="15" curr="1" prev="4" isVisible="yes" />
@@ -119,19 +119,19 @@
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
         <Filter name="*.*" />
-        <Find name="commerce_payment_transaction_save" />
-        <Find name="process_button" />
-        <Find name="form_action_url" />
-        <Find name="_requirements" />
-        <Find name="_loadedScripts" />
-        <Find name="Describe the event and its main purpose" />
-        <Find name="/user/loggedin/redirection" />
-        <Find name="User is not logged in yet" />
-        <Find name="Requirements Subiaco Council" />
-        <Find name="Event Auditing" />
+        <Find name="getMemberInfo" />
+        <Find name="Swift" />
+        <Find name="n getClubRequest" />
+        <Find name="getClubRequest" />
+        <Find name="alterRequest" />
+        <Find name="alter_request" />
+        <Find name="request_action" />
+        <Find name="manage-club-request-form" />
+        <Find name="getClubRequests" />
+        <Find name="uwastudentguild.sushidigitaldemo.info" />
+        <Replace name="localhost/uwastudentguild" />
         <Replace name="_dependencies" />
         <Replace name="__loadedScripts" />
-        <Replace name="localhost/uwastudentguild" />
         <Replace name="_showMajorOrMinorForms" />
         <Replace name="g" />
         <Replace name="protected" />
@@ -141,20 +141,25 @@
         <Replace name="TYPE_CLASS" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\routes.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\myguild\header.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\common_files\lib\fb-sdk\facebook.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\ajax.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\routes\facebook_widget_routes.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-stalls.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\site.config.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\App\Assets.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\routes\login_redirection_routes.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\functions.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.js" />
+        <File filename="C:\xampp\htdocs\famd\Mod.mod5.js" />
+        <File filename="C:\xampp\htdocs\famd\Mod.mod2.js" />
+        <File filename="C:\xampp\htdocs\famd\Mod.mod1.js" />
+        <File filename="C:\xampp\htdocs\famd\index.html" />
+        <File filename="C:\xampp\htdocs\famd\Mod.mod4.js" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\myguild\page-myguild.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\errors.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\start.php" />
+        <File filename="C:\xampp\htdocs\famd\famd.js" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Validation.js" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\clubscrm\export-to-csv.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\email_templates\delete-event-confirmation.html" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\email_templates\approve-event-notification.html" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\classes\Form_Validator.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Mailer\Swift.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\js\global.js" />
-        <File filename="C:\xampp\htdocs\famd\s1.js" />
-        <File filename="C:\Users\rgandionco\Desktop\NAB Payment Gateway\NAB_Payment_Gateway_1-0\includes\languages\english\html_includes\define_checkout_fail.php" />
-        <File filename="C:\xampp\htdocs\famd\README.md" />
+        <File filename="C:\Users\rgandionco\Desktop\uwa.sql" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\npp_task_list.cfg" />
     </History>
     <ProjectPanels>

@@ -694,6 +694,16 @@
             <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
             <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
         </Macro>
+        <Macro name="bookmark" Ctrl="yes" Alt="no" Shift="no" Key="96">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="/" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="*" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="@" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="b" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="m" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="*" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="/" />
+        </Macro>
     </Macros>
     <UserDefinedCommands>
         <Command name="Launch in Firefox" Ctrl="yes" Alt="yes" Shift="yes" Key="88">firefox &quot;$(FULL_CURRENT_PATH)&quot;</Command>
