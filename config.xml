@@ -91,9 +91,8 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="242" rightWidth="68" topHeight="200" bottomHeight="200">
             <FloatingWindow cont="4" x="680" y="251" width="892" height="740" />
-            <FloatingWindow cont="4" x="680" y="251" width="892" height="740" />
-            <PluginDlg pluginName="NppTaskList.dll" id="15" curr="1" prev="4" isVisible="yes" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="NppTaskList.dll" id="15" curr="1" prev="4" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="LocationNavigate.dll" id="4" curr="4" prev="1" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
@@ -105,10 +104,9 @@
             <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
-            <ActiveTabs cont="1" activeTab="0" />
+            <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
-            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
@@ -141,26 +139,15 @@
         <Replace name="TYPE_CLASS" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\functions.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.js" />
-        <File filename="C:\xampp\htdocs\famd\Mod.mod5.js" />
-        <File filename="C:\xampp\htdocs\famd\Mod.mod2.js" />
-        <File filename="C:\xampp\htdocs\famd\Mod.mod1.js" />
-        <File filename="C:\xampp\htdocs\famd\index.html" />
-        <File filename="C:\xampp\htdocs\famd\Mod.mod4.js" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\myguild\page-myguild.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\errors.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\clubscrm\club-requests-latest.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\clubscrm\exporter.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\site.config.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\classes\CS_CRM_Class.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\start.php" />
-        <File filename="C:\xampp\htdocs\famd\famd.js" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Validation.js" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\clubscrm\export-to-csv.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\email_templates\delete-event-confirmation.html" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\email_templates\approve-event-notification.html" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\classes\Form_Validator.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Mailer\Swift.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events.php" />
-        <File filename="C:\Users\rgandionco\Desktop\uwa.sql" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\npp_task_list.cfg" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\hooks.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\ajax.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\routes\base_routes.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\browser.php" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
