@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-kr"?>
 <NotepadPlus>
-<!--  <localization work version=6.5.3~6.6.1 name="도움돌" mail= "domddol@gmail.com"/> <localization work version=1 and 6.1.5 nick= "taggon" name= "Taegon Kim" mail= "gonom9@gmail.com" /> <localization work version=2 nick= "" name= "JiHui Choi" mail= "jihui.choi@gmail.com" /> <localization work version=5.4R2 nick= "DreamFactory7" name= "JongPil Kim" mail= "kmshts@naver.com" /> <localization work version=4 nick= "Sapziller" name= "Byungjo Yoon" mail= "yunbj@naver.com" /> <localization work version=5.8 nick= "DreamFactory7" name= "JongPil Kim" mail= "kmshts@naver.com" /> <localization work version=5.9 nick= "Syonsi" name= "Kim JunHo" mail= "syonsi@live.com" /> <localization work version=5.92 nick= "Global DOL+I" name= "Lee Junho" mail= "riifjv@live.com" /> --> 
-<Native-Langue name="한국어" filename="korean.xml" version="6.6.1">
+<!--  <localization work version=6.5.3~6.6.9 name="도움돌" mail= "domddol@gmail.com"/> <localization work version=1 and 6.1.5 nick= "taggon" name= "Taegon Kim" mail= "gonom9@gmail.com" /> <localization work version=2 nick= "" name= "JiHui Choi" mail= "jihui.choi@gmail.com" /> <localization work version=5.4R2 nick= "DreamFactory7" name= "JongPil Kim" mail= "kmshts@naver.com" /> <localization work version=4 nick= "Sapziller" name= "Byungjo Yoon" mail= "yunbj@naver.com" /> <localization work version=5.8 nick= "DreamFactory7" name= "JongPil Kim" mail= "kmshts@naver.com" /> <localization work version=5.9 nick= "Syonsi" name= "Kim JunHo" mail= "syonsi@live.com" /> <localization work version=5.92 nick= "Global DOL+I" name= "Lee Junho" mail= "riifjv@live.com" /> --> 
+<Native-Langue name="한국어" filename="korean.xml" version="6.6.9">
 <Menu>
 <Main>
 <!--  Main Menu Entries --> 
@@ -101,8 +101,8 @@
   <Item id="42013" name="줄 합치기" /> 
   <Item id="42014" name="현재 줄 위로 이동" /> 
   <Item id="42015" name="현재 줄 아래로 이동" /> 
-  <Item id="42016" name="대문자로 변환(&amp;U)" /> 
-  <Item id="42017" name="소문자로 변환(&amp;L)" /> 
+  <Item id="42016" name="대문자로 변환" />
+  <Item id="42017" name="소문자로 변환" />
   <Item id="42018" name="기록 시작(&amp;S)" /> 
   <Item id="42019" name="기록 중지(&amp;S)" /> 
   <Item id="42021" name="실행(&amp;P)" /> 
@@ -236,14 +236,14 @@
   <Item id="45003" name="MAC 형식으로 변환" /> 
   <Item id="45004" name="ANSI로 표시" /> 
   <Item id="45005" name="UTF-8로 표시" /> 
-  <Item id="45006" name="UTF-16 빅 엔디언으로 표시" /> 
-  <Item id="45007" name="UTF-16 리틀 엔디언으로 표시" /> 
+  <Item id="45006" name="UCS-2 빅 엔디언으로 표시" /> 
+  <Item id="45007" name="UCS-2 리틀 엔디언으로 표시" /> 
   <Item id="45008" name="UTF-8 (BOM 없음)로 표시" /> 
   <Item id="45009" name="ANSI 로 변환" /> 
   <Item id="45010" name="UTF-8 (BOM 없음)로 변환" /> 
   <Item id="45011" name="UTF-8로 변환" /> 
-  <Item id="45012" name="UTF-16 빅 엔디언으로 변환" /> 
-  <Item id="45013" name="UTF-16 리틀 엔디언으로 변환" /> 
+  <Item id="45012" name="UCS-2 빅 엔디언으로 변환" /> 
+  <Item id="45013" name="UCS-2 리틀 엔디언으로 변환" /> 
   <Item id="10001" name="분할 창으로 이동" /> 
   <Item id="10002" name="분할 창으로 복제" /> 
   <Item id="10003" name="새 창으로 이동(창 이동)" /> 
@@ -251,7 +251,8 @@
   <Item id="46001" name="스타일 설정..." /> 
   <Item id="46150" name="언어 정의..." /> 
   <Item id="46080" name="사용자 정의" /> 
-  <Item id="47000" name="Notepad++ 정보" /> 
+  <Item id="47000" name="Notepad++ 정보" />
+  <Item id="47010" name="명령줄 옵션..."/>
   <Item id="47001" name="Notepad++ 홈페이지" /> 
   <Item id="47002" name="Notepad++ 프로젝트 페이지" /> 
   <Item id="47003" name="온라인 설명서" /> 
@@ -357,11 +358,11 @@
   <Item id="1903" name="실행할 프로그램" /> 
   <Item id="1" name="실행" /> 
   <Item id="2" name="취소" /> 
-  <Item id="1904" name="저장..." /> 
+  <Item id="1904" name="저장" /> 
   </Run>
 <StyleConfig title="스타일 설정">
   <Item id="2" name="취소" /> 
-  <Item id="2301" name="저장하고 닫기" /> 
+  <Item id="2301" name="저장 후 닫기" /> 
   <Item id="2303" name="투명도" /> 
   <Item id="2306" name="테마 선택: " /> 
 <SubDialog>
@@ -392,15 +393,15 @@
 <UserDefine title="사용자 지정 프로그래밍 언어">
   <Item id="20001" name="고정" /> 
   <Item id="20002" name="이름 변경" /> 
-  <Item id="20003" name="새로 만들기..." /> 
+  <Item id="20003" name="새로 만들기" /> 
   <Item id="20004" name="삭제" /> 
   <Item id="20005" name="새로 저장..." /> 
   <Item id="20007" name="사용자 언어: " /> 
   <Item id="20009" name="확장자:" /> 
   <Item id="20012" name="대/소문자 무시" /> 
   <Item id="20011" name="투명도" /> 
-  <Item id="20015" name="가져오기..." /> 
-  <Item id="20016" name="내보내기..." /> 
+  <Item id="20015" name="가져오기" /> 
+  <Item id="20016" name="내보내기" /> 
 <StylerDialog title="스타일 옵션">
   <Item id="25030" name="글꼴 옵션:" /> 
   <Item id="25006" name="글자색" /> 
@@ -577,11 +578,12 @@
   <Item id="6118" name="숨기기" /> 
   <Item id="6119" name="여러 줄로 표시" /> 
   <Item id="6120" name="수직 배열" /> 
-  <Item id="6121" name="메뉴 표시줄" /> 
-  <Item id="6122" name="숨기기 (Alt 또는 F10키로 전환)" /> 
+  <Item id="6121" name="메뉴 표시 줄" /> 
+  <Item id="6122" name="메뉴 숨기기 (Alt 또는 F10키로 전환)" /> 
   <Item id="6123" name="표시 언어" /> 
   <Item id="6125" name="문서 목록 패널" /> 
   <Item id="6126" name="표시" /> 
+  <Item id="6127" name="확장 열 숨기기"/>
   </Global>
 <Scintillas title="편집">
   <Item id="6216" name="커서 설정" /> 
@@ -603,7 +605,7 @@
   <Item id="6230" name="들여쓰기" /> 
   <Item id="6206" name="줄 번호 표시" /> 
   <Item id="6207" name="책갈피 표시" /> 
-  <Item id="6208" name="열표식 보이기" /> 
+  <Item id="6208" name="열표식 표시" /> 
   <Item id="6209" name="열의 수: " /> 
   <Item id="6234" name="고급 스크롤 기능 해제 (터치패드 문제일 때)" /> 
   <Item id="6211" name="열표식 설정" /> 
@@ -621,8 +623,8 @@
   <Item id="6406" name="ANSI" /> 
   <Item id="6407" name="UTF-8 (BOM 없음)" /> 
   <Item id="6408" name="UTF-8" /> 
-  <Item id="6409" name="UTF-16 빅 엔디언" /> 
-  <Item id="6410" name="UTF-16 리틀 엔디언" /> 
+  <Item id="6409" name="UCS-2 빅 엔디언" /> 
+  <Item id="6410" name="UCS-2 리틀 엔디언" /> 
   <Item id="6411" name="프로그래밍 언어:" /> 
   <Item id="6419" name="새 문서" /> 
   <Item id="6420" name="모든 ANSI 파일에 적용" /> 
@@ -688,6 +690,11 @@
   <Item id="6427" name="최대 길이:" /> 
   </RecentFilesHistory>
 <Backup title="백업">
+  <Item id="6817" name="세션 스냅샷 및 정기적 백업"/>
+  <Item id="6818" name="세션 스냅샷 및 정기적 백업 사용"/>
+  <Item id="6819" name="백업 주기: "/>
+  <Item id="6821" name="초"/>
+  <Item id="6822" name="백업 위치: "/>
   <Item id="6309" name="종료시 현재 세션 기억" /> 
   <Item id="6801" name="백업" /> 
   <Item id="6315" name="안함" /> 
@@ -717,16 +724,24 @@
 <MultiInstance title="다중 인스턴스">
   <Item id="6151" name="다중 인스턴스 설정" /> 
   <Item id="6152" name="Notepad++의 새 인스턴스에서 세션 열기" /> 
-  <Item id="6153" name="항상 다중 인스턴스 모드에서" /> 
+  <Item id="6153" name="항상 다중 인스턴스 모드" /> 
   <Item id="6154" name="기본값 (모노 인스턴스)" /> 
-  <Item id="6155" name="# 설정을 변경하려면 Notepad++를 다시 시작해야 합니다." /> 
+  <Item id="6155" name=" # 설정을 변경하려면 Notepad++를 다시 시작해야 합니다." /> 
   </MultiInstance>
 <Delimiter title="구분 기호">
   <Item id="6251" name="구분 기호 선택 설정 (Ctrl + 마우스 더블 클릭)" /> 
   <Item id="6252" name="열기" /> 
   <Item id="6255" name="닫기" /> 
-  <Item id="6256" name="여러 줄에 허용" /> 
+  <Item id="6256" name="여러 줄 허용" /> 
   </Delimiter>
+<Cloud title="클라우드">
+   <Item id="6262" name="클라우드 설정"/>
+   <Item id="6263" name="클라우드 없음"/>
+   <Item id="6264" name="Dropbox"/>
+   <Item id="6265" name="OneDrive"/>
+   <Item id="6266" name="Google Drive"/>
+   <!--Item id="6261" name="Notepad++를 다시 시작하여 설정을 적용합니다."/-->
+   </Cloud>
 <MISC title="기타">
   <Item id="6307" name="사용" /> 
   <Item id="6308" name="시스템 트레이로 최소화" /> 
@@ -748,6 +763,7 @@
   <Item id="6332" name="대/소문자 구분하여 강조" /> 
   <Item id="6333" name="스마트 강조" /> 
   <Item id="6334" name="문자 인코딩 자동 검색" /> 
+  <Item id="6335" name="SQL에서 백슬래쉬를 이스케이프 문자로 취급"/>
   <Item id="6114" name="사용" /> 
   <Item id="6115" name="자동 들여쓰기" /> 
   <Item id="6117" name="가장 최근 사용한 문서로 이동" /> 
@@ -784,18 +800,18 @@
   </ColumnEditor>
   </Dialog>
 <MessageBox>
-  <ContextMenuXmlEditWarning title="컨텍스트 메뉴 편집" message="contextMenu.xml 파일을 수정하면 Noetpad++의 팝업 컨텍스트 메뉴를 바꿀 수 있습니다.\r변경 사항을 적용하려면 Notepad++을 다시 시작해야 합니다." /> 
-  <NppHelpAbsentWarning title="파일이 없습니다" message="\r파일이 없습니다. Notepad++ 사이트에서 다운로드 받으세요." /> 
-  <SaveCurrentModifWarning title="변경사항 저장" message="현재 변경된 사항을 저장해야 합니다.\r모든 수정사항을 되돌릴 수 없습니다.\r\r계속하시겠습니까?" /> 
-  <LoseUndoAbilityWarning title="복원 불가 경고" message="현재 변경된 사항을 저장해야 합니다.\r모든 수정사항을 되돌릴 수 없습니다.\r\r계속하시겠습니까?" /> 
-  <CannotMoveDoc title="새로운 Notepad++ 인스턴스로 이동" message="문서가 수정되었습니다. 저장 후 다시 시도해주세요." /> 
+  <ContextMenuXmlEditWarning title="컨텍스트 메뉴 편집" message="contextMenu.xml 파일을 수정하면 Noetpad++의 팝업 컨텍스트 메뉴를 바꿀 수 있습니다.  변경사항을 적용하려면 Notepad++을 다시 시작해야 합니다." /> 
+  <NppHelpAbsentWarning title="파일이 없습니다!" message="파일 없음! - Notepad++ 사이트에서 다운로드 받으시기 바랍니다." /> 
+  <SaveCurrentModifWarning title="변경사항 저장" message="현재 변경된 사항을 저장해야 합니다. 저장된 모든 변경사항은 되돌릴 수 없습니다.  그래도 계속 하시겠습니까?" /> 
+  <LoseUndoAbilityWarning title="복원 불가!" message="현재 변경된 사항을 저장해야 합니다. 저장된 모든 변경사항은 되돌릴 수 없습니다.  그래도 계속 하시겠습니까?" /> 
+  <CannotMoveDoc title="새로운 Notepad++ 인스턴스로 이동" message="문서가 수정되었습니다. 저장 후 다시 시도해 주십시오." /> 
   <DocReloadWarning title="다시 불러오기" message="변경 사항을 무시하고 현재 파일을 다시 불러오시겠습니까?" /> 
-  <FileLockedWarning title="저장 실패" message="파일이 다른 프로그램에서 열려있는지 확인하세요." /> 
-  <FileAlreadyOpenedInNpp title="" message="이미 Notepad++에서 열어 놓은 파일입니다." /> 
+  <FileLockedWarning title="저장 실패" message="다른 프로그램에서 파일을 사용하는지 확인하십시오." /> 
+  <FileAlreadyOpenedInNpp title="" message="이미 Notepad++에 열려 있는 파일입니다." /> 
   <DeleteFileFailed title="파일 삭제" message="파일을 삭제하지 못했습니다" /> 
 <!--  $INT_REPLACE$ is a place holder, don't translate it 
   --> 
-  <NbFileToOpenImportantWarning title="열려는 파일이 너무 많습니다" message="$INT_REPLACE$개 파일을 열려고 합니다.\r이 파일을 모두 다 여시겠습니까?" /> 
+  <NbFileToOpenImportantWarning title="열려는 파일이 너무 많습니다" message="$INT_REPLACE$개 파일을 열려고 합니다. 이 파일을 모두 다 여시겠습니까?" /> 
   </MessageBox>
 <ClipboardHistory>
   <PanelTitle name="클립보드 사용 기록" /> 

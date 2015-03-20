@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <Native-Langue name="Français" filename="french.xml" version="6.5.4">
+    <Native-Langue name="Français" filename="french.xml" version="6.7.5">
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
@@ -163,8 +163,6 @@
                     <Item id="43013" name="Rechercher dans les sous-dossiers"/>
                     <Item id="43014" name="Recherche volatile suivante"/>
                     <Item id="43015" name="Recherche volatile précédente"/>
-                    <Item id="43016" name="Marquer toutes les occurrences"/>
-                    <Item id="43017" name="Démarquer toutes les occurrences"/>
                     <Item id="43018" name="Couper les lignes marquées"/>
                     <Item id="43019" name="Copier les lignes marquées"/>
                     <Item id="43020" name="Coller pour remplacer les lignes marquées"/>
@@ -203,7 +201,6 @@
                     <Item id="43053" name="Sélectionner tout entre les 2 accolades"/>
                     <Item id="44009" name="Post-it"/>
                     <Item id="44010" name="Replier tous les blocs"/>
-                    <Item id="44011" name="Panneau de langage défini par l'utilisateur..."/>
                     <Item id="44019" name="Afficher tous les caractères"/>
                     <Item id="44020" name="Afficher le guide d'indentation"/>
                     <Item id="44022" name="Retour automatique à la ligne"/>
@@ -222,7 +219,6 @@
                     <Item id="44036" name="Défilement horizontal synchrone"/>
                     <Item id="44041" name="Afficher les marques de coupures de ligne"/>
                     <Item id="44042" name="Cacher les lignes"/>
-                    <Item id="44049" name="Résumé..."/>
                     <Item id="44072" name="Basculer à l'autre vue"/>
                     <Item id="44081" name="Panneau de Projet #1"/>
                     <Item id="44082" name="Panneau de Projet #2"/>
@@ -276,6 +272,7 @@
                     <Item id="47006" name="Mettre à jour Notepad++"/>
                     <Item id="47008" name="Aide"/>
                     <Item id="47009" name="Paramétrer le Proxy d'Updater..."/>
+					<Item id="47010" name="Arguments de la Ligne de Commande..."/>
                     <Item id="48005" name="Importer un complément..."/>
                     <Item id="48006" name="Importer un thème..."/>
                     <Item id="48009" name="Raccourcis clavier..."/>
@@ -331,11 +328,9 @@
                 <Item id="1614" name="Compter"/>
                 <Item id="1615" name="Rechercher tout"/>
                 <Item id="1616" name="Marquer les lignes"/>
-                <Item id="1617" name="Colorer les mots trouvés"/>
                 <Item id="1618" name="Purger à chaque fois"/>
                 <Item id="1620" name="Recherche :"/>
                 <Item id="1621" name="Direction"/>
-                <Item id="1623" name="Transparence"/>
                 <Item id="1624" name="Mode de recherche"/>
                 <Item id="1625" name="Mode normal"/>
                 <Item id="1626" name="Mode étendu (\n, \r, \t, \0, \x...)"/>
@@ -343,7 +338,6 @@
                 <Item id="1633" name="Purger"/>
                 <Item id="1635" name="Remplacer dans tous les documents ouverts"/>
                 <Item id="1636" name="Rechercher dans tous les documents ouverts"/>
-                <Item id="1637" name="Rechercher dans..."/>
                 <Item id="1641" name="Rechercher dans le document actuel"/>
                 <Item id="1654" name="Filtres :"/>
                 <Item id="1655" name="Dossier :"/>
@@ -359,7 +353,7 @@
                 <Item id="2" name="Annuler"/>
             </Find>
             
-      <FindCharsInRange title="Rechercher des caractères dans une plage">
+            <FindCharsInRange title="Rechercher des caractères dans une plage">
                 <Item id="2" name="Fermer"/>
                 <Item id="2901" name="Caractères Non-ASCII (128-255)"/>
                 <Item id="2902" name="Caractères ASCII (0 - 127)"/>
@@ -450,7 +444,7 @@
             <Item id="21424" name="Ouvrant :"/>
             <Item id="21425" name="Milieu :"/>
             <Item id="21426" name="Fermant :"/>
-            <Item id="21127" name="Style"/>
+            <Item id="21427" name="Style"/>
         </Folder>
         <StylerDialog title="Styler">
             <Item id="25001" name="Gras"/>
@@ -520,12 +514,9 @@
             <Item id="23323" name="Ouvrant :"/>
             <Item id="23324" name="Caractère de continuation"/>
             <Item id="23325" name="Fermant :"/>
-            <Item id="23301" name="Commentaire sur une ligne"/>
             <Item id="23124" name="Style"/>
             <Item id="23122" name="Ouvrant :"/>
             <Item id="23123" name="Fermant :"/>
-            <Item id="23101" name="Commentaire sur plusieurs lignes"/>
-            <Item id="23201" name="Nombre"/>
             <Item id="23220" name="Style"/>
             <Item id="23230" name="Préfixe 1 :"/>
             <Item id="23232" name="Préfixe 2 :"/>
@@ -538,13 +529,8 @@
             <Item id="23245" name="Point"/>
             <Item id="23246" name="Virgule"/>
             <Item id="23247" name="Les 2"/>
-            
             <Item id="23301" name="Commentaire sur une ligne"/>
             <Item id="23101" name="Commentaire sur plusieurs lignes"/>
-            <Item id="23113" name="Commentaire ouvrant :"/>
-            <Item id="23115" name="Commentaire fermant :"/>
-            <Item id="23116" name="Traiter comme un symbole"/>
-            <Item id="23117" name="Traiter comme des symboles"/>
             <Item id="23201" name="Nombre"/>
         </Comment>
         <Operator title="Opérateurs &amp;&amp; Délimiteurs">
@@ -613,11 +599,11 @@
                     <Item id="6118" name="Cacher"/>
                     <Item id="6119" name="Multiligne"/>
                     <Item id="6120" name="Verticale"/>
-                    <Item id="6121" name="Barre de menu"/>
                     <Item id="6122" name="Cachée (Alt ou F10 pour afficher)"/>
                     <Item id="6123" name="Langue"/>
                     <Item id="6125" name="Commutateur de documents"/>
                     <Item id="6126" name="Montrer"/>
+                    <Item id="6127" name="Désactiver la colonne d'extension"/>
                 </Global>
                 <Scintillas title="Zones d'édition">
                     <Item id="6201" name="Contrôle de repli de bloc"/>
@@ -638,8 +624,8 @@
                     <Item id="6216" name="Curseur"/>
                     <Item id="6217" name="Largeur :"/>
                     <Item id="6219" name="Clignotement :"/>
-                    <Item id="6221" name="R"/><!-- Rapide -->
-                    <Item id="6222" name="L"/><!-- Lent -->
+                    <Item id="6221" name="Vif"/><!-- Rapide -->
+                    <Item id="6222" name="Zen"/><!-- Lent -->
                     <Item id="6224" name="Multiédition"/>
                     <Item id="6225" name="Activer (Ctrl+Clic/sélection)"/>
                     <Item id="6226" name="Aucun"/>
@@ -650,9 +636,6 @@
                     <Item id="6231" name="Largeur de la bordure"/>
                 </Scintillas>
                 <NewDoc title="Nouveau document">
-                    <Item id="6304" name="Historique des fichiers récents"/>
-                    <Item id="6305" name="Ne pas vérifier au moment du lancement"/>
-                    <Item id="6306" name="Nombre maximum d'entrées:"/>
                     <Item id="6401" name="Format des sauts de ligne"/>
                     <Item id="6402" name="Windows"/>
                     <Item id="6403" name="Unix"/>
@@ -683,13 +666,12 @@
                     <Item id="6506" name="Langages cachés"/>
                     <Item id="6507" name="Compacter le menu Langage"/>
                     <Item id="6508" name="Menu Langage"/>
-                    <Item id="6510" name="Valeur par défaut"/>
                 </LangMenu>
                 <TabSettings title="Tabulations">
                     <Item id="6301" name="Tabulations"/>
-                    <Item id="6301" name="Tabulations"/>
                     <Item id="6302" name="Insérer des espaces"/>
                     <Item id="6303" name="Taille : "/>
+                    <Item id="6510" name="Valeur par défaut"/>
                 </TabSettings>
                 <Print title="Impression">
                     <Item id="6601" name="Imprimer les numéros de lignes"/>
@@ -733,6 +715,11 @@
                 </RecentFilesHistory>
                 
                 <Backup title="Sauvegarde">
+					<Item id="6817" name="Instantané de la session et sauvegarde periodique"/>
+					<Item id="6818" name="Activer instantané de la session et sauvegarde periodique"/>
+					<Item id="6819" name="Sauvegarder toutes les"/>
+					<Item id="6821" name="secondes"/>
+					<Item id="6822" name="dans le dossier"/>
 					<Item id="6309" name="Mémoriser la session actuelle"/>
                     <Item id="6315" name="Aucune"/>
                     <Item id="6316" name="Simple"/>
@@ -774,6 +761,16 @@
                     <Item id="6255" name="Fin"/>
                     <Item id="6256" name="Sur plusieurs lignes"/>
                 </Delimiter>
+				
+				<Cloud title="Cloud">
+                    <Item id="6262" name="Sauvegarder les paramètres dans le cloud"/>
+                    <Item id="6263" name="Local"/>
+                    <Item id="6264" name="Dropbox"/>
+                    <Item id="6265" name="OneDrive"/>
+                    <Item id="6266" name="Google Drive"/>
+                    <!--Item id="6261" name="Please restart Notepad++ to take effect."/-->
+                </Cloud>
+				
                 <MISC title="Divers">
                     <Item id="6114" name="Activer"/>
                     <Item id="6115" name="Indentation automatique"/>
@@ -782,10 +779,6 @@
                     <Item id="6308" name="Réduire dans la barre de notifications"/>
                     <Item id="6312" name="Autodétection de l’état des fichiers"/>
                     <Item id="6313" name="Mise à jour sans alerte"/>
-                    <Item id="6314" name="Backup"/>
-                    <Item id="6315" name="Non"/>
-                    <Item id="6316" name="Simple"/>
-                    <Item id="6317" name="Verbose"/>
                     <Item id="6318" name="Paramétrage de lien cliquable"/>
                     <Item id="6319" name="Activer"/>
                     <Item id="6320" name="Ne pas souligner"/>
@@ -802,6 +795,7 @@
                     <Item id="6332" name="Case sensible"/>
                     <Item id="6333" name="Sélectionner et montrer tout"/>
 					<Item id="6334" name="Détecter l'encodage automatiquement"/>
+					<Item id="6335" name="Backslash : caractère d'échappement pour SQL"/>
                 </MISC>
             </Preference>
             <MultiMacro title="Exécuter une macro en boucle">
@@ -852,7 +846,7 @@
             <SaveCurrentModifWarning title="Sauvegarder la modification en cours" message="Vous devez enregistrer la modification en cours. Toutes les modifications enregistrées ne peuvent pas être annulées. Continuer?"/>
         </MessageBox>
 		<ClipboardHistory>
-			<PanelTitle name="Panneau historique du presse-papiers"/>
+			<PanelTitle name="Historique du presse-papiers"/>
         </ClipboardHistory>
         <DocSwitcher>
 			<PanelTitle name="Commutateur de documents"/>

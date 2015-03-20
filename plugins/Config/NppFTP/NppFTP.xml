@@ -1,21 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <NppFTP defaultCache="%CONFIGDIR%\Cache\%USERNAME%@%HOSTNAME%" outputShown="0" windowRatio="0.5" clearCache="0" clearCachePermanent="0">
-    <Profiles>
-        <Profile name="Eebudee Demo" hostname="192.168.6.5" port="22" username="raffy" password="1BDA3673FE3A7E8E" askPassword="0" timeout="30" securityMode="3" transferMode="0" connectionMode="0" dataPortMin="10000" dataPortMax="32000" listParams="" initialDir="/var/www/html/eebudee" keyFile="" passphrase="" useAgent="0" acceptedMethods="1">
-            <Cache />
-            <FileTypes asciiTypes="" binaryTypes="" />
-        </Profile>
-        <Profile name="Laravel demo" hostname="192.168.6.5" port="22" username="raffy" password="1BDA3673FE387E8C" askPassword="0" timeout="30" securityMode="3" transferMode="0" connectionMode="0" dataPortMin="10000" dataPortMax="32000" listParams="" initialDir="/var/www/html/" keyFile="" passphrase="" useAgent="0" acceptedMethods="1">
-            <Cache />
-            <FileTypes asciiTypes="" binaryTypes="" />
-        </Profile>
-        <Profile name="Live sites" hostname="119.81.1.43" port="22" username="root" password="1AEF3176CF3A22DE9895D158750A098D" askPassword="0" timeout="10" securityMode="3" transferMode="0" connectionMode="0" dataPortMin="10000" dataPortMax="32000" listParams="" initialDir="/var/www" keyFile="" passphrase="" useAgent="0" acceptedMethods="1">
-            <Cache />
-            <FileTypes asciiTypes="" binaryTypes="" />
-        </Profile>
-        <Profile name="UWA LDAP" hostname="130.95.100.14" port="22" username="sushidev" password="11EF315EED3A748EB1" askPassword="0" timeout="30" securityMode="3" transferMode="0" connectionMode="0" dataPortMin="10000" dataPortMax="32000" listParams="" initialDir="" keyFile="" passphrase="" useAgent="0" acceptedMethods="1">
-            <Cache />
-            <FileTypes asciiTypes="" binaryTypes="" />
-        </Profile>
-    </Profiles>
+    <Profiles />
 </NppFTP>

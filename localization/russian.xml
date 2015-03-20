@@ -17,7 +17,6 @@
                     <Item idName="Plugins" name="П&amp;лагины"/>
                     <Item idName="Window"  name="Ок&amp;на"/>
                 </Entries>
-
                 <!-- Sub Menu Entries -->
                 <SubEntries>
                     <Item subMenuId="file-openFolder" name="Открыть папку документа"/>
@@ -198,6 +197,7 @@
                     <Item id="43051" name="Удалить все строки Без Закладки"/>
                     <Item id="43052" name="Найти символы в диапазоне..."/>
 					<Item id="43053" name="Выделить всё между Парных Скобок"/>
+					<Item id="43054" name="Пометки..."/>
                     <Item id="44009" name="Только текст (во всё окно)"/>
                     <Item id="44010" name="Свернуть все блоки"/>
                     <Item id="44012" name="Спрятать Нумерацию Строк"/>
@@ -329,7 +329,7 @@
                 <Item id="1612" name="Вверх"/>
                 <Item id="1613" name="Вниз"/>
                 <Item id="1614" name="По&amp;дсчитать"/>
-                <Item id="1615" name="Найти все"/>
+                <Item id="1615" name="Пометить все"/>
                 <Item id="1616" name="Помечать Закладкой"/>
                 <Item id="1617" name="Помечать найденное"/>
                 <Item id="1618" name="Убирать предыдущие пометки"/>
@@ -339,7 +339,7 @@
                 <Item id="1625" name="Обычный"/>
                 <Item id="1626" name="Рас&amp;ширенный (\n, \r, \t, \0, \x...)"/>
                 <Item id="1632" name="В выделенном"/>
-                <Item id="1633" name="Убрать все"/>
+                <Item id="1633" name="Убрать все Пометки"/>
                 <Item id="1635" name="Заменить всё во всех Открытых Документах"/>
                 <Item id="1636" name="Найти всё во всех Открытых Документах"/>
                 <Item id="1637" name="Искать в файлах"/>
@@ -755,6 +755,14 @@
 					<Item id = "6257" name = "бла бла бла бла бла бла"/>
 					<Item id = "6258" name = "бла бла бла бла бла бла бла бла бла бла бла бла"/>
 				</Delimiter>
+                 <Cloud title="Облачное Хранение">
+                    <Item id="6262" name="Настройки на Облако"/>
+                    <Item id="6263" name="Без Облака"/>
+                    <Item id="6264" name="Dropbox"/>
+                    <Item id="6265" name="OneDrive"/>
+                    <Item id="6266" name="Google Drive"/>
+                    <!--Item id="6261" name="Please restart Notepad++ to take effect."/-->
+                </Cloud>
                 <Backup title = "Резерв. Копирование">
                     <Item id="6801" name="Резервное Копирование (при сохранении)"/>
 					<Item id="6817" name="Снимок сессии и периодическое резервное копирование"/>
@@ -764,9 +772,10 @@
                     <Item id="6315" name="Отключено"/>
                     <Item id="6316" name="Обычное (перезапись .bak)"/>
                     <Item id="6317" name="Каждое сохр. отдельно"/>
-                    <Item id="6219" name="Польз. директория для сохранения"/>
+                    <Item id="6804" name="Польз. Директория Копирования"/>
                     <Item id="6803" name="Директ.:"/>
 					<Item id="6819" name="Копия каждые"/>
+					<Item id="6822" name="Путь копии:"/>
                 </Backup>
                 <AutoCompletion title="Автозавершение">
                     <Item id="6807" name="Автозавершение"/>

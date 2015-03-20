@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="1" y="1" width="1598" height="836" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="32" y="346" width="1598" height="836" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -89,17 +89,17 @@
         <GUIConfig name="stylerTheme" path="C:\xampp\Raffys-Notepad-plus2\themes\rafael_dark2.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
-        <GUIConfig name="DockingManager" leftWidth="242" rightWidth="68" topHeight="200" bottomHeight="200">
+        <GUIConfig name="DockingManager" leftWidth="161" rightWidth="223" topHeight="200" bottomHeight="200">
             <FloatingWindow cont="4" x="680" y="251" width="892" height="740" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44081" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppTaskList.dll" id="15" curr="1" prev="4" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="LocationNavigate.dll" id="4" curr="4" prev="1" isVisible="no" />
-            <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44081" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
@@ -117,16 +117,16 @@
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
         <Filter name="*.*" />
-        <Find name="getMemberInfo" />
-        <Find name="Swift" />
-        <Find name="n getClubRequest" />
-        <Find name="getClubRequest" />
-        <Find name="alterRequest" />
-        <Find name="alter_request" />
-        <Find name="request_action" />
-        <Find name="manage-club-request-form" />
-        <Find name="getClubRequests" />
-        <Find name="uwastudentguild.sushidigitaldemo.info" />
+        <Find name="mj_event_description_and_purpose" />
+        <Find name="mj_insurance_event" />
+        <Find name="mj_pl_other_state" />
+        <Find name="2.1 Contact and public liability" />
+        <Find name="mj_promote_safe_drinking_practices" />
+        <Find name="mj_purpose_of_event2" />
+        <Find name="mj_purpose_of_event" />
+        <Find name="appendToDayView" />
+        <Find name="#calendar" />
+        <Find name="christian" />
         <Replace name="localhost/uwastudentguild" />
         <Replace name="_dependencies" />
         <Replace name="__loadedScripts" />
@@ -139,15 +139,24 @@
         <Replace name="TYPE_CLASS" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\clubscrm\club-requests-latest.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\clubscrm\exporter.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\site.config.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\classes\CS_CRM_Class.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\start.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\hooks.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-pubcrawl.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-minor.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-medium-nonlicense.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-medium-license.php" />
+        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\browser.php" />
+        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\database.php" />
+        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\mail.php" />
+        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\errors.php" />
+        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\core.php" />
+        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\localhost\database.php" />
+        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\localhost\mail.php" />
+        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\localhost\core.php" />
+        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-camps.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\ajax.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\routes\base_routes.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\browser.php" />
+        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.js" />
+        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.js" />
+        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-major.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\js\global.js" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
