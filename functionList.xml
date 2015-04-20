@@ -31,6 +31,10 @@ http://notepad-plus-plus.org/features/function-list.html
 			<association langID="22" id="python_function"/>
 			<association langID="26" id="bash_function"/>
 			<association langID="28" id="nsis_syntax"/>
+			
+			<!-- LM: 04-20-2015 [Para sa todo list nga hack] -->
+			<association langID="8" id="html_todo"/>
+			<association langID="20" id="css_todo"/>
 		<!--
 			if langID cannot be found above, you can still set the file extensions
 			<association ext=".my_passer_ext1" id="my_passer_id"/>
@@ -103,8 +107,9 @@ http://notepad-plus-plus.org/features/function-list.html
 			</parser>
 			
 			
-			<parser id="js_function" displayName="Javascript" commentExpr="((/\*.*?\*)/|(//.*?$))">
-				<function
+			<!-- <parser id="js_function" displayName="Javascript" commentExpr="((/\*.*?\*)/|(//.*?$))"> -->
+			<parser id="js_function" displayName="Javascript" >
+				<!-- <function
 				    mainExpr="((^|[\s]+|[;\}\.])([_A-Za-z][\w_]*\.)*[_A-Za-z][\w_]*[\s]*[=:]|^|[\s;\}]+)[\s]*function([\s]+[_A-Za-z]?[\w_]*\([^\)\(]*\)|\([^\)\(]*\))[\n\s]*\{"
 					displayMode="$className->$functionName">
 					<functionName>
@@ -115,7 +120,17 @@ http://notepad-plus-plus.org/features/function-list.html
 						<nameExpr expr="([_A-Za-z][\w_]*\.)*[_A-Za-z][\w_]*\."/>
 						<nameExpr expr="([_A-Za-z][\w_]*\.)*[_A-Za-z][\w_]*"/>
 					</className>
-				</function>
+				</function> -->
+				
+				<!-- LM: 04-20-2015 [HACK! para naa koy todo nga list sa right sidebar hehe] -->
+				<function                                      
+					mainExpr="\/\*@TODO:"
+                    displayMode="$functionName">
+                    <functionName>                     
+                        <nameExpr expr="[^\n]+"/>
+                    </functionName>        
+                </function>	
+				
 			</parser>
 			
 
@@ -172,7 +187,8 @@ http://notepad-plus-plus.org/features/function-list.html
 				</function>
 			</parser>
 			
-            <parser id="php_function" displayName="PHP" commentExpr="((/\*.*?\*)/|(//.*?$))">
+            <!-- <parser id="php_function" displayName="PHP" commentExpr="((/\*.*?\*)/|(//.*?$))"> -->
+            <parser id="php_function" displayName="PHP" >
                 <classRange
                     mainExpr="^[\s]*(class|abstract[\s]+class|final[\s]+class)[\t ]+[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*([\s]*|[\s]*(extends|implements|(extends[\s]+(\\|[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*)+[\s]+implements))[\s]+(\,[\s]*|(\\|[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*))+[\s]*)?\{"
                     openSymbole = "\{"
@@ -192,7 +208,7 @@ http://notepad-plus-plus.org/features/function-list.html
                         </functionName>
                     </function>
                 </classRange>
-                <function
+               <!-- <function
                     mainExpr="^[\s]*function[\s]+\w+\("
 
                     displayMode="$className->$functionName">
@@ -203,7 +219,16 @@ http://notepad-plus-plus.org/features/function-list.html
                     <className>
                         <nameExpr expr="[\w_]+(?=[\s]*::)"/>
                     </className>
-                </function>
+                </function> -->		
+				
+				<!-- LM: 04-20-2015 [HACK! para naa koy todo nga list sa right sidebar hehe] -->
+				<function                                      
+					mainExpr="\/\*@TODO:"
+                    displayMode="$functionName">
+                    <functionName>                     
+                        <nameExpr expr="[^\n]+"/>
+                    </functionName>        
+                </function>				
             </parser>
 			<parser id="bash_function" displayName="Shell" commentExpr="(#.*?$)">
 				<function
@@ -254,6 +279,31 @@ http://notepad-plus-plus.org/features/function-list.html
 				<function mainExpr="">
 				</function>
 			</parser>
+			
+			
+			<!-- FOR TODO LIST HACK -->
+			<parser id="html_todo" displayName="HTML" >				
+				<!-- LM: 04-20-2015 [HACK! para naa koy todo nga list sa right sidebar hehe] -->
+				<function                                      
+					mainExpr="&lt;\!--[\s]*@TODO:"
+                    displayMode="$functionName">
+                    <functionName>                     
+                        <nameExpr expr="[^\n]+"/>
+                    </functionName>        
+                </function>				
+			</parser>
+			
+			<parser id="css_todo" displayName="CSS" >				
+				<!-- LM: 04-20-2015 [HACK! para naa koy todo nga list sa right sidebar hehe] -->
+				<function                                      
+					mainExpr="\/\*@TODO:"
+                    displayMode="$functionName">
+                    <functionName>                     
+                        <nameExpr expr="[^\n]+"/>
+                    </functionName>        
+                </function>					
+			</parser>
+			
 		</parsers>
 	</functionList>
 </NotepadPlus>

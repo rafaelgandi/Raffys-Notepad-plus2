@@ -89,22 +89,22 @@
         <GUIConfig name="stylerTheme" path="C:\xampp\Raffys-Notepad-plus2\themes\rafael_dark2.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
-        <GUIConfig name="DockingManager" leftWidth="161" rightWidth="223" topHeight="200" bottomHeight="200">
+        <GUIConfig name="DockingManager" leftWidth="161" rightWidth="134" topHeight="200" bottomHeight="200">
             <FloatingWindow cont="4" x="680" y="251" width="892" height="740" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="NppTaskList.dll" id="15" curr="1" prev="4" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44081" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="NppTaskList.dll" id="15" curr="1" prev="4" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="LocationNavigate.dll" id="4" curr="4" prev="1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
-            <ActiveTabs cont="1" activeTab="-1" />
+            <ActiveTabs cont="1" activeTab="0" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
         </GUIConfig>
@@ -117,16 +117,16 @@
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
         <Filter name="*.*" />
-        <Find name="mj_event_description_and_purpose" />
-        <Find name="mj_insurance_event" />
-        <Find name="mj_pl_other_state" />
-        <Find name="2.1 Contact and public liability" />
-        <Find name="mj_promote_safe_drinking_practices" />
-        <Find name="mj_purpose_of_event2" />
-        <Find name="mj_purpose_of_event" />
-        <Find name="appendToDayView" />
-        <Find name="#calendar" />
-        <Find name="christian" />
+        <Find name="js_function" />
+        <Find name="xml_node" />
+        <Find name="php_function" />
+        <Find name="n isPermanentLocation" />
+        <Find name="shared" />
+        <Find name="uwa_on_event_day" />
+        <Find name="_copyFromEventById" />
+        <Find name="31afe0a8379f5f58befd50b1e9711b7555475d1cb5563892a08def1129857bd5" />
+        <Find name="flagpartnerfield" />
+        <Find name="IS_ADMIN_OR_STAFF" />
         <Replace name="localhost/uwastudentguild" />
         <Replace name="_dependencies" />
         <Replace name="__loadedScripts" />
@@ -139,24 +139,23 @@
         <Replace name="TYPE_CLASS" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-pubcrawl.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-minor.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-medium-nonlicense.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-medium-license.php" />
-        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\browser.php" />
-        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\database.php" />
-        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\mail.php" />
-        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\errors.php" />
-        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\core.php" />
-        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\localhost\database.php" />
-        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\localhost\mail.php" />
-        <File filename="C:\xampp\htdocs\wordpress_test\wp-content\themes\twentyfifteen\app\config\localhost\core.php" />
-        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-camps.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\ajax.php" />
-        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.js" />
-        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.js" />
-        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-major.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\js\global.js" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\helpers\eventforms_helper.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Base.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Recurring.js" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-stalls.php" />
+        <File filename="C:\Users\rgandionco\Desktop\csv_data.sql" />
+        <File filename="C:\Users\rgandionco\Documents\tcsystems\upload-file.php" />
+        <File filename="C:\Users\rgandionco\Documents\tcsystems\functions.php" />
+        <File filename="C:\Users\rgandionco\AppData\Roaming\Skype\My Skype Received Files\debtorapp.sql" />
+        <File filename="C:\xampp\htdocs\tcsystems\webservice.php" />
+        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\routes\testing_routes.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Populator.js" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\function.php" />
+        <File filename="C:\Users\rgandionco\Documents\kidskarateportal2\wp-content\themes\sushi\includes\Kk.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Mailer\Swift.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Clubs.php" />
+        <File filename="C:\Users\rgandionco\Documents\tcsystems\webservice.php" />
+        <File filename="C:\Users\rgandionco\Documents\tcsystems\js\global.js" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
