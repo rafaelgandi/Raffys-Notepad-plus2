@@ -697,6 +697,7 @@
         <Macro name="@BOOKMARK" Ctrl="yes" Alt="no" Shift="yes" Key="84">
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="/" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="*" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="@" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="B" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="O" />
@@ -708,8 +709,10 @@
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="K" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam=":" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="*" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="/" />
+            <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
             <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
             <Action type="0" message="2304" wParam="0" lParam="0" sParam="" />
         </Macro>

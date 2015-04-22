@@ -139,14 +139,11 @@
         <Replace name="TYPE_CLASS" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\Users\rgandionco\Documents\kidskarateportal2\wp-content\themes\sushi\includes\Kk.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Mailer\Swift.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Clubs.php" />
         <File filename="C:\Users\rgandionco\Documents\tcsystems\webservice.php" />
         <File filename="C:\Users\rgandionco\Documents\tcsystems\js\global.js" />
         <File filename="C:\Users\rgandionco\Documents\tcsystems\index.html" />
         <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\site.config.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.js" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Populator.js" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\ajax.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Validation.js" />
@@ -157,7 +154,9 @@
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\js\admin.js" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\Raffys_files\RegularExpression.txt" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\event-cal-note.html" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\functionList.xml" />
+        <File filename="C:\xampp\htdocs\tcsystems\index.html" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-events-list.ctrl.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\routes\cron_routes.php" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

@@ -124,7 +124,7 @@ http://notepad-plus-plus.org/features/function-list.html
 				
 				<!-- LM: 04-20-2015 [HACK! para naa koy bookmark nga list sa right sidebar hehe] -->
 				<function                                      
-					mainExpr="\/\*[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}]*\*\/"
+					mainExpr="\/\*[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}\.\-><&]*\*\/"
                     displayMode="$functionName">
                     <functionName>                     
                         <nameExpr expr="[^\n]+"/>
@@ -224,7 +224,7 @@ http://notepad-plus-plus.org/features/function-list.html
 				
 				<!-- LM: 04-20-2015 [HACK! para naa koy bookmark nga list sa right sidebar hehe] -->
 				<function                                      
-					mainExpr="\/\*[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}]*\*\/"
+					mainExpr="\/\*[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}\.\-><&]*\*\/"
                     displayMode="$functionName">
                     <functionName>                     
                         <nameExpr expr="[^\n]+"/>
@@ -287,7 +287,7 @@ http://notepad-plus-plus.org/features/function-list.html
 			<parser id="html_todo" displayName="HTML" >				
 				<!-- LM: 04-20-2015 [HACK! para naa koy bookmark nga list sa right sidebar hehe] -->
 				<function                                      
-					mainExpr="\/\*[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}]*\*\/"
+					mainExpr="\/\*[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}\.\-><&]*\*\/"
                     displayMode="$functionName">
                     <functionName>                     
                         <nameExpr expr="[^\n]+"/>
@@ -298,7 +298,7 @@ http://notepad-plus-plus.org/features/function-list.html
 			<parser id="css_todo" displayName="CSS" >				
 				<!-- LM: 04-20-2015 [HACK! para naa koy bookmark nga list sa right sidebar hehe] -->
 				<function                                      
-					mainExpr="\/\*[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}]*\*\/"
+					mainExpr="\/\*[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}\.\-><&]*\*\/"
                     displayMode="$functionName">
                     <functionName>                     
                         <nameExpr expr="[^\n]+"/>
