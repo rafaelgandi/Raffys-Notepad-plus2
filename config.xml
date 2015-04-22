@@ -89,22 +89,22 @@
         <GUIConfig name="stylerTheme" path="C:\xampp\Raffys-Notepad-plus2\themes\rafael_dark2.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
-        <GUIConfig name="DockingManager" leftWidth="161" rightWidth="131" topHeight="200" bottomHeight="92">
+        <GUIConfig name="DockingManager" leftWidth="63" rightWidth="167" topHeight="200" bottomHeight="92">
             <FloatingWindow cont="4" x="680" y="251" width="892" height="740" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppTaskList.dll" id="15" curr="1" prev="4" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44081" curr="0" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="LocationNavigate.dll" id="4" curr="4" prev="1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
-            <ActiveTabs cont="0" activeTab="-1" />
-            <ActiveTabs cont="1" activeTab="0" />
+            <ActiveTabs cont="0" activeTab="0" />
+            <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
         </GUIConfig>
@@ -139,7 +139,6 @@
         <Replace name="TYPE_CLASS" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\function.php" />
         <File filename="C:\Users\rgandionco\Documents\kidskarateportal2\wp-content\themes\sushi\includes\Kk.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Mailer\Swift.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Clubs.php" />
@@ -155,6 +154,10 @@
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\functions.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\site.config.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events\Copy.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\js\admin.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\Raffys_files\RegularExpression.txt" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\event-cal-note.html" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\functionList.xml" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

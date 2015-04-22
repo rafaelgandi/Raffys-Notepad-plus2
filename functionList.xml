@@ -32,7 +32,7 @@ http://notepad-plus-plus.org/features/function-list.html
 			<association langID="26" id="bash_function"/>
 			<association langID="28" id="nsis_syntax"/>
 			
-			<!-- LM: 04-20-2015 [Para sa todo list nga hack] -->
+			<!-- LM: 04-20-2015 [Para sa bookmark list nga hack] -->
 			<association langID="8" id="html_todo"/>
 			<association langID="20" id="css_todo"/>
 		<!--
@@ -122,7 +122,7 @@ http://notepad-plus-plus.org/features/function-list.html
 					</className>
 				</function> -->
 				
-				<!-- LM: 04-20-2015 [HACK! para naa koy todo nga list sa right sidebar hehe] -->
+				<!-- LM: 04-20-2015 [HACK! para naa koy bookmark nga list sa right sidebar hehe] -->
 				<function                                      
 					mainExpr="\/\*[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}]*\*\/"
                     displayMode="$functionName">
@@ -222,7 +222,7 @@ http://notepad-plus-plus.org/features/function-list.html
                     </className>
                 </function> -->		
 				
-				<!-- LM: 04-20-2015 [HACK! para naa koy todo nga list sa right sidebar hehe] -->
+				<!-- LM: 04-20-2015 [HACK! para naa koy bookmark nga list sa right sidebar hehe] -->
 				<function                                      
 					mainExpr="\/\*[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}]*\*\/"
                     displayMode="$functionName">
@@ -283,11 +283,11 @@ http://notepad-plus-plus.org/features/function-list.html
 			</parser>
 			
 			
-			<!-- FOR TODO LIST HACK -->
+			<!-- FOR bookmark LIST HACK -->
 			<parser id="html_todo" displayName="HTML" >				
-				<!-- LM: 04-20-2015 [HACK! para naa koy todo nga list sa right sidebar hehe] -->
+				<!-- LM: 04-20-2015 [HACK! para naa koy bookmark nga list sa right sidebar hehe] -->
 				<function                                      
-					mainExpr="&lt;\!--[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}]*--&gt;"
+					mainExpr="\/\*[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}]*\*\/"
                     displayMode="$functionName">
                     <functionName>                     
                         <nameExpr expr="[^\n]+"/>
@@ -296,7 +296,7 @@ http://notepad-plus-plus.org/features/function-list.html
 			</parser>
 			
 			<parser id="css_todo" displayName="CSS" >				
-				<!-- LM: 04-20-2015 [HACK! para naa koy todo nga list sa right sidebar hehe] -->
+				<!-- LM: 04-20-2015 [HACK! para naa koy bookmark nga list sa right sidebar hehe] -->
 				<function                                      
 					mainExpr="\/\*[\s]*@BOOKMARK:[a-zA-Z0-9_\s\(\)\$\[\]\{\}]*\*\/"
                     displayMode="$functionName">
