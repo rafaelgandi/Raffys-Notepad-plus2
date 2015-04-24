@@ -1,28 +1,25 @@
 <NotepadPlus>
-    <Session activeView="0">
-        <mainView activeIndex="6">
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="576" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Windows\System32\drivers\etc\hosts" backupFilePath="" originalFileLastModifTimestamp="1429039429">
+    <Session activeView="1">
+        <mainView activeIndex="3">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="576" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Windows\System32\drivers\etc\hosts" backupFilePath="" originalFileLastModifTimestamp="1429716548">
                 <Mark line="26" />
             </File>
             <File firstVisibleLine="32" xOffset="0" scrollWidth="904" startPos="591" endPos="591" selMode="0" lang="Normal Text" encoding="-1" filename="new  2" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  2@2015-03-17_155849" originalFileLastModifTimestamp="0" />
-            <File firstVisibleLine="49" xOffset="0" scrollWidth="1144" startPos="2242" endPos="2242" selMode="0" lang="Normal Text" encoding="-1" filename="new  4" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  4@2015-03-24_171637" originalFileLastModifTimestamp="0" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="2192" startPos="2126" endPos="2126" selMode="0" lang="Normal Text" encoding="-1" filename="new  1" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  1@2015-04-06_094506" originalFileLastModifTimestamp="0" />
-            <File firstVisibleLine="384" xOffset="0" scrollWidth="1192" startPos="16131" endPos="16131" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events.php" backupFilePath="" originalFileLastModifTimestamp="1429518855">
-                <Mark line="118" />
-            </File>
-            <File firstVisibleLine="231" xOffset="112" scrollWidth="1376" startPos="9077" endPos="9077" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.js" backupFilePath="" originalFileLastModifTimestamp="1429666206" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="4272" startPos="14189" endPos="14189" selMode="0" lang="XML" encoding="-1" filename="C:\xampp\Raffys-Notepad-plus2\functionList.xml" backupFilePath="" originalFileLastModifTimestamp="1429666243">
-                <Mark line="125" />
-            </File>
+            <File firstVisibleLine="49" xOffset="0" scrollWidth="1144" startPos="2245" endPos="2245" selMode="0" lang="Normal Text" encoding="-1" filename="new  4" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  4@2015-03-24_171637" originalFileLastModifTimestamp="0" />
+            <File firstVisibleLine="6" xOffset="0" scrollWidth="1192" startPos="859" endPos="859" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events.php" backupFilePath="" originalFileLastModifTimestamp="1429833789" />
+            <File firstVisibleLine="15" xOffset="0" scrollWidth="952" startPos="2126" endPos="2126" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Recurring.js" backupFilePath="" originalFileLastModifTimestamp="1429668555" />
+            <File firstVisibleLine="49" xOffset="0" scrollWidth="5176" startPos="3640" endPos="3640" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\routes\testing_routes.php" backupFilePath="" originalFileLastModifTimestamp="1429839388" />
+            <File firstVisibleLine="9" xOffset="0" scrollWidth="856" startPos="1297" endPos="1297" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\routes\cron_routes.php" backupFilePath="" originalFileLastModifTimestamp="1429689921" />
         </mainView>
         <subView activeIndex="4">
             <File firstVisibleLine="15" xOffset="0" scrollWidth="984" startPos="867" endPos="868" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\App\Paths.php" backupFilePath="" originalFileLastModifTimestamp="1423446305" />
-            <File firstVisibleLine="136" xOffset="0" scrollWidth="2409" startPos="5603" endPos="5603" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events\Recurring.php" backupFilePath="" originalFileLastModifTimestamp="1429250501">
-                <Mark line="97" />
+            <File firstVisibleLine="43" xOffset="0" scrollWidth="2409" startPos="2782" endPos="2782" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events\Recurring.php" backupFilePath="" originalFileLastModifTimestamp="1429839364">
+                <Mark line="58" />
+                <Mark line="112" />
             </File>
-            <File firstVisibleLine="12" xOffset="0" scrollWidth="568" startPos="653" endPos="653" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\cron.php" backupFilePath="" originalFileLastModifTimestamp="1429239301" />
-            <File firstVisibleLine="27" xOffset="0" scrollWidth="5176" startPos="1701" endPos="1701" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\routes\testing_routes.php" backupFilePath="" originalFileLastModifTimestamp="1429234966" />
-            <File firstVisibleLine="39" xOffset="0" scrollWidth="2240" startPos="1263" endPos="1263" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-events-list.php" backupFilePath="" originalFileLastModifTimestamp="1429662267" />
+            <File firstVisibleLine="138" xOffset="100" scrollWidth="2368" startPos="4223" endPos="4223" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-event-forms.php" backupFilePath="" originalFileLastModifTimestamp="1429833285" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1400" startPos="1283" endPos="1285" selMode="0" lang="XML" encoding="-1" filename="C:\xampp\Raffys-Notepad-plus2\contextMenu.xml" backupFilePath="" originalFileLastModifTimestamp="1423445435" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="400" startPos="183" endPos="183" selMode="0" lang="Normal Text" encoding="-1" filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\CustomizeToolbar.btn" backupFilePath="" originalFileLastModifTimestamp="1429842215" />
         </subView>
     </Session>
 </NotepadPlus>
