@@ -118,16 +118,16 @@
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
         <Filter name="*.*" />
-        <Find name="getEventData" />
-        <Find name="js_function" />
-        <Find name="xml_node" />
-        <Find name="php_function" />
-        <Find name="n isPermanentLocation" />
-        <Find name="shared" />
-        <Find name="uwa_on_event_day" />
-        <Find name="_copyFromEventById" />
-        <Find name="31afe0a8379f5f58befd50b1e9711b7555475d1cb5563892a08def1129857bd5" />
-        <Find name="flagpartnerfield" />
+        <Find name="n _hasFlaggedFields" />
+        <Find name="issues" />
+        <Find name="issue" />
+        <Find name="fileUpload" />
+        <Find name="n getEventDataById" />
+        <Find name="st_subiaco_approval" />
+        <Find name="st_subiaco_structural_certificate" />
+        <Find name="st_subiaco_form_5" />
+        <Find name="getGreenEventData" />
+        <Find name="st_on_event_day_additional_documents" />
         <Replace name="localhost/uwastudentguild" />
         <Replace name="_dependencies" />
         <Replace name="__loadedScripts" />
@@ -140,26 +140,26 @@
         <Replace name="TYPE_CLASS" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\tcsystems\index.html" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\functionList.xml" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Validation.js" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.js" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\css\eventscrm\new-events.css" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\cron.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events\Copy.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\helpers\eventforms_helper.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-events-list.ctrl.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-event-forms.ctrl.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-events-list.php" />
-        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\routes\testing_routes.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Users.php" />
+        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-medium-nonlicense.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-major.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Recurring.js" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\App\Files.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\helpers\base_helper.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\routes\cron_routes.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Files.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\ajax.php" />
-        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events\Recurring.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-events-list.php" />
         <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\PreviewHTML\Settings.ini" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\PreviewHTML\Filters.ini" />
-        <File filename="C:\Users\rgandionco\Desktop\Preview_plugin\Preview_plugin\Config\PreviewHTML\filters.sample.ini" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Populator.js" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\ajax_fileupload.ctrl.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-event-forms.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\debug.logs" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-event-forms.ctrl.php" />
+        <File filename="C:\Users\rgandionco\Desktop\Untitled Diagram.xml" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events\Recurring.php" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\shortcuts.xml" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\CustomizeToolbar.btn" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
