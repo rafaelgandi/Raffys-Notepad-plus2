@@ -118,6 +118,7 @@
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
         <Filter name="*.*" />
+        <Find name="tcs_" />
         <Find name="n _hasFlaggedFields" />
         <Find name="issues" />
         <Find name="issue" />
@@ -127,7 +128,6 @@
         <Find name="st_subiaco_structural_certificate" />
         <Find name="st_subiaco_form_5" />
         <Find name="getGreenEventData" />
-        <Find name="st_on_event_day_additional_documents" />
         <Replace name="localhost/uwastudentguild" />
         <Replace name="_dependencies" />
         <Replace name="__loadedScripts" />
@@ -140,14 +140,6 @@
         <Replace name="TYPE_CLASS" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-medium-nonlicense.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\event-form-major.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Recurring.js" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\App\Files.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\helpers\base_helper.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\routes\cron_routes.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Files.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\ajax.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-events-list.php" />
         <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Populator.js" />
@@ -158,8 +150,16 @@
         <File filename="C:\Users\rgandionco\Desktop\Untitled Diagram.xml" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events.php" />
         <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events\Recurring.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\shortcuts.xml" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\CustomizeToolbar.btn" />
+        <File filename="C:\Users\rgandionco\Desktop\habitrac.txt" />
+        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\routes\testing_routes.php" />
+        <File filename="C:\Users\rgandionco\Desktop\tcs_db_list.txt" />
+        <File filename="C:\Users\rgandionco\Documents\tcs\wp-content\themes\twentyfourteen\css\editor-style.css" />
+        <File filename="C:\xampp\htdocs\Habitrac\config.xml" />
+        <File filename="C:\xampp\htdocs\Habitrac\templates\menu_page.html" />
+        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.Chart.js" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-config.php" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\shortcuts.xml" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
