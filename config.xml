@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="32" y="346" width="1598" height="836" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="-829" y="177" width="1598" height="836" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -89,10 +89,12 @@
         <GUIConfig name="stylerTheme" path="C:\xampp\Raffys-Notepad-plus2\themes\rafael_dark2.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
-        <GUIConfig name="DockingManager" leftWidth="63" rightWidth="167" topHeight="200" bottomHeight="154">
-            <FloatingWindow cont="4" x="156" y="156" width="676" height="615" />
+        <GUIConfig name="DockingManager" leftWidth="75" rightWidth="167" topHeight="200" bottomHeight="154">
+            <FloatingWindow cont="4" x="454" y="143" width="1443" height="777" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
+            <PluginDlg pluginName="JSMinNPP.dll" id="0" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="PreviewHTML.dll" id="0" curr="3" prev="4" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
@@ -102,7 +104,6 @@
             <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
             <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
@@ -112,54 +113,56 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="144" dotMatchesNewline="no">
+        <Path name="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems" />
+        <Path name="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi" />
         <Path name="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi" />
         <Path name="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\application" />
         <Path name="C:\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Database" />
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
         <Filter name="*.*" />
-        <Find name="tcs_" />
-        <Find name="n _hasFlaggedFields" />
-        <Find name="issues" />
-        <Find name="issue" />
-        <Find name="fileUpload" />
-        <Find name="n getEventDataById" />
-        <Find name="st_subiaco_approval" />
-        <Find name="st_subiaco_structural_certificate" />
-        <Find name="st_subiaco_form_5" />
-        <Find name="getGreenEventData" />
-        <Replace name="localhost/uwastudentguild" />
-        <Replace name="_dependencies" />
-        <Replace name="__loadedScripts" />
-        <Replace name="_showMajorOrMinorForms" />
-        <Replace name="g" />
-        <Replace name="protected" />
-        <Replace name="localhost/uwaeventscrm/uwastudentguild" />
-        <Replace name="http://localhost/uwaeventscrm" />
-        <Replace name="http://localhost/econsult" />
-        <Replace name="TYPE_CLASS" />
+        <Find name="restoreFromFileBackup" />
+        <Find name="restore" />
+        <Find name="backup" />
+        <Find name="hideHabitListMenu" />
+        <Find name="habitContextMenuBlur" />
+        <Find name="box" />
+        <Find name="shadow" />
+        <Find name="m_setting_list" />
+        <Find name="trigger" />
+        <Find name="bread" />
+        <Replace name="paper-material" />
+        <Replace name="localhost/tcs" />
+        <Replace name="234234234234234" />
+        <Replace name="_req" />
+        <Replace name="u1id" />
+        <Replace name="u4id" />
+        <Replace name="user4_specific_details" />
+        <Replace name="user4_details" />
+        <Replace name="user3_details" />
+        <Replace name="user3_specific_details" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-events-list.php" />
-        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\public\js\Uwa.EventForms.Populator.js" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\ajax_fileupload.ctrl.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\eventscrm\page-event-forms.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\debug.logs" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\controllers\eventscrm\page-event-forms.ctrl.php" />
-        <File filename="C:\Users\rgandionco\Desktop\Untitled Diagram.xml" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events.php" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events\Recurring.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\CustomizeToolbar.btn" />
-        <File filename="C:\Users\rgandionco\Desktop\habitrac.txt" />
-        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi\app\routes\testing_routes.php" />
-        <File filename="C:\Users\rgandionco\Desktop\tcs_db_list.txt" />
-        <File filename="C:\Users\rgandionco\Documents\tcs\wp-content\themes\twentyfourteen\css\editor-style.css" />
-        <File filename="C:\xampp\htdocs\Habitrac\config.xml" />
-        <File filename="C:\xampp\htdocs\Habitrac\templates\menu_page.html" />
-        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.Chart.js" />
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-config.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\shortcuts.xml" />
+        <File filename="C:\xampp\htdocs\monthlyst\index.old.html" />
+        <File filename="C:\xampp\htdocs\monthlyst\js\lib\mobile.famd.js" />
+        <File filename="C:\xampp\htdocs\Habitrac\index.html" />
+        <File filename="C:\xampp\htdocs\Habitrac\css\habitrac.css" />
+        <File filename="C:\xampp\htdocs\monthlyst\js\Util.js" />
+        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\controllers\page-su-reports.ctrl.php" />
+        <File filename="C:\xampp\htdocs\monthlyst\components\elements.html" />
+        <File filename="C:\xampp\htdocs\monthlyst\js\m.Storage.js" />
+        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Ato\Reports.php" />
+        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\controllers\page-su-rd-details.ctrl.php" />
+        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\page-su-reports.php" />
+        <File filename="C:\xampp\htdocs\monthlyst\js\m.Cholog.js" />
+        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\page-su-upload-ato.php" />
+        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\PushNotification\Apple.php" />
+        <File filename="C:\xampp\htdocs\monthlyst\js\m.Interactions.js" />
+        <File filename="C:\xampp\htdocs\monthlyst\js\m.DeviceDiagnostics.js" />
+        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.Logic.js" />
+        <File filename="C:\xampp\htdocs\tcs\debug.logs" />
+        <File filename="C:\xampp\htdocs\monthlyst\js\m.UpperRightMenu.js" />
+        <File filename="C:\xampp\htdocs\Habitrac\js\Habitrac.Events.js" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
