@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="1" y="1" width="1598" height="836" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="-8" y="-8" width="1604" height="854" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -75,7 +75,7 @@
         <GUIConfig name="globalOverride" fg="no" bg="no" font="no" fontSize="no" bold="no" italic="no" underline="no" />
         <GUIConfig name="auto-completion" autoCAction="3" triggerFromNbChar="1" funcParams="yes" />
         <GUIConfig name="multiInst" setting="0" />
-        <GUIConfig name="sessionExt"></GUIConfig>
+        <GUIConfig name="sessionExt">.snpp</GUIConfig>
         <GUIConfig name="SmartHighLight">yes</GUIConfig>
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
         <GUIConfig name="TagsMatchHighLight" TagAttrHighLight="yes" HighLightNonHtmlZone="no">yes</GUIConfig>
@@ -88,25 +88,25 @@
         <GUIConfig name="titleBar" short="no" />
         <GUIConfig name="stylerTheme" path="C:\xampp\Raffys-Notepad-plus2\themes\rafael_dark2.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
-        <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
-        <GUIConfig name="DockingManager" leftWidth="75" rightWidth="167" topHeight="200" bottomHeight="154">
-            <FloatingWindow cont="4" x="186" y="359" width="1175" height="993" />
-            <FloatingWindow cont="4" x="274" y="154" width="1263" height="788" />
+        <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="yes" backSlashIsEscapeCharacterForSql="yes" />
+        <GUIConfig name="DockingManager" leftWidth="115" rightWidth="167" topHeight="200" bottomHeight="154">
+            <FloatingWindow cont="4" x="387" y="311" width="1235" height="750" />
+            <FloatingWindow cont="4" x="387" y="311" width="1235" height="750" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="0" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
+            <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="JSMinNPP.dll" id="0" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="PreviewHTML.dll" id="0" curr="3" prev="4" isVisible="no" />
-            <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppTaskList.dll" id="15" curr="1" prev="4" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44081" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="LocationNavigate.dll" id="4" curr="4" prev="1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="4" prev="3" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
-            <ActiveTabs cont="0" activeTab="0" />
+            <ActiveTabs cont="0" activeTab="1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
@@ -115,6 +115,8 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="144" dotMatchesNewline="no">
+        <Path name="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache" />
+        <Path name="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi" />
         <Path name="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems" />
         <Path name="C:\xampp\htdocs\tcs\wp-content\eway" />
         <Path name="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi" />
@@ -124,48 +126,48 @@
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
         <Filter name="*.*" />
-        <Find name="Testing" />
-        <Find name="su-director-details" />
-        <Find name="getDetailsByAbnNumbers" />
-        <Find name="getAtoDataFromAbnArray" />
-        <Find name="&lt;form" />
-        <Find name="getListOfAbnByUser4Id" />
-        <Find name="getListOfDirectorshipIdByUser4Id" />
-        <Find name="n getListOfAbnByUser4Id" />
-        <Find name="ClientName" />
-        <Find name="Bordo Tax" />
+        <Find name="n put(" />
+        <Find name="n get(" />
+        <Find name="get(" />
+        <Find name="getMem" />
+        <Find name="new Cache" />
+        <Find name="memca" />
+        <Find name="cache" />
+        <Find name="inception" />
+        <Find name="incepti" />
+        <Find name=" " />
+        <Replace name="new Caching" />
+        <Replace name=" #" />
+        <Replace name="App\Cb\Authenticate::isLoggedIn()" />
+        <Replace name="Cb.Notify" />
+        <Replace name="App\Cb\Api::error" />
+        <Replace name="App\Cb\Api::req" />
+        <Replace name="post" />
         <Replace name="paper-material" />
         <Replace name="localhost/tcs" />
         <Replace name="234234234234234" />
-        <Replace name="_req" />
-        <Replace name="u1id" />
-        <Replace name="u4id" />
-        <Replace name="user4_specific_details" />
-        <Replace name="user4_details" />
-        <Replace name="user3_details" />
-        <Replace name="user3_specific_details" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\config\payment.php" />
+        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Theme.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\mods\Cb.Properties.Files.Remove.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\storage\framework\cache\7e\ea\7eeadadaa9fc8868023a4934265daca8" />
         <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\App\Cacher.php" />
-        <File filename="C:\Users\rgandionco\Documents\uwastudentguild\.htaccess" />
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Billing\Invoice.php" />
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Billing\Monthly.php" />
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\controllers\api.ctrl.php" />
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\routes\api_routes.php" />
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Files.php" />
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\hooks\user_hooks.php" />
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\controllers\page-sign-in.ctrl.php" />
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\js\page-su-directorship-details.js" />
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\App\Nkie12\NinDo.php" />
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\App\Assets.php" />
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Ato\Reports.php" />
-        <File filename="C:\xampp\htdocs\inkintime\server.php" />
-        <File filename="C:\xampp\htdocs\inkintime\ReadMe.new" />
-        <File filename="C:\xampp\htdocs\inkintime\database\factories\ModelFactory.php" />
-        <File filename="C:\xampp\htdocs\inkintime\resources\assets\sass\app.scss" />
-        <File filename="C:\xampp\htdocs\inkintime\artisan" />
-        <File filename="C:\xampp\htdocs\inkintime\app\Events\Event.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Json.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\third_party\cache.class.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\config\database.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Bidders.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications\Email.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\storage\framework\cache\0677209ba55868a96f6e1d47bd554a0b3d3debd3.auction" />
+        <File filename="C:\xampp\htdocs\memcached.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Kernel.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Crypt.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cache.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cacher.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\CacheManager.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\FileStore.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Files.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\storage\debug.logs" />
+        <File filename="C:\xampp\htdocs\cleverbons\storage\app\wasabi_cache_tags.json" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

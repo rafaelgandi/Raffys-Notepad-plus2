@@ -100,7 +100,7 @@
         <!-- OBJECTIVE-C -->
         <LexerType name="objc" desc="Objective-C" ext="">
             <WordsStyle name="DIRECTIVE" styleID="19" fgColor="A001D6" bgColor="363636" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="FFFFFF" bgColor="363636" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="FFFFFF" bgColor="808040" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="QUALIFIER" styleID="20" fgColor="95004A" bgColor="363636" fontName="" fontStyle="0" fontSize="" keywordClass="type2">ooooo</WordsStyle>
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="804000" bgColor="363636" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="0000FF" bgColor="363636" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
@@ -151,9 +151,9 @@
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="96A3FA" bgColor="80FF00" fontSize="" fontStyle="0" />
         <WidgetStyle name="Find Mark Style" styleID="31" fgColor="FFFF00" bgColor="FF0000" fontName="" fontStyle="1" fontSize="" />
         <WidgetStyle name="Edge colour" styleID="0" fgColor="FF8080" bgColor="F3F3F3" fontSize="8" fontStyle="0" />
-        <WidgetStyle name="Line number margin" styleID="33" fgColor="272822" bgColor="E4E4E4" fontName="" fontStyle="0" fontSize="9" />
+        <WidgetStyle name="Line number margin" styleID="33" fgColor="C0C0C0" bgColor="00695C" fontName="" fontStyle="0" fontSize="9" />
         <WidgetStyle name="Fold" styleID="0" fgColor="808080" bgColor="F3F3F3" fontSize="" fontStyle="0" />
-        <WidgetStyle name="Fold margin" styleID="0" fgColor="FFFFFF" bgColor="E9E9E9" fontStyle="0" />
+        <WidgetStyle name="Fold margin" styleID="0" fgColor="00695C" bgColor="00695C" fontStyle="0" />
         <WidgetStyle name="White space symbol" styleID="0" fgColor="FFB56A" bgColor="FF0000" fontSize="" fontStyle="1" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="FF80C0" fgColor="555753" fontSize="10" fontStyle="0" />
         <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="0080FF" fgColor="CC0000" fontSize="10" fontStyle="0" />

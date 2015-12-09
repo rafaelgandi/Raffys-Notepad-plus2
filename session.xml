@@ -1,82 +1,53 @@
 <NotepadPlus>
-    <Session activeView="0">
-        <mainView activeIndex="14">
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="576" startPos="1013" endPos="1013" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Windows\System32\drivers\etc\hosts" backupFilePath="" originalFileLastModifTimestamp="1436317369">
-                <Mark line="26" />
+    <Session activeView="1">
+        <mainView activeIndex="18">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="576" startPos="1019" endPos="1019" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Windows\System32\drivers\etc\hosts" backupFilePath="" originalFileLastModifTimestamp="1448948665">
+                <Mark line="24" />
             </File>
-            <File firstVisibleLine="48" xOffset="0" scrollWidth="2105" startPos="2105" endPos="2105" selMode="0" lang="Normal Text" encoding="-1" filename="new  1" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  1@2015-05-26_125117" originalFileLastModifTimestamp="0" />
-            <File firstVisibleLine="1508" xOffset="0" scrollWidth="1120" startPos="58077" endPos="58077" selMode="0" lang="MS INI file" encoding="-1" filename="C:\xampp\php\php.ini" backupFilePath="" originalFileLastModifTimestamp="1435645655" />
-            <File firstVisibleLine="258" xOffset="0" scrollWidth="984" startPos="8008" endPos="8008" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\rgandionco\Desktop\tcs_files\tcs notes 1.txt" backupFilePath="" originalFileLastModifTimestamp="1438220746">
-                <Mark line="287" />
+            <File firstVisibleLine="38" xOffset="0" scrollWidth="616" startPos="2212" endPos="2212" selMode="0" lang="Normal Text" encoding="-1" filename="C:\xampp\apache\conf\extra\httpd-vhosts.conf" backupFilePath="" originalFileLastModifTimestamp="1448948711" />
+            <File firstVisibleLine="1016" xOffset="0" scrollWidth="1120" startPos="41197" endPos="41197" selMode="0" lang="MS INI file" encoding="-1" filename="C:\xampp\php\php.ini" backupFilePath="" originalFileLastModifTimestamp="1449538911">
+                <Mark line="988" />
             </File>
-            <File firstVisibleLine="107" xOffset="0" scrollWidth="1208" startPos="6200" endPos="6200" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\routes\ato_routes.php" backupFilePath="" originalFileLastModifTimestamp="1438677767" />
-            <File firstVisibleLine="24" xOffset="0" scrollWidth="808" startPos="1441" endPos="1441" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Ato\Csv\Type1.php" backupFilePath="" originalFileLastModifTimestamp="1438161002" />
-            <File firstVisibleLine="15" xOffset="0" scrollWidth="1752" startPos="999" endPos="999" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\page-su-directorship-details.php" backupFilePath="" originalFileLastModifTimestamp="1437547834">
-                <Mark line="23" />
-                <Mark line="31" />
-                <Mark line="34" />
+            <File firstVisibleLine="42" xOffset="0" scrollWidth="53913" startPos="1126" endPos="1126" selMode="0" lang="Javascript" encoding="-1" filename="new  1" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  1@2015-11-18_134921" originalFileLastModifTimestamp="0" />
+            <File firstVisibleLine="24" xOffset="0" scrollWidth="944" startPos="664" endPos="664" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\resources\views\bidder_profile.php" backupFilePath="" originalFileLastModifTimestamp="1447834835" />
+            <File firstVisibleLine="31" xOffset="0" scrollWidth="776" startPos="1688" endPos="1688" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Observers.php" backupFilePath="" originalFileLastModifTimestamp="1447920509" />
+            <File firstVisibleLine="51" xOffset="0" scrollWidth="832" startPos="603" endPos="603" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\ApiController.php" backupFilePath="" originalFileLastModifTimestamp="1449124340" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1344" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\api_instructions.txt" backupFilePath="" originalFileLastModifTimestamp="1449124340" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="720" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\api_testing_routes.php" backupFilePath="" originalFileLastModifTimestamp="1449124340" />
+            <File firstVisibleLine="112" xOffset="0" scrollWidth="1209" startPos="5793" endPos="5813" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\Auctions\BidderController.php" backupFilePath="" originalFileLastModifTimestamp="1448263245">
+                <Mark line="134" />
             </File>
-            <File firstVisibleLine="226" xOffset="0" scrollWidth="1224" startPos="10247" endPos="10247" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Api.php" backupFilePath="" originalFileLastModifTimestamp="1439188250" />
-            <File firstVisibleLine="90" xOffset="0" scrollWidth="888" startPos="3267" endPos="3267" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Ato\Csv\Parser.php" backupFilePath="" originalFileLastModifTimestamp="1437547777" />
-            <File firstVisibleLine="145" xOffset="0" scrollWidth="1088" startPos="7941" endPos="7941" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\controllers\page-su-directorship-details.ctrl.php" backupFilePath="" originalFileLastModifTimestamp="1439186658" />
-            <File firstVisibleLine="185" xOffset="0" scrollWidth="1144" startPos="7106" endPos="7106" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\controllers\page-su-add-directorship.ctrl.php" backupFilePath="" originalFileLastModifTimestamp="1439186658" />
-            <File firstVisibleLine="141" xOffset="0" scrollWidth="1256" startPos="5669" endPos="5669" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\js\page-su-directorship-details.js" backupFilePath="" originalFileLastModifTimestamp="1439186658" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="904" startPos="445" endPos="477" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\config\core.php" backupFilePath="" originalFileLastModifTimestamp="1436172535" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="320" startPos="329" endPos="329" selMode="0" lang="Normal Text" encoding="-1" filename="C:\xampp\htdocs\inkintime\.env" backupFilePath="" originalFileLastModifTimestamp="1439188358">
-                <Mark line="1" />
-                <Mark line="2" />
-                <Mark line="4" />
-                <Mark line="5" />
-                <Mark line="6" />
-                <Mark line="7" />
-                <Mark line="11" />
-                <Mark line="13" />
-                <Mark line="14" />
-                <Mark line="15" />
-                <Mark line="16" />
-                <Mark line="17" />
-                <Mark line="18" />
+            <File firstVisibleLine="20" xOffset="0" scrollWidth="744" startPos="1521" endPos="1521" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\Auctions\ObserverController.php" backupFilePath="" originalFileLastModifTimestamp="1448003183" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="592" startPos="516" endPos="516" selMode="0" lang="Normal Text" encoding="-1" filename="C:\xampp\htdocs\cleverbons\.env" backupFilePath="" originalFileLastModifTimestamp="1448003183" />
+            <File firstVisibleLine="22" xOffset="0" scrollWidth="1040" startPos="936" endPos="936" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\resources\views\update_auction.php" backupFilePath="" originalFileLastModifTimestamp="1448351552" />
+            <File firstVisibleLine="6" xOffset="0" scrollWidth="856" startPos="266" endPos="266" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Auctions\Observers.php" backupFilePath="" originalFileLastModifTimestamp="1448263245" />
+            <File firstVisibleLine="24" xOffset="0" scrollWidth="1360" startPos="962" endPos="962" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\resources\views\auction_details.php" backupFilePath="" originalFileLastModifTimestamp="1448263245" />
+            <File firstVisibleLine="81" xOffset="0" scrollWidth="1104" startPos="3895" endPos="3895" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications.php" backupFilePath="" originalFileLastModifTimestamp="1449124340" />
+            <File firstVisibleLine="93" xOffset="0" scrollWidth="1304" startPos="127" endPos="127" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\AuctionsController.php" backupFilePath="" originalFileLastModifTimestamp="1449217867" />
+            <File firstVisibleLine="654" xOffset="0" scrollWidth="2024" startPos="28073" endPos="28073" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Events.php" backupFilePath="" originalFileLastModifTimestamp="1449200974">
+                <Mark line="677" />
             </File>
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="608" startPos="484" endPos="484" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\inkintime\tests\TestCase.php" backupFilePath="" originalFileLastModifTimestamp="1439187275" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="432" startPos="743" endPos="743" selMode="0" lang="Normal Text" encoding="-1" filename="C:\xampp\htdocs\inkintime\composer.json" backupFilePath="" originalFileLastModifTimestamp="1439187275" />
+            <File firstVisibleLine="69" xOffset="0" scrollWidth="51048" startPos="8728" endPos="8728" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\testing_routes.php" backupFilePath="" originalFileLastModifTimestamp="1449563992" />
+            <File firstVisibleLine="271" xOffset="0" scrollWidth="1497" startPos="9761" endPos="9761" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions.php" backupFilePath="" originalFileLastModifTimestamp="1449563992" />
+            <File firstVisibleLine="68" xOffset="0" scrollWidth="880" startPos="2669" endPos="2669" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cache.php" backupFilePath="" originalFileLastModifTimestamp="1449563992" />
         </mainView>
-        <subView activeIndex="12">
-            <File firstVisibleLine="224" xOffset="0" scrollWidth="1216" startPos="7881" endPos="7881" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Users.php" backupFilePath="" originalFileLastModifTimestamp="1438841869" />
-            <File firstVisibleLine="42" xOffset="0" scrollWidth="984" startPos="1972" endPos="1982" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\App\Paths.php" backupFilePath="" originalFileLastModifTimestamp="1434334878" />
-            <File firstVisibleLine="12" xOffset="0" scrollWidth="1369" startPos="660" endPos="660" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\routes\testing_routes.php" backupFilePath="" originalFileLastModifTimestamp="1439167388" />
-            <File firstVisibleLine="15" xOffset="0" scrollWidth="210017" startPos="1434" endPos="1434" selMode="0" lang="Javascript" encoding="-1" filename="new  6" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  6@2015-07-16_155245" originalFileLastModifTimestamp="0" />
-            <File firstVisibleLine="17" xOffset="0" scrollWidth="1256" startPos="1750" endPos="1750" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\routes\login_routes.php" backupFilePath="" originalFileLastModifTimestamp="1439174011" />
-            <File firstVisibleLine="29" xOffset="0" scrollWidth="808" startPos="1702" endPos="1710" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Ato\Csv\Type2.php" backupFilePath="" originalFileLastModifTimestamp="1438161002" />
-            <File firstVisibleLine="117" xOffset="0" scrollWidth="1155" startPos="7905" endPos="7905" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Users\Ownership.php" backupFilePath="" originalFileLastModifTimestamp="1434334878" />
-            <File firstVisibleLine="52" xOffset="0" scrollWidth="1024" startPos="2466" endPos="2466" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Ato\Csv\Type3.php" backupFilePath="" originalFileLastModifTimestamp="1439174011" />
-            <File firstVisibleLine="99" xOffset="0" scrollWidth="1488" startPos="5167" endPos="5167" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\PushNotification\Apple.php" backupFilePath="" originalFileLastModifTimestamp="1438582895" />
-            <File firstVisibleLine="48" xOffset="0" scrollWidth="928" startPos="2504" endPos="2521" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Devices.php" backupFilePath="" originalFileLastModifTimestamp="1438582895" />
-            <File firstVisibleLine="69" xOffset="285" scrollWidth="1528" startPos="4628" endPos="4628" selMode="0" lang="Javascript" encoding="65001" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\js\global.js" backupFilePath="" originalFileLastModifTimestamp="1439186658" />
-            <File firstVisibleLine="105" xOffset="0" scrollWidth="1256" startPos="5213" endPos="5213" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\js\page-su-add-directorship.js" backupFilePath="" originalFileLastModifTimestamp="1439186658" />
-            <File firstVisibleLine="93" xOffset="0" scrollWidth="1320" startPos="4218" endPos="4218" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Ato.php" backupFilePath="" originalFileLastModifTimestamp="1439186658" />
-            <File firstVisibleLine="142" xOffset="5" scrollWidth="968" startPos="6206" endPos="6206" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\Users\User4\Directorships.php" backupFilePath="" originalFileLastModifTimestamp="1439186658" />
-            <File firstVisibleLine="110" xOffset="0" scrollWidth="42409" startPos="3957" endPos="3957" selMode="0" lang="Javascript" encoding="-1" filename="new  2" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  2@2015-08-06_150556" originalFileLastModifTimestamp="0" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="192" startPos="324" endPos="324" selMode="0" lang="Normal Text" encoding="-1" filename="C:\xampp\htdocs\inkintime\.env.example" backupFilePath="" originalFileLastModifTimestamp="1439187275" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="632" startPos="2880" endPos="2883" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\inkintime\config\app.php" backupFilePath="" originalFileLastModifTimestamp="1439187275">
-                <Mark line="15" />
-                <Mark line="80" />
-            </File>
-            <File firstVisibleLine="75" xOffset="0" scrollWidth="632" startPos="4122" endPos="4122" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\inkintime\config\database.php" backupFilePath="" originalFileLastModifTimestamp="1439187275">
-                <Mark line="28" />
-            </File>
-            <File firstVisibleLine="6" xOffset="0" scrollWidth="632" startPos="485" endPos="488" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\inkintime\config\cache.php" backupFilePath="" originalFileLastModifTimestamp="1439187275" />
-            <File firstVisibleLine="3" xOffset="0" scrollWidth="632" startPos="597" endPos="600" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\inkintime\config\session.php" backupFilePath="" originalFileLastModifTimestamp="1439187275">
-                <Mark line="18" />
-            </File>
-            <File firstVisibleLine="3" xOffset="0" scrollWidth="632" startPos="2655" endPos="2655" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\inkintime\config\queue.php" backupFilePath="" originalFileLastModifTimestamp="1439187275">
-                <Mark line="18" />
-            </File>
-            <File firstVisibleLine="1" xOffset="0" scrollWidth="640" startPos="1086" endPos="1089" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\inkintime\config\mail.php" backupFilePath="" originalFileLastModifTimestamp="1439187275">
-                <Mark line="17" />
-                <Mark line="30" />
-                <Mark line="44" />
-            </File>
-            <File firstVisibleLine="22" xOffset="0" scrollWidth="600" startPos="1619" endPos="1619" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\inkintime\public\index.php" backupFilePath="" originalFileLastModifTimestamp="1439187275" />
+        <subView activeIndex="15">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="656" startPos="261" endPos="261" selMode="0" lang="HTML" encoding="-1" filename="C:\xampp\htdocs\pusher.html" backupFilePath="" originalFileLastModifTimestamp="1445841969" />
+            <File firstVisibleLine="14" xOffset="0" scrollWidth="760" startPos="331" endPos="331" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\resources\views\observer_profile.php" backupFilePath="" originalFileLastModifTimestamp="1447834835" />
+            <File firstVisibleLine="12" xOffset="0" scrollWidth="1488" startPos="417" endPos="417" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\resources\views\my_auction_list.php" backupFilePath="" originalFileLastModifTimestamp="1448351552" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="230537" startPos="315" endPos="315" selMode="0" lang="Javascript" encoding="-1" filename="new  3" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  3@2015-11-09_093507" originalFileLastModifTimestamp="0" />
+            <File firstVisibleLine="112" xOffset="0" scrollWidth="1104" startPos="6174" endPos="6174" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications.php" backupFilePath="" originalFileLastModifTimestamp="1449124340" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="528" startPos="678" endPos="678" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\auction_routes.php" backupFilePath="" originalFileLastModifTimestamp="1448351552" />
+            <File firstVisibleLine="292" xOffset="0" scrollWidth="1264" startPos="15777" endPos="15777" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Auctions.php" backupFilePath="" originalFileLastModifTimestamp="1449124340" />
+            <File firstVisibleLine="395" xOffset="0" scrollWidth="322488" startPos="156906" endPos="156906" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\ApiTestingController.php" backupFilePath="" originalFileLastModifTimestamp="1449124340" />
+            <File firstVisibleLine="30" xOffset="0" scrollWidth="632" startPos="986" endPos="986" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\config\cache.php" backupFilePath="" originalFileLastModifTimestamp="1449563992" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="448" startPos="245" endPos="252" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\Middleware\CbDbQueriesMiddleware.php" backupFilePath="" originalFileLastModifTimestamp="1449459119" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="792" startPos="808" endPos="808" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\config\cleverbons.php" backupFilePath="" originalFileLastModifTimestamp="1449563992" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="5456" startPos="1466" endPos="1466" selMode="0" lang="Javascript" encoding="-1" filename="C:\xampp\htdocs\cleverbons\storage\phperrors.logs" backupFilePath="" originalFileLastModifTimestamp="1449474468" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="600" startPos="924" endPos="924" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\routes.php" backupFilePath="" originalFileLastModifTimestamp="1449477495" />
+            <File firstVisibleLine="32" xOffset="0" scrollWidth="1160" startPos="2181" endPos="2181" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\base_routes.php" backupFilePath="" originalFileLastModifTimestamp="1449563992" />
+            <File firstVisibleLine="6" xOffset="0" scrollWidth="808" startPos="808" endPos="808" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cb\Users.php" backupFilePath="" originalFileLastModifTimestamp="1449563992" />
+            <File firstVisibleLine="44" xOffset="0" scrollWidth="880" startPos="2181" endPos="2181" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cache.php" backupFilePath="" originalFileLastModifTimestamp="1449563992" />
         </subView>
     </Session>
 </NotepadPlus>
