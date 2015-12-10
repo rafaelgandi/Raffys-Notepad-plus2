@@ -153,7 +153,7 @@
         <WidgetStyle name="Edge colour" styleID="0" fgColor="FF8080" bgColor="F3F3F3" fontSize="8" fontStyle="0" />
         <WidgetStyle name="Line number margin" styleID="33" fgColor="C0C0C0" bgColor="00695C" fontName="" fontStyle="0" fontSize="9" />
         <WidgetStyle name="Fold" styleID="0" fgColor="808080" bgColor="F3F3F3" fontSize="" fontStyle="0" />
-        <WidgetStyle name="Fold margin" styleID="0" fgColor="00695C" bgColor="00695C" fontStyle="0" />
+        <WidgetStyle name="Fold margin" styleID="0" fgColor="004000" bgColor="00695C" fontStyle="0" />
         <WidgetStyle name="White space symbol" styleID="0" fgColor="FFB56A" bgColor="FF0000" fontSize="" fontStyle="1" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="FF80C0" fgColor="555753" fontSize="10" fontStyle="0" />
         <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="0080FF" fgColor="CC0000" fontSize="10" fontStyle="0" />
@@ -162,6 +162,6 @@
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="75EA00" bgColor="008000" fontSize="10" fontStyle="0" />
         <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="FFCAB0" bgColor="0080FF" fontSize="10" fontStyle="0" />
         <WidgetStyle name="Active tab text" styleID="0" fgColor="272822" bgColor="8000FF" fontStyle="0" />
-        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="094637" bgColor="B2DFDB" fontStyle="0" />
+        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="B6B6B6" bgColor="464646" fontStyle="0" />
     </GlobalStyles>
 </NotepadPlus>

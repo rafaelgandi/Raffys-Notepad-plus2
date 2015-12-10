@@ -91,7 +91,6 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="yes" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="115" rightWidth="167" topHeight="200" bottomHeight="154">
             <FloatingWindow cont="4" x="387" y="311" width="1235" height="750" />
-            <FloatingWindow cont="4" x="387" y="311" width="1235" height="750" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
@@ -110,7 +109,6 @@
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
-            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
@@ -126,16 +124,16 @@
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
         <Filter name="*.*" />
-        <Find name="n put(" />
-        <Find name="n get(" />
-        <Find name="get(" />
-        <Find name="getMem" />
-        <Find name="new Cache" />
-        <Find name="memca" />
-        <Find name="cache" />
-        <Find name="inception" />
-        <Find name="incepti" />
-        <Find name=" " />
+        <Find name="App\Cache" />
+        <Find name="n taggedItemKey" />
+        <Find name="taggedItemKey" />
+        <Find name="n get" />
+        <Find name="n has" />
+        <Find name="c40dfd2269872464f88f0ebad5dbd8ba" />
+        <Find name="AllowOverride None" />
+        <Find name="specified" />
+        <Find name="php_apc" />
+        <Find name="www.example.com" />
         <Replace name="new Caching" />
         <Replace name=" #" />
         <Replace name="App\Cb\Authenticate::isLoggedIn()" />
@@ -148,26 +146,26 @@
         <Replace name="234234234234234" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi\app\Uwa\Theme.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\mods\Cb.Properties.Files.Remove.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\storage\framework\cache\7e\ea\7eeadadaa9fc8868023a4934265daca8" />
-        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\App\Cacher.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Json.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\third_party\cache.class.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\config\database.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Bidders.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications\Email.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\storage\framework\cache\0677209ba55868a96f6e1d47bd554a0b3d3debd3.auction" />
-        <File filename="C:\xampp\htdocs\memcached.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Kernel.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Crypt.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cache.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cacher.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\CacheManager.php" />
+        <File filename="C:\laragon\bin\apache\apache-2.4.16\logs\error.log" />
+        <File filename="C:\laragon\www\index.php" />
+        <File filename="C:\laragon\alias\memcached.conf" />
+        <File filename="C:\laragon\bin\apache\apache-2.4.16\conf\httpd.conf" />
+        <File filename="C:\laragon\apps\memcached\example.php" />
         <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\FileStore.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Files.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\storage\debug.logs" />
+        <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\MemcachedStore.php" />
+        <File filename="C:\laragon\apps\memcached\README" />
+        <File filename="C:\laragon\bin\php\php-5.6.13\php.ini" />
+        <File filename="C:\laragon\bin\apache\apache-2.4.16\conf\extra\httpd-vhosts.conf" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Users.php" />
         <File filename="C:\xampp\htdocs\cleverbons\storage\app\wasabi_cache_tags.json" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cache.php" />
+        <File filename="C:\Users\rgandionco\Desktop\APC-3.1.13\APC-3.1.13\apc.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\base_routes.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\storage\debug.logs" />
+        <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\TaggedCache.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\CacheManager.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\ApcStore.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\config\app.php" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
