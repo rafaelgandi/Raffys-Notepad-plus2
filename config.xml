@@ -13,11 +13,11 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="-8" y="-8" width="1604" height="854" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="1" y="1" width="1598" height="836" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="0" whiteSpaceShow="hide" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" zoom2="0" borderWidth="2" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="circle" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="0" whiteSpaceShow="hide" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" zoom2="0" borderWidth="2" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
@@ -124,18 +124,18 @@
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
         <Filter name="*.*" />
+        <Find name="&lt;form" />
+        <Find name="form" />
+        <Find name="#" />
+        <Find name="n isDone" />
+        <Find name="filename" />
+        <Find name="addTags" />
+        <Find name="Cb.Notify.js" />
+        <Find name=" " />
         <Find name="App\Cache" />
         <Find name="n taggedItemKey" />
-        <Find name="taggedItemKey" />
-        <Find name="n get" />
-        <Find name="n has" />
-        <Find name="c40dfd2269872464f88f0ebad5dbd8ba" />
-        <Find name="AllowOverride None" />
-        <Find name="specified" />
-        <Find name="php_apc" />
-        <Find name="www.example.com" />
-        <Replace name="new Caching" />
         <Replace name=" #" />
+        <Replace name="new Caching" />
         <Replace name="App\Cb\Authenticate::isLoggedIn()" />
         <Replace name="Cb.Notify" />
         <Replace name="App\Cb\Api::error" />
@@ -146,26 +146,25 @@
         <Replace name="234234234234234" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\laragon\bin\apache\apache-2.4.16\logs\error.log" />
-        <File filename="C:\laragon\www\index.php" />
-        <File filename="C:\laragon\alias\memcached.conf" />
-        <File filename="C:\laragon\bin\apache\apache-2.4.16\conf\httpd.conf" />
-        <File filename="C:\laragon\apps\memcached\example.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\FileStore.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\MemcachedStore.php" />
-        <File filename="C:\laragon\apps\memcached\README" />
-        <File filename="C:\laragon\bin\php\php-5.6.13\php.ini" />
-        <File filename="C:\laragon\bin\apache\apache-2.4.16\conf\extra\httpd-vhosts.conf" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Users.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\storage\app\wasabi_cache_tags.json" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\config.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Realtime.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\_header.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auction_details.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\AuctionsController.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\update_auction.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\_header-loggedin.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Users\Company.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Search.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\property_routes.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\apc.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\auth_routes.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\users_routes.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\my_auction_list.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\api_instructions.txt" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Users.php" />
         <File filename="C:\xampp\htdocs\cleverbons\app\Cache.php" />
-        <File filename="C:\Users\rgandionco\Desktop\APC-3.1.13\APC-3.1.13\apc.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\base_routes.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\storage\debug.logs" />
-        <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\TaggedCache.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\CacheManager.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache\ApcStore.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\config\app.php" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\CustomizeToolbar.dat" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
