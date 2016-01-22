@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="1" y="1" width="1598" height="836" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="-88" y="94" width="1598" height="836" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -89,14 +89,14 @@
         <GUIConfig name="stylerTheme" path="C:\xampp\Raffys-Notepad-plus2\themes\rafael_dark2.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="yes" backSlashIsEscapeCharacterForSql="yes" />
-        <GUIConfig name="DockingManager" leftWidth="115" rightWidth="167" topHeight="200" bottomHeight="154">
-            <FloatingWindow cont="4" x="387" y="311" width="1235" height="750" />
+        <GUIConfig name="DockingManager" leftWidth="128" rightWidth="167" topHeight="200" bottomHeight="154">
+            <FloatingWindow cont="4" x="145" y="282" width="993" height="721" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
+            <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="JSMinNPP.dll" id="0" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="PreviewHTML.dll" id="0" curr="3" prev="4" isVisible="no" />
@@ -112,7 +112,7 @@
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="144" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="144" dotMatchesNewline="no">
         <Path name="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache" />
         <Path name="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi" />
         <Path name="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems" />
@@ -124,16 +124,16 @@
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Path name="C:\Users\rgandionco.ODUSEEPHILS\Documents\uwaclubsocieties" />
         <Filter name="*.*" />
-        <Find name="&lt;form" />
-        <Find name="form" />
-        <Find name="#" />
-        <Find name="n isDone" />
-        <Find name="filename" />
-        <Find name="addTags" />
-        <Find name="Cb.Notify.js" />
+        <Find name="auction_durations" />
+        <Find name="zlib.output_compression" />
+        <Find name="mod_deflate" />
+        <Find name=".remove" />
+        <Find name="cb_err_msg" />
+        <Find name="require" />
+        <Find name="\r" />
+        <Find name="\n" />
         <Find name=" " />
-        <Find name="App\Cache" />
-        <Find name="n taggedItemKey" />
+        <Find name="\" />
         <Replace name=" #" />
         <Replace name="new Caching" />
         <Replace name="App\Cb\Authenticate::isLoggedIn()" />
@@ -146,25 +146,26 @@
         <Replace name="234234234234234" />
     </FindHistory>
     <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\config.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Realtime.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\_header.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auction_details.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\AuctionsController.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\update_auction.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\_header-loggedin.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Users\Company.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Search.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\property_routes.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\apc.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\auth_routes.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\users_routes.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\my_auction_list.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\api_instructions.txt" />
         <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Users.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cache.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\Config\CustomizeToolbar.dat" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\AuthController.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\api_testing_routes.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\storage\debug.logs" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\ApiController.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\_header_loggedin.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\auction_routes.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Currency.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Auctions.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\css\global.css" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Bidders.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\update_auction.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\add_auction.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\css\page_edit_auction.css" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\frontend_views\page_create_auction.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\my_auction_list.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\SearchController.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\frontend_views\search_auction.php" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
