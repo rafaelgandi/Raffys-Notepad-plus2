@@ -1,0 +1,46 @@
+body {
+	background-color:#272822; 
+	color:  #FFFF80;
+	font-family: Consolas;
+	padding: 0;
+	margin: 0;
+}
+
+#fh_filename_field {
+	font-family: Consolas;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+	background-color: #424242;
+	color: #FFFF80;
+	border: 0;
+	font-size: 15px;
+	text-align:center;
+}
+
+#fh_file_list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#fh_file_list li {
+	display: block;
+	width: 100%;
+	cursor: hand;
+	cursor: pointer;
+	font-size: 13px;
+	text-align:center;
+}
+
+#fh_file_list li:hover,
+.fh_hover {
+	background-color: #006064;
+	/* color: #000; */
+}
+
+.fh_hide {
+	display: none !important;
+	position: absolute;
+	text-decoration: underline;
+}

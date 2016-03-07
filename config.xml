@@ -4,7 +4,7 @@
         <!-- 3 status : "large", "small" or "hide"-->
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
         <!-- 2 status : "show" or "hide"-->
-        <GUIConfig name="StatusBar">show</GUIConfig>
+        <GUIConfig name="StatusBar">hide</GUIConfig>
         <!-- For all attributs, 2 status : "yes" or "no"-->
         <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="yes" doubleClick2Close="no" vertical="no" multiLine="yes" hide="no" />
         <!-- 2 positions : "horizontal" or "vertical"-->
@@ -90,12 +90,27 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="yes" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
         <GUIConfig name="workspaceExt"></GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="156" rightWidth="167" topHeight="200" bottomHeight="154">
-            <FloatingWindow cont="4" x="574" y="307" width="1422" height="746" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="0" prev="-1" isVisible="no" />
+        <GUIConfig name="DockingManager" leftWidth="194" rightWidth="167" topHeight="200" bottomHeight="73">
+            <FloatingWindow cont="4" x="738" y="492" width="1323" height="888" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@)" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Rafael Gandionco (@_@)" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Rafael Gandionco" id="0" curr="3" prev="4" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,File History by Rafael Gandionco" id="0" curr="3" prev="4" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,File Historyby Rafael Gandionco" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,File History" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="jN.dll,Raffy History" id="0" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="jN.dll," id="0" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Automation Scripts" id="30" curr="0" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="CS-Script" id="5" curr="0" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="CS-Script" id="6" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Automation Scripts" id="25" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Automation Scripts" id="12" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Automation Scripts" id="2" curr="0" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="Automation Scripts" id="1" curr="0" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
@@ -107,10 +122,10 @@
             <PluginDlg pluginName="LocationNavigate.dll" id="4" curr="4" prev="1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="1" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="4" prev="3" isVisible="no" />
-            <ActiveTabs cont="0" activeTab="0" />
+            <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="3" activeTab="0" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
@@ -126,16 +141,16 @@
         <Path name="C:\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Database" />
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Filter name="*.*" />
-        <Find name="bidder_details" />
-        <Find name="newBidMade" />
-        <Find name="myJoinedAuctionList" />
-        <Find name="activeOpenNegotiation" />
-        <Find name="lastMinuteOpenNegotiation" />
-        <Find name="init90AfterBidSecondTimer" />
-        <Find name="doneOpenNegotiation" />
-        <Find name="i.removeChild(b.element)" />
-        <Find name="close" />
-        <Find name="bidChange" />
+        <Find name="new" />
+        <Find name="start.js" />
+        <Find name="readFile" />
+        <Find name="dock" />
+        <Find name="View" />
+        <Find name="isCancellable" />
+        <Find name="cancel" />
+        <Find name="auct-stat-details" />
+        <Find name="raise" />
+        <Find name="ONE_MINUTE" />
         <Replace name=" #" />
         <Replace name="new Caching" />
         <Replace name="App\Cb\Authenticate::isLoggedIn()" />
@@ -147,29 +162,47 @@
         <Replace name="localhost/tcs" />
         <Replace name="234234234234234" />
     </FindHistory>
-    <History nbMaxFile="20" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\rt.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\block.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\RealTime\Logger.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\highlight.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\templates\bidding_field.html" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\countdown2.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Auctions.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\cron.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Game.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\templates\bidder_avatars_field.html" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\syncer\updater.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\cron_routes.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\RealTime.php" />
+    <FileBrowser latestSelectedItem="C:\xampp\htdocs\cleverbons\app\Http\frontend_modules.txt">
+        <root foldername="C:\xampp\htdocs\cleverbons\resources\views" />
+        <root foldername="C:\xampp\htdocs\cleverbons\app\Http" />
+        <root foldername="C:\xampp\htdocs\cleverbons\app\Cb" />
+        <root foldername="C:\xampp\htdocs\cleverbons\public\js\cb" />
+    </FileBrowser>
+    <History nbMaxFile="30" inSubMenu="no" customLength="-1">
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\AuctionsController.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\timerField.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\testing_routes.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\countdown.js" />
         <File filename="C:\xampp\htdocs\cleverbons\resources\views\search_auction.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Timekeeper.php" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\Dialog.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\MenuCmds.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\XML.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\Grep.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\third_party\pubsub.min.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\third_party\pubsub.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\bidders\avatar.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\robots.txt" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\Auctions\DetailsController.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\buyNowField.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\apc.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\css\page_auction_closed.css" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\bootstrap.css.map" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\lib\Library.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\lib\Editor.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\simplelightbox.css" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\farbtastic.css" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\history.txt" />
+        <File filename="C:\xampp\htdocs\cleverbons\.env" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\multiupload.css" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Menu.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\start.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\dock.html" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="C:\xampp\htdocs\eway">
-        <root foldername="C:\xampp\htdocs\eway" />
-        <root foldername="C:\xampp\htdocs\cleverbons" />
-    </FileBrowser>
 </NotepadPlus>
