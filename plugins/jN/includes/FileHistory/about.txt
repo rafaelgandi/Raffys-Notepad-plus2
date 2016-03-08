@@ -1,0 +1,18 @@
+                       
+                                 _/\|\_\_      
+                               _| .-     \___   
+                       ________\ /    )     o`o__________  www.rafaelgandi.tk
+                               </ ) _/_ )-.___/
+                              /  /\(  (/   
+                              | (__`'` '`
+                               '--.)
+	                   		
+First plugin I made for Notepad++ :) ...This plugin remembers 
+all the files you have opened in Notepad++ and keeps a searchable 
+history list on a dockable window.
+
+Requires the jN plugin to work. Big props to it!
+[See: https://github.com/sieukrem/jn-npp-plugin/wiki]
+
+Last Modified: 2016-01-08
+by Rafael Gandionco

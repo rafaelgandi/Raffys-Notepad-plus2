@@ -6,13 +6,17 @@ fh.Menu = (function () {
 		this.name = fh.Globals.PLUGIN_NAME;
 	}
 	
-	Menu.prototype.create = function (_onClick) {
-		_onClick = _onClick || function () {};
+	Menu.prototype.create = function () {
 		this.menu = Editor.addMenu(this.name);
-		this.menu.addItem({
-			text: 'Toggle >>>',
-			cmd: _onClick
-		});
+		return this;
+	};
+	
+	Menu.prototype.addSubMenu = function (_opt, _hotkey) {
+		this.menu.addItem(_opt);
+		if (_hotkey) {
+			addHotKey(_opt);
+		}
+		return this;
 	};
 	
 	return new Menu();

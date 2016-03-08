@@ -27,5 +27,11 @@ fh.Dock = (function () {
 		return doc;
 	};
 	
+	Dock.prototype.toggleVisibility = function () {
+		// Toggle Dock visibility //	
+		if (this.dock.visible) { this.dock.visible = false; }
+		else { this.dock.visible = true; }	
+	};
+	
 	return new Dock();
 })();

@@ -1,16 +1,16 @@
 var fh = fh || {};
-fh.Shower = (function () {
+fh.Seeker = (function () {
 	
-	function Shower(_filenames) {
+	function Seeker(_filenames) {
 		this.fileNames = _filenames;
 	}
 
-	Shower.prototype.updateFilenames = function (_filenames) {
+	Seeker.prototype.updateFilenames = function (_filenames) {
 		this.fileNames = fh.Helpers.unique(this.fileNames.concat(_filenames));
 		return this.fileNames
 	};
 	
-	Shower.prototype.siff = function (_keyword) {
+	Seeker.prototype.sift = function (_keyword) {
 		// NOTE: Case insensitive //
 		var k = _keyword.trim().toLowerCase(),
 			resultArr = [];
@@ -24,5 +24,5 @@ fh.Shower = (function () {
 		return resultArr;
 	};
 		
-	return Shower;
+	return Seeker;
 })();

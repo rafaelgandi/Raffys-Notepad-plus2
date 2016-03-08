@@ -90,7 +90,7 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="yes" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
         <GUIConfig name="workspaceExt"></GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="194" rightWidth="167" topHeight="200" bottomHeight="73">
+        <GUIConfig name="DockingManager" leftWidth="194" rightWidth="167" topHeight="200" bottomHeight="134">
             <FloatingWindow cont="4" x="738" y="492" width="1323" height="888" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="jN.dll,Failure is always an option (@_@)" id="0" curr="3" prev="-1" isVisible="yes" />
@@ -141,6 +141,7 @@
         <Path name="C:\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Database" />
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Filter name="*.*" />
+        <Find name="promp" />
         <Find name="new" />
         <Find name="start.js" />
         <Find name="readFile" />
@@ -150,7 +151,6 @@
         <Find name="cancel" />
         <Find name="auct-stat-details" />
         <Find name="raise" />
-        <Find name="ONE_MINUTE" />
         <Replace name=" #" />
         <Replace name="new Caching" />
         <Replace name="App\Cb\Authenticate::isLoggedIn()" />
@@ -169,18 +169,6 @@
         <root foldername="C:\xampp\htdocs\cleverbons\public\js\cb" />
     </FileBrowser>
     <History nbMaxFile="30" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\AuctionsController.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\timerField.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\testing_routes.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\countdown.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\search_auction.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Timekeeper.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\Dialog.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\MenuCmds.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\XML.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\Grep.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\third_party\pubsub.min.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\third_party\pubsub.js" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\bidders\avatar.js" />
         <File filename="C:\xampp\htdocs\cleverbons\public\robots.txt" />
         <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\Auctions\DetailsController.php" />
@@ -192,13 +180,20 @@
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\lib\Editor.js" />
         <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\simplelightbox.css" />
         <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\farbtastic.css" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\history.txt" />
         <File filename="C:\xampp\htdocs\cleverbons\.env" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper.js" />
         <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\multiupload.css" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Menu.js" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\start.js" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\dock.html" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\history.txt" />
+        <File filename="C:\Windows\System32\drivers\etc\hosts" />
+        <File filename="C:\xampp\apache\conf\extra\httpd-vhosts.conf" />
+        <File filename="C:\xampp\php\php.ini" />
+        <File filename="C:\xampp\apache\conf\httpd.conf" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Bidders.php" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\polyfill.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Shower.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\MenuCmds.js" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

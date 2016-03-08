@@ -15,7 +15,7 @@ body {
 	color: #FFFF80;
 	border: 0;
 	font-size: 15px;
-	text-align:center;
+	/* text-align:center; */
 }
 
 #fh_file_list {
@@ -30,7 +30,7 @@ body {
 	cursor: hand;
 	cursor: pointer;
 	font-size: 13px;
-	text-align:center;
+	/* text-align:center; */
 }
 
 #fh_file_list li:hover,
@@ -41,6 +41,4 @@ body {
 
 .fh_hide {
 	display: none !important;
-	position: absolute;
-	text-decoration: underline;
 }
