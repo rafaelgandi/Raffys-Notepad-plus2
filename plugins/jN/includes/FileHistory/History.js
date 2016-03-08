@@ -1,41 +1,68 @@
 var fh = fh || {};
 fh.History = (function () {
 	
-	function History() {}
+	function History() {
+		this.HISTORY_FILENAME = 'history.txt';
+	}
+	
+	History.prototype.isNewFile = function (_fileName) {
+		return (_fileName.trim().indexOf('\\') === -1);
+	};
+	
+	History.prototype.removeNewFiles = function (_fileNameArray) {
+		var len = _fileNameArray.length,
+			finalArr = [];
+		for (var i=0; i<len; i++) {
+			if (this.isNewFile(_fileNameArray[i])) { continue; } // Dont include "new <number>" files
+			finalArr.push(_fileNameArray[i].trim());
+		}
+		return finalArr;
+	};
+	
+	History.prototype.clear = function () {
+		// Clear the whole file...
+		fh.Helpers.writeToFile(fh.Globals.FILE_HISTORY_DIR + "\\" + this.HISTORY_FILENAME, '');
+		// Save the current opened tabs...
+		this.save();
+		return this;
+	};
 	
 	History.prototype.get = function () {
-		var data = fh.Helpers.readFile(fh.Globals.FILE_HISTORY_DIR + "\\history.txt"),
+		var data = fh.Helpers.readFile(fh.Globals.FILE_HISTORY_DIR + "\\" + this.HISTORY_FILENAME),
 			filesArr = data.split(',');
-		if (! filesArr.length) {
-			Editor.alert('No history data found');
-			return [];
-		}
+		// No history data found.
+		if (! filesArr.length) { return []; }
+		// If only one, then it is still considered as nothing is found.
+		if (filesArr.length === 1) { return [];	} 
+		filesArr = this.removeNewFiles(filesArr);
 		return fh.Helpers.unique(filesArr);
 	};
 	
-	History.prototype.removeDuplicates = function () {
+	History.prototype.removeDuplicatesAndSave = function () {
 		var fileNames = this.get(),
 			finalArr = [];
 		for (var i=0; i<fileNames.length; i++) {
-			if (fileNames[i].indexOf('\\') === -1) { continue; } // Dont include "new <number>" files
+			if (this.isNewFile(fileNames[i])) { continue; } // Dont include "new <number>" files
 			finalArr.push(fileNames[i].trim());
 		}
-		fh.Helpers.writeToFile(fh.Globals.FILE_HISTORY_DIR + "\\history.txt", (',' + finalArr.join(',')));
+		// Overwrite the whole contents with the cleaned(no duplicates) 
+		// array of files here.
+		fh.Helpers.writeToFile(fh.Globals.FILE_HISTORY_DIR + "\\" + this.HISTORY_FILENAME, (',' + finalArr.join(',')));
 	};
 	
 	History.prototype.save = function (_append) {
-		if (! currentView.files.length) {
+		var fileNames = this.removeNewFiles(currentView.files),
+			finalArr = [];
+		if (! fileNames.length) {
 			Editor.alert('No files opened');
 			return;
-		}
-		var fileNames = currentView.files,
-			finalArr = [];
+		}		
 		for (var i=0; i<fileNames.length; i++) {
-			if (fileNames[i].indexOf('\\') === -1) { continue; } // Dont include "new <number>" files
+			if (this.isNewFile(fileNames[i])) { continue; } // Dont include "new <number>" files
 			finalArr.push(fileNames[i].trim());
 		}
 		finalArr = fh.Helpers.unique(finalArr);
-		fh.Helpers.writeToFile(fh.Globals.FILE_HISTORY_DIR + "\\history.txt", (',' + finalArr.join(',')), _append);
+		fh.Helpers.writeToFile(fh.Globals.FILE_HISTORY_DIR + "\\" + this.HISTORY_FILENAME, (',' + finalArr.join(',')), _append);
 	};
 	
 	History.prototype.buildMarkup = function () {
@@ -46,7 +73,8 @@ fh.History = (function () {
 		if (! fileNames.length) { return html; }
 		for (var i=0; i<fileNames.length; i++) {
 			if (fileNames[i].trim() == '') { continue; }
-			html += '<li id="file_'+i+'" rel="'+fileNames[i]+'">'+fileNames[i]+'</li>';
+			// See: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets
+			html += '<li tabindex="0" id="file_'+i+'" rel="'+fileNames[i]+'">'+fileNames[i]+'</li>';
 		}
 		return html;
 	};

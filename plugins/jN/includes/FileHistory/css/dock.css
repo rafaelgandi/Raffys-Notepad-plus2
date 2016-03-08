@@ -14,7 +14,8 @@ body {
 	background-color: #424242;
 	color: #FFFF80;
 	border: 0;
-	font-size: 15px;
+	font-size: 14px;
+	border-bottom: 1px dashed #686868;
 	/* text-align:center; */
 }
 

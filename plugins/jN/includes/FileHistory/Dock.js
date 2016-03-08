@@ -33,5 +33,9 @@ fh.Dock = (function () {
 		else { this.dock.visible = true; }	
 	};
 	
+	Dock.prototype.window = function () {
+		return this.dock.document.parentWindow;
+	};
+	
 	return new Dock();
 })();

@@ -43,7 +43,8 @@ fh.Helpers = (function () {
 		var len = _elements.length;
 		for (var i=0; i<len; i++) {
 			_elements[i]['on' + _event] = (function (i) {
-				return function (e) {
+				return function () {
+					var e = _elements[i].ownerDocument.parentWindow.event;
 					_callback(this, e);
 				};
 			})(i);

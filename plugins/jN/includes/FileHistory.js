@@ -10,8 +10,7 @@
 	var DOCK_DOCUMENT,
 		DOCK;	
 	require(require.currentDir + "\\includes\\FileHistory\\Globals.js");
-	fh.Globals.FILE_HISTORY_DIR = require.currentDir + "\\includes\\FileHistory";
-	
+	fh.Globals.FILE_HISTORY_DIR = require.currentDir + "\\includes\\FileHistory";	
 	require(fh.Globals.HISTORY_DIR_RELATIVE_PATH + "/polyfill.js");
 	require(fh.Globals.HISTORY_DIR_RELATIVE_PATH + "/Helpers.js");
 	require(fh.Globals.HISTORY_DIR_RELATIVE_PATH + "/History.js");
@@ -20,7 +19,7 @@
 	require(fh.Globals.HISTORY_DIR_RELATIVE_PATH + "/Seeker.js");
 	
 	// Try to remove the duplicates on startup //
-	fh.History.removeDuplicates();
+	fh.History.removeDuplicatesAndSave();
 	// On startup save all the currently opened files to the history //
 	fh.History.save(true);
 	var seeker = new fh.Seeker(fh.History.get());
@@ -49,6 +48,16 @@
 		}
 	})
 	.addSubMenu({
+		text: 'Clear History',
+		cmd: function () {
+			if (fh.Dock.window().confirm('Are you sure you want to clear all the history stored?')) {
+				fh.History.clear();
+				__buildList();
+				Editor.alert('File history cleared');
+			}
+		}
+	})
+	.addSubMenu({
 		text: 'About ?',
 		cmd: (function () {
 			var data = '';
@@ -56,7 +65,6 @@
 				if (data.trim() === '') {
 					data = fh.Helpers.readFile(fh.Globals.FILE_HISTORY_DIR + '/about.txt');
 				}
-				//Editor.alert('First plugin I made for Notepad++ :)'+"\n"+'www.rafaelgandi.tk');
 				Editor.alert(data);
 			}
 		})()
@@ -64,10 +72,10 @@
 		
 	// Everytime a file is opened save it to the history //
 	GlobalListener.addListener({
-		FILEOPENED: function (v,pos) {
+		FILEOPENED: function (v,pos) { 
 			fh.History.save(true);
 			__buildList();
-		}	
+		}
 	});	
 	
 	function __buildList() {		
@@ -94,24 +102,52 @@
 		.bindEvent('dblclick', $li, function ($me) { 
 			fh.History.open($me.rel.trim());
 			fh.History.save(true);
+		})
+		.bindEvent('keyup', $li, function ($me, e) { 
+			// Usually runs when user is using the tab button to navigate 
+			// through the list.
+			var keycode = e.keyCode || e.which;
+			// Open file when enter key is pressed //
+			if (keycode === 13) {
+				fh.History.open($me.rel.trim());
+				fh.History.save(true);
+			}
 		});
 		
-		var prevKeyword = '';
-		fh.Helpers.bindEvent('keyup', [dockDocument.getElementById('fh_filename_field')], function ($me, e) {
-			var keyword = $me.value.trim()
+		var prevKeyword = '', wait;
+		fh.Helpers.bindEvent('keyup', [dockDocument.getElementById('fh_filename_field')], function ($me, e) {			
+			var keyword = $me.value.trim(),
+				keycode = e.keyCode || e.which;	
+			if (keycode === 13) { // Reset list when enter key is pressed
+				$me.value = '';
+				fh.Helpers.iterate($li, function ($me) { $me.className = ''; });
+				return;
+			}
+			// On arrow down remove focus from the textbox so the whole dock window 
+			// can scroll down.
+			if (keycode === 40) { $me.blur(); }
 			if (keyword == '') { return; }
+			if (keyword.length <= 1) { return; } // Must be a valid keyword
 			if (keyword == prevKeyword) { return; }
 			prevKeyword = keyword;
-			var matches = seeker.sift($me.value);
-			// Reset first //
-			fh.Helpers.iterate($li, function ($me) { $me.className = ''; });
-			// Hide all file links that are not a match //
-			fh.Helpers.iterate($li, function ($me) {
-				var fileName = $me.rel.trim();
-				if (matches.indexOf(fileName) == -1) {
-					$me.className = 'fh_hide';
-				}
-			});	
+			// Wait for the user to finish typing first before doing the necessary
+			// work. It pays to be lazy here.
+			fh.Dock.window().clearTimeout(wait);
+			wait = fh.Dock.window().setTimeout(function () {
+				var matches = seeker.sift($me.value);
+				// Reset first //
+				fh.Helpers.iterate($li, function ($me) { $me.className = ''; });
+				// Hide all file links that are not a match //
+				fh.Helpers.iterate($li, function ($me) {
+					var fileName = $me.rel.trim();
+					if (matches.indexOf(fileName) == -1) {					
+						$me.className = 'fh_hide';
+					}
+				});		
+			}, 300);	
+		})
+		.bindEvent('focus', [dockDocument.getElementById('fh_filename_field')], function ($me) { 
+			$me.value = '';
 		});	
 	}
 	
