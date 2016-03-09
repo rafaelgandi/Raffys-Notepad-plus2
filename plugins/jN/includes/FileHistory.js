@@ -1,6 +1,6 @@
 /*
 	Notepad++ File History
-	LM: 2016-03-08
+	LM: 2016-03-09
 	@author: Rafael Gandionco
 	
 	See: https://github.com/sieukrem/jn-npp-plugin/wiki

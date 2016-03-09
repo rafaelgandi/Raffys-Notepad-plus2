@@ -90,7 +90,7 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="yes" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
         <GUIConfig name="workspaceExt"></GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="194" rightWidth="167" topHeight="200" bottomHeight="80">
+        <GUIConfig name="DockingManager" leftWidth="194" rightWidth="167" topHeight="200" bottomHeight="236">
             <FloatingWindow cont="4" x="738" y="492" width="1323" height="888" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="jN.dll,Failure is always an option (@_@)" id="0" curr="3" prev="-1" isVisible="yes" />
@@ -141,16 +141,16 @@
         <Path name="C:\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Database" />
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Filter name="*.*" />
-        <Find name="my_joined_auction_list" />
-        <Find name="promp" />
-        <Find name="new" />
-        <Find name="start.js" />
-        <Find name="readFile" />
-        <Find name="dock" />
-        <Find name="View" />
-        <Find name="isCancellable" />
-        <Find name="cancel" />
-        <Find name="auct-stat-details" />
+        <Find name="asking_price" />
+        <Find name="asking" />
+        <Find name="is_price_fields_edittable" />
+        <Find name="is_datetime_fields_edittable" />
+        <Find name="CB_JS_TRANSPORT" />
+        <Find name="edittables" />
+        <Find name="setEdittables" />
+        <Find name="prices_only_is_edittable" />
+        <Find name="auction_duration" />
+        <Find name="getHourlyDeductionFromDates" />
         <Replace name=" #" />
         <Replace name="new Caching" />
         <Replace name="App\Cb\Authenticate::isLoggedIn()" />
@@ -169,33 +169,35 @@
         <root foldername="C:\xampp\htdocs\cleverbons\public\js\cb" />
     </FileBrowser>
     <History nbMaxFile="30" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\lib\Editor.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\simplelightbox.css" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\farbtastic.css" />
-        <File filename="C:\xampp\htdocs\cleverbons\.env" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\multiupload.css" />
-        <File filename="C:\Windows\System32\drivers\etc\hosts" />
-        <File filename="C:\xampp\apache\conf\extra\httpd-vhosts.conf" />
-        <File filename="C:\xampp\php\php.ini" />
-        <File filename="C:\xampp\apache\conf\httpd.conf" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\polyfill.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Shower.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\MenuCmds.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\realtime_api_instructions.txt" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\myaccount.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\api_instructions.txt" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Auctions.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\PropertiesController.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\Auctions\ObserverController.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\Auctions\BidderController.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\syncer.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\CronController.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\RealTime\Auctions\Bidders.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\api_testing_routes.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Bidders.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\config\realtime.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\closer.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory.js" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\about.txt" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\run.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Seeker.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\tests.menu.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\biddingField.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Menu.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\api_routes.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\history.txt" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\dock.html" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\Dialog.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Helpers.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Dock.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\History.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\start.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\my_auction_list.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Themer.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Search.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\ApiTestingController.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\page_edit_auction.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_clean_user.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_closed.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_agent_view.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_bidder_not_approved.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_cancelled.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_inprogress.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_observer_not_approved.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_default.php" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
