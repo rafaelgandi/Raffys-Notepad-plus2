@@ -90,7 +90,7 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="yes" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
         <GUIConfig name="workspaceExt"></GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="194" rightWidth="167" topHeight="200" bottomHeight="82">
+        <GUIConfig name="DockingManager" leftWidth="194" rightWidth="167" topHeight="200" bottomHeight="80">
             <FloatingWindow cont="4" x="738" y="492" width="1323" height="888" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="jN.dll,Failure is always an option (@_@)" id="0" curr="3" prev="-1" isVisible="yes" />
@@ -169,9 +169,6 @@
         <root foldername="C:\xampp\htdocs\cleverbons\public\js\cb" />
     </FileBrowser>
     <History nbMaxFile="30" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\cleverbons\public\css\page_auction_closed.css" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\bootstrap.css.map" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\lib\Library.js" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\lib\Editor.js" />
         <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\simplelightbox.css" />
         <File filename="C:\xampp\htdocs\cleverbons\public\css\css-plugins\farbtastic.css" />
@@ -193,7 +190,12 @@
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Menu.js" />
         <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\api_routes.php" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\history.txt" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Globals.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\dock.html" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\Dialog.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Helpers.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Dock.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\History.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\start.js" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

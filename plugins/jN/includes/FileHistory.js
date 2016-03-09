@@ -34,7 +34,7 @@
 		text: 'Hide/Show Dock\tCtrl+Shift+Arrow Down',
 		ctrl: true,
 		shift: true,
-		key: 40, // See: https://css-tricks.com/snippets/javascript/javascript-keycodes/
+		key: fh.Globals.KeyCode.arrowDown, 
 		cmd: function () {
 			fh.Dock.toggleVisibility();
 		}
@@ -108,7 +108,7 @@
 			// through the list.
 			var keycode = e.keyCode || e.which;
 			// Open file when enter key is pressed //
-			if (keycode === 13) {
+			if (keycode === fh.Globals.KeyCode.enter) {
 				fh.History.open($me.rel.trim());
 				fh.History.save(true);
 			}
@@ -118,14 +118,14 @@
 		fh.Helpers.bindEvent('keyup', [dockDocument.getElementById('fh_filename_field')], function ($me, e) {			
 			var keyword = $me.value.trim(),
 				keycode = e.keyCode || e.which;	
-			if (keycode === 13) { // Reset list when enter key is pressed
+			if (keycode === fh.Globals.KeyCode.enter) { // Reset list when enter key is pressed
 				$me.value = '';
 				fh.Helpers.iterate($li, function ($me) { $me.className = ''; });
 				return;
 			}
 			// On arrow down remove focus from the textbox so the whole dock window 
 			// can scroll down.
-			if (keycode === 40) { $me.blur(); }
+			if (keycode === fh.Globals.KeyCode.arrowDown) { $me.blur(); }
 			if (keyword == '') { return; }
 			if (keyword.length <= 1) { return; } // Must be a valid keyword
 			if (keyword == prevKeyword) { return; }
