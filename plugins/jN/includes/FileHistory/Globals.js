@@ -8,7 +8,8 @@ fh.Globals = (function () {
 		// See: https://css-tricks.com/snippets/javascript/javascript-keycodes/
 		this.KeyCode = {
 			enter: 13,
-			arrowDown: 40
+			arrowDown: 40,
+			backspace: 8
 		};
 	}	
 	return new Globals();

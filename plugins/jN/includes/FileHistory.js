@@ -1,6 +1,6 @@
 /*
 	Notepad++ File History
-	LM: 2016-03-09
+	LM: 2016-03-16
 	@author: Rafael Gandionco
 	
 	See: https://github.com/sieukrem/jn-npp-plugin/wiki
@@ -74,7 +74,7 @@
 	GlobalListener.addListener({
 		FILEOPENED: function (v,pos) { 
 			fh.History.save(true);
-			__buildList();
+			
 		}
 	});	
 	
@@ -110,18 +110,26 @@
 			// Open file when enter key is pressed //
 			if (keycode === fh.Globals.KeyCode.enter) {
 				fh.History.open($me.rel.trim());
-				fh.History.save(true);
+				fh.History.save(true);				
 			}
 		});
 		
-		var prevKeyword = '', wait;
+		var prevKeyword = '', wait, enterKeyWait;
 		fh.Helpers.bindEvent('keyup', [dockDocument.getElementById('fh_filename_field')], function ($me, e) {			
 			var keyword = $me.value.trim(),
 				keycode = e.keyCode || e.which;	
-			if (keycode === fh.Globals.KeyCode.enter) { // Reset list when enter key is pressed
-				$me.value = '';
-				fh.Helpers.iterate($li, function ($me) { $me.className = ''; });
+			if (keycode === fh.Globals.KeyCode.enter) { // Reset/rebuild list when enter key is pressed
+				fh.Dock.window().clearTimeout(enterKeyWait);
+				enterKeyWait = fh.Dock.window().setTimeout(function () {
+					$me.value = '';
+					__buildList();
+				}, 200);
 				return;
+			}
+			// If backspace key is being pressed and the keyword is already an 
+			// empty string then show all the history list.
+			if (keycode === fh.Globals.KeyCode.backspace && keyword === '') {
+				fh.Helpers.iterate($li, function ($me) { $me.className = ''; });
 			}
 			// On arrow down remove focus from the textbox so the whole dock window 
 			// can scroll down.

@@ -41,11 +41,16 @@ body {
 	cursor: hand;
 	cursor: pointer;
 	font-size: 13px;
+	margin: 0;
+	/* See: http://stackoverflow.com/questions/14173632/how-to-remove-the-space-between-list-items */
+	margin-bottom: -3px;
+	margin-top: -3px;
 }
 
 #fh_file_list li:hover,
 .fh_hover {
-	background-color: #006064;
+	/* background-color: #006064; */
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAECAMAAACTMR4LAAAABlBMVEUKgEMKgEPletBfAAAAAnRSTlN5gGXWjKcAAAAPSURBVHgBYwACRkYgAtIAACQABcF8FCYAAAAASUVORK5CYII=);
 }
 
 .fh_hide {
