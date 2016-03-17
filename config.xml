@@ -90,7 +90,7 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="yes" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
         <GUIConfig name="workspaceExt"></GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="90" rightWidth="167" topHeight="200" bottomHeight="164">
+        <GUIConfig name="DockingManager" leftWidth="90" rightWidth="167" topHeight="200" bottomHeight="345">
             <FloatingWindow cont="4" x="427" y="610" width="715" height="774" />
             <FloatingWindow cont="4" x="427" y="610" width="715" height="774" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
@@ -143,6 +143,9 @@
         <Path name="C:\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Database" />
         <Path name="C:\xampp\htdocs\laravel\app" />
         <Filter name="*.*" />
+        <Find name="howLongBefore" />
+        <Find name="Closed Auction" />
+        <Find name="Current Price" />
         <Find name="search_auc" />
         <Find name="search_acu" />
         <Find name=".navigation-menu ul li" />
@@ -150,9 +153,6 @@
         <Find name=";" />
         <Find name="=" />
         <Find name="live_auction_timer" />
-        <Find name="n getAuctionDetails" />
-        <Find name=".bidders" />
-        <Find name="getHighestBidderByAuctionId" />
         <Replace name="," />
         <Replace name=":" />
         <Replace name=" #" />
@@ -171,34 +171,36 @@
         <root foldername="C:\xampp\htdocs\cleverbons\public\js\cb" />
     </FileBrowser>
     <History nbMaxFile="30" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\my_auction_list.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_default.php" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\css\dock.css" />
         <File filename="C:\xampp\htdocs\cleverbons\resources\views\my_joined_auction_list.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\my_auction_list.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Search.php" />
         <File filename="C:\xampp\htdocs\cleverbons\resources\views\add_auction.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Timekeeper.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\css\global.css" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\Auctions\BidderController.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\search_auction.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\History.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_cancelled.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_clean_user.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_closed.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_inprogress.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_observer_not_approved.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_agent_view.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\lib\Scintilla.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\lib\Kernel32.dll.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\start.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\disabled\New folder\MenuCmds.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\CronController.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\cron.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_bidder_not_approved.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Dock.js" />
         <File filename="C:\xampp\htdocs\cleverbons\resources\views\update_auction.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\config\realtime.php" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Globals.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\rt.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\RealTime\Auctions\Bidders.php" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\templates\countdown_timer_field.html" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\live_auction_timer.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\highlight.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Search.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\syncer\updater.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Bidders.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\biddingField.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\closer.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\game\fast_auction.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auction_details.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_inprogress.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_default.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_observer_not_approved.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_bidder_not_approved.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Helpers\auction_details_helpers.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_agent_view.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_cancelled.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\search_auction.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_clean_user.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\search_auction.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_how_long_before_field.php" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

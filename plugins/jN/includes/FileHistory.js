@@ -1,6 +1,6 @@
 /*
 	Notepad++ File History
-	LM: 2016-03-16
+	LM: 2016-03-17
 	@author: Rafael Gandionco
 	
 	See: https://github.com/sieukrem/jn-npp-plugin/wiki
@@ -91,6 +91,9 @@
 		DOCK_DOCUMENT = undefined;
 		DOCK_DOCUMENT = fh.Dock.buildMarkup();
 		DOCK_DOCUMENT.getElementById('fh_file_list').innerHTML = fh.History.buildMarkup();
+		// Prevent text selection //
+		// See: http://stackoverflow.com/a/6100742
+		DOCK_DOCUMENT.onselectstart = function() { return false; };
 		__initEvents(DOCK_DOCUMENT);
 	}
 	
