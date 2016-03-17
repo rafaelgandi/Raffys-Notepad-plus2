@@ -90,7 +90,7 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="yes" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
         <GUIConfig name="workspaceExt"></GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="90" rightWidth="167" topHeight="200" bottomHeight="345">
+        <GUIConfig name="DockingManager" leftWidth="90" rightWidth="167" topHeight="200" bottomHeight="129">
             <FloatingWindow cont="4" x="427" y="610" width="715" height="774" />
             <FloatingWindow cont="4" x="427" y="610" width="715" height="774" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
@@ -171,7 +171,6 @@
         <root foldername="C:\xampp\htdocs\cleverbons\public\js\cb" />
     </FileBrowser>
     <History nbMaxFile="30" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\css\dock.css" />
         <File filename="C:\xampp\htdocs\cleverbons\resources\views\my_joined_auction_list.php" />
         <File filename="C:\xampp\htdocs\cleverbons\resources\views\my_auction_list.php" />
         <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Search.php" />
@@ -185,7 +184,6 @@
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\highlight.js" />
         <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Search.php" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\syncer\updater.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Bidders.php" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\biddingField.js" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\closer.js" />
         <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\game\fast_auction.php" />
