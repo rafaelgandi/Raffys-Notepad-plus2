@@ -14,5 +14,5 @@ history list on a dockable window.
 Requires the jN plugin to work. Big props to it!
 [See: https://github.com/sieukrem/jn-npp-plugin/wiki]
 
-Last Modified: 2016-01-09
+Last Modified: 2016-04-08
 by Rafael Gandionco

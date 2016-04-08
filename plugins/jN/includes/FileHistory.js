@@ -1,6 +1,6 @@
 /*
 	Notepad++ File History
-	LM: 2016-03-17
+	LM: 2016-04-08
 	@author: Rafael Gandionco
 	
 	See: https://github.com/sieukrem/jn-npp-plugin/wiki
@@ -81,11 +81,13 @@
 	function __buildList() {		
 		if (DOCK_DOCUMENT !== undefined) {
 			// Unbind all the attached events first //
-			var $li = DOCK_DOCUMENT.getElementsByTagName('li');
+			var $li = DOCK_DOCUMENT.getElementsByTagName('li'),
+				$a = DOCK_DOCUMENT.getElementsByTagName('a');
 			fh.Helpers.unbindEvent('mouseover', $li);
 			fh.Helpers.unbindEvent('mouseout', $li);
 			fh.Helpers.unbindEvent('dblclick', $li);
 			fh.Helpers.unbindEvent('keyup', [DOCK_DOCUMENT.getElementById('fh_filename_field')]);
+			fh.Helpers.unbindEvent('mousedown', $a);
 		}	
 		seeker.updateFilenames(fh.History.get());	
 		DOCK_DOCUMENT = undefined;
@@ -98,7 +100,8 @@
 	}
 	
 	function __initEvents(dockDocument) {	
-		var $li = dockDocument.getElementsByTagName('li');		
+		var $li = dockDocument.getElementsByTagName('li'),
+			$a = dockDocument.getElementsByTagName('a');		
 		fh.Helpers
 		.bindEvent('mouseover', $li, function ($me) { $me.className = 'fh_hover'; })	
 		.bindEvent('mouseout', $li, function ($me) { $me.className = '';})
@@ -159,7 +162,17 @@
 		})
 		.bindEvent('focus', [dockDocument.getElementById('fh_filename_field')], function ($me) { 
 			$me.value = '';
-		});	
+		});
+		
+		// Remove from history link event handler //
+		fh.Helpers.bindEvent('mousedown', $a, function ($me) {
+			if ($me.className.indexOf('fh_remove_link') > -1) { // Filter only remove links
+				if (! fh.Dock.window().confirm('Are you sure you want to remove this filename from npp history?')) { return; }
+				fh.History.remove($me.rel);
+				fh.History.save(true);
+				__buildList();
+			}
+		});
 	}
 	
 })();

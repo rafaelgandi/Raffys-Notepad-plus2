@@ -65,6 +65,19 @@ fh.History = (function () {
 		fh.Helpers.writeToFile(fh.Globals.FILE_HISTORY_DIR + "\\" + this.HISTORY_FILENAME, (',' + finalArr.join(',')), _append);
 	};
 	
+	History.prototype.remove = function (_filename) {
+		var fileNames = this.get(),
+			finalArr = [];
+		for (var i=0; i<fileNames.length; i++) {
+			if (this.isNewFile(fileNames[i])) { continue; } // Dont include "new <number>" files
+			if (fileNames[i].trim() != _filename.trim()) {
+				finalArr.push(fileNames[i].trim());
+			}
+		}
+		finalArr = fh.Helpers.unique(finalArr);
+		fh.Helpers.writeToFile(fh.Globals.FILE_HISTORY_DIR + "\\" + this.HISTORY_FILENAME, (',' + finalArr.join(',')));
+	};
+	
 	History.prototype.buildMarkup = function () {
 		var html = '';
 			fileNames = this.get();
@@ -74,7 +87,7 @@ fh.History = (function () {
 		for (var i=0; i<fileNames.length; i++) {
 			if (fileNames[i].trim() == '') { continue; }
 			// See: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets
-			html += '<li tabindex="0" id="file_'+i+'" rel="'+fileNames[i]+'">'+fileNames[i]+'</li>';
+			html += '<li tabindex="0" id="file_'+i+'" rel="'+fileNames[i]+'">'+fileNames[i]+' <a class="fh_remove_link" href="#" title="Remove this file from history" onclick="return false;" rel="'+fileNames[i]+'">[x]</a></li>';
 		}
 		return html;
 	};

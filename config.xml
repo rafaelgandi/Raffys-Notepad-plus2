@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="0" y="2" width="1598" height="836" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="-53" y="95" width="1598" height="836" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -90,11 +90,13 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="yes" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
         <GUIConfig name="workspaceExt"></GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="90" rightWidth="167" topHeight="200" bottomHeight="129">
-            <FloatingWindow cont="4" x="427" y="610" width="715" height="774" />
-            <FloatingWindow cont="4" x="427" y="610" width="715" height="774" />
+        <GUIConfig name="DockingManager" leftWidth="71" rightWidth="167" topHeight="200" bottomHeight="121">
+            <FloatingWindow cont="4" x="216" y="235" width="1451" height="523" />
+            <FloatingWindow cont="4" x="216" y="235" width="1451" height="523" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="jN.dll,Failure is always an option (@_@)" id="0" curr="3" prev="4" isVisible="yes" />
+            <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="jN.dll,Rafael Gandionco (@_@)" id="0" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="jN.dll,Rafael Gandionco" id="0" curr="3" prev="4" isVisible="yes" />
@@ -111,8 +113,6 @@
             <PluginDlg pluginName="Automation Scripts" id="2" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Automation Scripts" id="1" curr="0" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="0" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="dummy" id="0" curr="4" prev="3" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="4" prev="0" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
@@ -132,6 +132,8 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="144" dotMatchesNewline="no">
+        <Path name="C:\xampp\htdocs\cleverbons\resources\views" />
+        <Path name="C:\xampp\htdocs\cleverbons\app\Cb" />
         <Path name="C:\xampp\htdocs\cleverbons\public\js\cb" />
         <Path name="C:\xampp\htdocs\cleverbons\vendor\laravel\framework\src\Illuminate\Cache" />
         <Path name="C:\xampp\htdocs\uwastudentguild\wp-content\themes\sushi" />
@@ -140,19 +142,18 @@
         <Path name="C:\Users\rgandionco\Documents\uwastudentguild\wp-content\themes\sushi" />
         <Path name="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi" />
         <Path name="C:\xampp\htdocs\uwaeventscrm\wp-content\themes\sushi\application" />
-        <Path name="C:\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Database" />
-        <Path name="C:\xampp\htdocs\laravel\app" />
         <Filter name="*.*" />
-        <Find name="howLongBefore" />
-        <Find name="Closed Auction" />
-        <Find name="Current Price" />
-        <Find name="search_auc" />
-        <Find name="search_acu" />
-        <Find name=".navigation-menu ul li" />
-        <Find name="has_slow_auction_started" />
-        <Find name=";" />
-        <Find name="=" />
-        <Find name="live_auction_timer" />
+        <Find name="cluster" />
+        <Find name="sendAuctionClosingNotification" />
+        <Find name="registerNotification" />
+        <Find name="asking" />
+        <Find name="countdownDone" />
+        <Find name="fh." />
+        <Find name="check" />
+        <Find name="authenticate" />
+        <Find name="IS_DONE" />
+        <Find name="getHighestBidderByAuctionId" />
+        <Replace name="rcl." />
         <Replace name="," />
         <Replace name=":" />
         <Replace name=" #" />
@@ -162,7 +163,6 @@
         <Replace name="App\Cb\Api::error" />
         <Replace name="App\Cb\Api::req" />
         <Replace name="post" />
-        <Replace name="paper-material" />
     </FindHistory>
     <FileBrowser latestSelectedItem="C:\xampp\htdocs\cleverbons\app\Http\frontend_modules.txt">
         <root foldername="C:\xampp\htdocs\cleverbons\resources\views" />
@@ -171,34 +171,36 @@
         <root foldername="C:\xampp\htdocs\cleverbons\public\js\cb" />
     </FileBrowser>
     <History nbMaxFile="30" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\my_joined_auction_list.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\my_auction_list.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Search.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\add_auction.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\update_auction.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\config\realtime.php" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Globals.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\templates\countdown_timer_field.html" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\live_auction_timer.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\highlight.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Search.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\syncer\updater.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\biddingField.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\closer.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\game\fast_auction.php" />
         <File filename="C:\xampp\htdocs\cleverbons\resources\views\auction_details.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_inprogress.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_default.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_observer_not_approved.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\Auctions\BidderController.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Game.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\update_auction.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\countdown.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Auctions.php" />
+        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\site.config.php" />
+        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\config\mobile.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\add_auction.php" />
         <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_bidder_not_approved.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Helpers\auction_details_helpers.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_agent_view.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_cancelled.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\search_auction.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_clean_user.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\search_auction.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_how_long_before_field.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\live_auction_timer.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\certificates\openn.pem" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\templates\countdown_timer_field.html" />
+        <File filename="C:\xampp\htdocs\cleverbons\vendor\pusher\pusher-php-server\lib\Pusher.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\realtime_api_instructions.txt" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications\Push.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Devices.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications\Push\Android.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications\Push\Apple.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications\Util.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\config\mobile.php" />
+        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\PushNotification\Apple.php" />
+        <File filename="C:\xampp\htdocs\tcs\wp-content\themes\tcsystems\app\Tcs\PushNotification\Android.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications\Email.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\makeOffer.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\bidTimer\syncer.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\blinkers.js" />
+        <File filename="C:\Users\rgandionco\Desktop\habitrac.txt" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

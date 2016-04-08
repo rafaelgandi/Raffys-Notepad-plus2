@@ -38,7 +38,8 @@ body {
 	background-repeat: no-repeat;
 	/* See: https://css-tricks.com/snippets/css/cross-browser-min-height/ */
 	height:auto !important; 
-	height: 500px; 	
+	height: 500px; 
+	background-attachment: fixed;
 }
 
 #fh_file_list li {
@@ -53,11 +54,28 @@ body {
 	margin-top: -3px;
 }
 
-.fh_hover{
+.fh_hover {
 	/* background-color: #006064; */
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAECAMAAACTMR4LAAAABlBMVEUKgEMKgEPletBfAAAAAnRSTlN5gGXWjKcAAAAPSURBVHgBYwACRkYgAtIAACQABcF8FCYAAAAASUVORK5CYII=);
 }
 
 .fh_hide {
 	display: none !important;
+}
+
+a.fh_remove_link {
+	color: #AA000A;
+	display: none;
+	margin-left: 6px;
+	text-decoration: none;
+	padding: 1px 2px;
+}
+
+a.fh_remove_link:hover {
+	background-color: #AA000A;
+	color: #fff;
+}
+
+.fh_hover a.fh_remove_link {
+	display: inline;
 }
