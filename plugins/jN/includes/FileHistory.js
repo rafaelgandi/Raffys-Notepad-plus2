@@ -1,6 +1,6 @@
 /*
 	Notepad++ File History
-	LM: 2016-04-08
+	LM: 2016-09-28
 	@author: Rafael Gandionco
 	
 	See: https://github.com/sieukrem/jn-npp-plugin/wiki
@@ -13,6 +13,7 @@
 	fh.Globals.FILE_HISTORY_DIR = require.currentDir + "\\includes\\FileHistory";	
 	require(fh.Globals.HISTORY_DIR_RELATIVE_PATH + "/polyfill.js");
 	require(fh.Globals.HISTORY_DIR_RELATIVE_PATH + "/Helpers.js");
+	require(fh.Globals.HISTORY_DIR_RELATIVE_PATH + "/Color.js");
 	require(fh.Globals.HISTORY_DIR_RELATIVE_PATH + "/History.js");
 	require(fh.Globals.HISTORY_DIR_RELATIVE_PATH + "/Menu.js");
 	require(fh.Globals.HISTORY_DIR_RELATIVE_PATH + "/Dock.js");

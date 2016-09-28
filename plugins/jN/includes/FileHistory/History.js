@@ -86,8 +86,9 @@ fh.History = (function () {
 		if (! fileNames.length) { return html; }
 		for (var i=0; i<fileNames.length; i++) {
 			if (fileNames[i].trim() == '') { continue; }
+			
 			// See: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets
-			html += '<li tabindex="0" id="file_'+i+'" rel="'+fileNames[i]+'">'+fileNames[i]+' <a class="fh_remove_link" href="#" title="Remove this file from history" onclick="return false;" rel="'+fileNames[i]+'">[x]</a></li>';
+			html += '<li tabindex="0" id="file_'+i+'" rel="'+fileNames[i]+'">' + fh.Color.getColors(fileNames[i]) + ' <a class="fh_remove_link" href="#" title="Remove this file from history" onclick="return false;" rel="'+fileNames[i]+'">[x]</a></li>';
 		}
 		return html;
 	};

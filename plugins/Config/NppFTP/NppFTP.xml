@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <NppFTP defaultCache="%CONFIGDIR%\Cache\%USERNAME%@%HOSTNAME%" outputShown="0" windowRatio="0.5" clearCache="0" clearCachePermanent="0">
-    <Profiles />
+    <Profiles>
+        <Profile name="k.mark website" hostname="wetechsolutions.ph" port="21" username="raffy@wetechsolutions.ph" password="05DE3163EE672B8EE904" askPassword="0" timeout="0" securityMode="0" transferMode="0" connectionMode="0" dataPortMin="10000" dataPortMax="32000" listParams="" initialDir="" keyFile="" passphrase="" askPassphrase="0" useAgent="0" acceptedMethods="1">
+            <Cache />
+            <FileTypes asciiTypes="" binaryTypes="" />
+        </Profile>
+    </Profiles>
 </NppFTP>

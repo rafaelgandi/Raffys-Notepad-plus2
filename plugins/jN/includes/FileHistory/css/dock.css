@@ -16,6 +16,10 @@ body {
 	background-attachment: fixed;
 }
 
+i {
+	font-style: normal;
+}
+
 
 #fh_filename_field {
 	font-family: Consolas;
