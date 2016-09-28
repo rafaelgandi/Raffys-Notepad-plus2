@@ -6,7 +6,7 @@ fh.Color = (function () {
 	}
 	
 	// See: http://stackoverflow.com/a/3109564
-	function generateColorRGB(ranges) {
+	function _generateColorRGB(ranges) {
 		if (!ranges) {
 			ranges = [
 				[130, 256],
@@ -21,14 +21,14 @@ fh.Color = (function () {
 			return Math.floor(Math.random() * (range[1] - range[0])) + range[0];
 		}
 		return "rgb(" + g() + "," + g() + "," + g() + ")";
-	};
+	}
 	
 	Color.prototype.randomHex = (function () {
 		var dones = {'rgb(255,255,255)': true};
 		return function () {
-			var rgb = generateColorRGB();
+			var rgb = _generateColorRGB();
 			while (!! dones[rgb]) {
-				rgb = generateColorRGB();
+				rgb = _generateColorRGB();
 			}
 			dones[rgb] = true;
 			return rgb;
