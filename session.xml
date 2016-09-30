@@ -1,6 +1,6 @@
 <NotepadPlus>
-    <Session activeView="1">
-        <mainView activeIndex="19">
+    <Session activeView="0">
+        <mainView activeIndex="18">
             <File firstVisibleLine="76" xOffset="0" scrollWidth="53913" startPos="2425" endPos="2425" selMode="0" lang="JavaScript" encoding="-1" filename="new  1" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new  1@2015-11-18_134921" originalFileLastModifTimestamp="0" />
             <File firstVisibleLine="0" xOffset="0" scrollWidth="416" startPos="94" endPos="94" selMode="0" lang="Normal Text" encoding="-1" filename="new 3" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new 3@2016-07-06_135535" originalFileLastModifTimestamp="0" />
             <File firstVisibleLine="126" xOffset="0" scrollWidth="1224" startPos="4504" endPos="4504" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cb\Search.php" backupFilePath="" originalFileLastModifTimestamp="1473814968" />
@@ -27,12 +27,11 @@
                 <Mark line="262" />
                 <Mark line="290" />
             </File>
-            <File firstVisibleLine="21" xOffset="0" scrollWidth="704" startPos="1256" endPos="1256" selMode="0" lang="JavaScript" encoding="-1" filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\buyNowField\Deduct.js" backupFilePath="" originalFileLastModifTimestamp="1472175941">
+            <File firstVisibleLine="18" xOffset="0" scrollWidth="704" startPos="1299" endPos="1299" selMode="0" lang="JavaScript" encoding="-1" filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\buyNowField\Deduct.js" backupFilePath="" originalFileLastModifTimestamp="1472175941">
                 <Mark line="32" />
             </File>
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="834" startPos="299" endPos="299" selMode="0" lang="HTML" encoding="-1" filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\dock.html" backupFilePath="" originalFileLastModifTimestamp="1475204461" />
         </mainView>
-        <subView activeIndex="17">
+        <subView activeIndex="3">
             <File firstVisibleLine="18" xOffset="0" scrollWidth="1410" startPos="1026" endPos="1028" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\config\cleverbons.php" backupFilePath="" originalFileLastModifTimestamp="1473912153" />
             <File firstVisibleLine="120" xOffset="0" scrollWidth="1152" startPos="5187" endPos="5187" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Crud.php" backupFilePath="" originalFileLastModifTimestamp="1475031122" />
             <File firstVisibleLine="263" xOffset="0" scrollWidth="1496" startPos="10134" endPos="10134" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Obj.php" backupFilePath="" originalFileLastModifTimestamp="1473989917">
@@ -40,8 +39,8 @@
                 <Mark line="262" />
                 <Mark line="290" />
             </File>
-            <File firstVisibleLine="35" xOffset="0" scrollWidth="1080" startPos="2230" endPos="2230" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Cronjob.php" backupFilePath="" originalFileLastModifTimestamp="1475135899">
-                <Mark line="65" />
+            <File firstVisibleLine="46" xOffset="0" scrollWidth="1080" startPos="2641" endPos="2641" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Cronjob.php" backupFilePath="" originalFileLastModifTimestamp="1475205277">
+                <Mark line="66" />
             </File>
             <File firstVisibleLine="20" xOffset="0" scrollWidth="1138" startPos="1704" endPos="1704" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\Auctions\DetailsController.php" backupFilePath="" originalFileLastModifTimestamp="1473912153" />
             <File firstVisibleLine="9" xOffset="0" scrollWidth="1248" startPos="827" endPos="827" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\base_routes.php" backupFilePath="" originalFileLastModifTimestamp="1473054844" />
@@ -60,9 +59,8 @@
                 <Mark line="121" />
             </File>
             <File firstVisibleLine="18" xOffset="0" scrollWidth="832" startPos="540" endPos="540" selMode="0" lang="JavaScript" encoding="-1" filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\countdown.js" backupFilePath="" originalFileLastModifTimestamp="1473133456" />
-            <File firstVisibleLine="35" xOffset="0" scrollWidth="888" startPos="1229" endPos="1229" selMode="0" lang="JavaScript" encoding="-1" filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\closer.js" backupFilePath="" originalFileLastModifTimestamp="1463383286" />
+            <File firstVisibleLine="37" xOffset="0" scrollWidth="888" startPos="1104" endPos="1104" selMode="0" lang="JavaScript" encoding="-1" filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\closer.js" backupFilePath="" originalFileLastModifTimestamp="1463383286" />
             <File firstVisibleLine="0" xOffset="0" scrollWidth="400" startPos="50" endPos="50" selMode="0" lang="Normal Text" encoding="-1" filename="new 2" backupFilePath="C:\xampp\Raffys-Notepad-plus2\backup\new 2@2016-09-29_143532" originalFileLastModifTimestamp="0" />
-            <File firstVisibleLine="32" xOffset="0" scrollWidth="1895392" startPos="101106" endPos="101106" selMode="0" lang="CSS" encoding="-1" filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\css\dock.css" backupFilePath="" originalFileLastModifTimestamp="1475204520" />
         </subView>
     </Session>
 </NotepadPlus>

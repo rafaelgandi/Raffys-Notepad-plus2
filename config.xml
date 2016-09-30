@@ -169,7 +169,6 @@
         <root foldername="C:\xampp\htdocs\cleverbons\public\js\cb\auction\demo\bidders" />
     </FileBrowser>
     <History nbMaxFile="30" inSubMenu="no" customLength="-1">
-        <File filename="C:\xampp\htdocs\cleverbons\config\realtime.php" />
         <File filename="C:\xampp\htdocs\cleverbons\config\mail.php" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\biddingField.js" />
         <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\AuctionsController.php" />
@@ -198,6 +197,8 @@
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\buyNowField.js" />
         <File filename="C:\xampp\htdocs\rafaelgandi.github.io\css\raffy.css" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\controls.js" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\dock.html" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\css\dock.css" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
