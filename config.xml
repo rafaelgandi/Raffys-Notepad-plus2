@@ -90,7 +90,7 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="yes" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
         <GUIConfig name="workspaceExt"></GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="71" rightWidth="167" topHeight="200" bottomHeight="105">
+        <GUIConfig name="DockingManager" leftWidth="71" rightWidth="167" topHeight="200" bottomHeight="103">
             <FloatingWindow cont="4" x="302" y="210" width="1323" height="564" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;" id="0" curr="3" prev="-1" isVisible="yes" />
@@ -144,16 +144,16 @@
         <Path name="C:\xampp\htdocs\cleverbons\resources\views" />
         <Path name="C:\xampp\htdocs\cleverbons\app\Cb" />
         <Filter name="*.*" />
+        <Find name="getHourlyDeductionFromDates" />
+        <Find name="getBuyNowHourlyDeduction" />
+        <Find name="block.unblock(that.$controlsInnerCon)" />
+        <Find name="processing" />
+        <Find name="updateIfUntouchedDoneAuction" />
         <Find name="slow_auction_start_date" />
         <Find name="one or" />
         <Find name="one or more" />
         <Find name="setStartingBid" />
         <Find name="isPending" />
-        <Find name="updateIfUntouchedDoneAuction" />
-        <Find name="getHourlyDeductionFromDates" />
-        <Find name="getBuyNowHourlyDeduction" />
-        <Find name="setHourlyBuyNowDeduction" />
-        <Find name="is_edittable" />
         <Replace name="highestBidder" />
         <Replace name="wetechsolutions.ph" />
         <Replace name="?" />
@@ -170,10 +170,8 @@
     </FileBrowser>
     <History nbMaxFile="30" inSubMenu="no" customLength="-1">
         <File filename="C:\xampp\htdocs\cleverbons\config\realtime.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Game.php" />
         <File filename="C:\xampp\htdocs\cleverbons\config\mail.php" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\biddingField.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\RealTime\Auctions\Game.php" />
         <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\AuctionsController.php" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\makeOffer.js" />
         <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications\Bidders.php" />
@@ -183,18 +181,23 @@
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\demo\game.js" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\demo\bot.js" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Seeker.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\css\dock.css" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Globals.js" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\demo\random\prices.js" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\demo\random\property.js" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory.js" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\dock.html" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Dock.js" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\History.js" />
         <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Helpers.js" />
         <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api\Users.php" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\auction_game.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Bidders.php" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Color.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\syncer\updater.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\rt.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\realtime_api_instructions.txt" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\buyNowField.js" />
+        <File filename="C:\xampp\htdocs\rafaelgandi.github.io\css\raffy.css" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\controls.js" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
