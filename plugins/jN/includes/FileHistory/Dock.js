@@ -9,7 +9,7 @@ fh.Dock = (function () {
 	Dock.prototype.create = function () {
 		var that = this;
 		this.dock = Editor.createDockable({
-			name: 'Failure is always an option (@_@) ¯\\_(ツ)_/¯',
+			name: 'Failure is always an option (@_@) ¯\\_(ツ)_/¯           |           ' + (new Date()).toString() + '              |           www.rafaelgandi.tk             |',
 			onbeforeclose: function () { return false; },
 			onclose:function () {}
 		});
