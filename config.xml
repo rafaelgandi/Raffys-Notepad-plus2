@@ -90,9 +90,27 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="yes" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
         <GUIConfig name="workspaceExt"></GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="71" rightWidth="167" topHeight="200" bottomHeight="102">
+        <GUIConfig name="DockingManager" leftWidth="71" rightWidth="167" topHeight="200" bottomHeight="103">
             <FloatingWindow cont="4" x="302" y="210" width="1323" height="564" />
             <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 16:16:45 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 16:09:54 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 16:08:49 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 16:07:24 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 16:06:39 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 16:06:16 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 16:05:44 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 16:05:08 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 16:03:35 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 16:03:01 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 16:01:42 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 15:56:01 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 15:51:59 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 15:48:44 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 15:45:29 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Mon Oct 10 08:08:26 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Fri Oct 7 08:23:28 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           Thu Oct 6 11:32:09 UTC+0800 2016              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;           |           [Thu Oct 6 11:29:12 UTC+0800 2016]              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF;               |           [Thu Oct 6 11:28:06 UTC+0800 2016]              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="jN.dll,Failure is always an option (@_@) &#x00AF;\_(&#x30C4;)_/&#x00AF; [Thu Oct 6 11:27:09 UTC+0800 2016]              |           www.rafaelgandi.tk             |" id="0" curr="3" prev="-1" isVisible="yes" />
@@ -159,16 +177,16 @@
         <Path name="C:\xampp\htdocs\cleverbons\resources\views" />
         <Path name="C:\xampp\htdocs\cleverbons\app\Cb" />
         <Filter name="*.*" />
+        <Find name="updateRaiseBid" />
+        <Find name="rt_api_update_sellers_minimum_reserve_price" />
+        <Find name="onMarket" />
+        <Find name="winner_user_details" />
         <Find name="hasProjectedEndTimeBeenGenerated" />
         <Find name="getNumberOfBidsForAuctionId" />
-        <Find name="updateRaiseBid" />
         <Find name="hasFastAuctionStartedAndSomeoneIsBidding" />
         <Find name="makeProjectedEndTime" />
         <Find name="rt_api_update_bid_increment" />
         <Find name="search_a" />
-        <Find name="getBiddersForAuction" />
-        <Find name="rt_on_bid_increment_change" />
-        <Find name="restartBidTimer" />
         <Replace name="highestBidder" />
         <Replace name="wetechsolutions.ph" />
         <Replace name="?" />
@@ -184,35 +202,36 @@
         <root foldername="C:\xampp\htdocs\cleverbons\public\js\cb\auction\demo\bidders" />
     </FileBrowser>
     <History nbMaxFile="30" inSubMenu="no" customLength="-1">
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\controls.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\bidTimer.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Timekeeper.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\biddingField\bidIncrement.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Game\Storage.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Game\Control.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Middleware\VerifyCsrfToken.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Requests\Request.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Providers\AppServiceProvider.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Providers\EventServiceProvider.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Providers\RouteServiceProvider.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\auction_game.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Middleware\RedirectIfAuthenticated.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Middleware\Authenticate.php" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\buyNowField.js" />
-        <File filename="C:\xampp\htdocs\rafaelgandi.github.io\css\raffy.css" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\dock.html" />
-        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\css\dock.css" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\buyNowField\Deduct.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\realtime_api_instructions.txt" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\emails\observer_approved.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\countdown.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Bidders.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\After.php" />
-        <File filename="C:\Windows\System32\drivers\etc\hosts" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\emails\auction_closed.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications\Email\Bidders.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\emails\auction_cancelled.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\api_instructions.txt" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\emails\bidder_approved.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\RealTime.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Kernel.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\app\Providers\AuthServiceProvider.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\biddingField.js" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\reservePrice.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\timeKeeper\bidTimer\lastCall.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Search.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Controllers\Auctions\BidderController.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\cron.php" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\slowAuctionInit.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Http\Routes\base_routes.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Auctions\Cronjob.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\onMarket.js" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\game\slow_auction.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\_header_loggedin.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\_global_js.php" />
         <File filename="C:\xampp\htdocs\cleverbons\public\js\cb\auction\closer.js" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\emails\highest_bidder_info.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Notifications\Bidders.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\resources\views\update_auction.php" />
-        <File filename="C:\xampp\htdocs\cleverbons\app\Cb\Api.php" />
+        <File filename="C:\xampp\htdocs\cleverbons\resources\views\auctions\auction_detail_fragments\_bidder_not_approved.php" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\dock.html" />
+        <File filename="C:\xampp\Raffys-Notepad-plus2\plugins\jN\includes\FileHistory\Helpers.js" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

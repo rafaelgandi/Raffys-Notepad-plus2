@@ -47,7 +47,7 @@ fh.Color = (function () {
 				color = this.randomHex();
 				this.DIR_COLORS[_pieces[i]] = color;
 			}
-			html += '<i style="color:'+color+'">'+_pieces[i] +'</i>\\';
+			html += '<i style="color:'+color+'" class="'+ color +'" title="Ctrl + Click to highlight">' + _pieces[i] + '</i>\\';
 		}
 		return html;
 	}

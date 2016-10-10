@@ -89,3 +89,8 @@ a.fh_remove_link:hover {
 .fh_hover a.fh_remove_link {
 	display: inline;
 }
+
+.fh_highlight_class {
+	background-color: #82CA72;
+	color: #272822 !important;
+}

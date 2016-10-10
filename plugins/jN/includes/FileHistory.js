@@ -83,12 +83,14 @@
 		if (DOCK_DOCUMENT !== undefined) {
 			// Unbind all the attached events first //
 			var $li = DOCK_DOCUMENT.getElementsByTagName('li'),
-				$a = DOCK_DOCUMENT.getElementsByTagName('a');
+				$a = DOCK_DOCUMENT.getElementsByTagName('a'),
+				$i = DOCK_DOCUMENT.getElementsByTagName('i');
 			fh.Helpers.unbindEvent('mouseover', $li);
 			fh.Helpers.unbindEvent('mouseout', $li);
 			fh.Helpers.unbindEvent('dblclick', $li);
 			fh.Helpers.unbindEvent('keyup', [DOCK_DOCUMENT.getElementById('fh_filename_field')]);
 			fh.Helpers.unbindEvent('mousedown', $a);
+			fh.Helpers.unbindEvent('click', $i);
 		}	
 		seeker.updateFilenames(fh.History.get());	
 		DOCK_DOCUMENT = undefined;
@@ -102,7 +104,8 @@
 	
 	function __initEvents(dockDocument) {	
 		var $li = dockDocument.getElementsByTagName('li'),
-			$a = dockDocument.getElementsByTagName('a');		
+			$a = dockDocument.getElementsByTagName('a'),
+			$i = DOCK_DOCUMENT.getElementsByTagName('i');		
 		fh.Helpers
 		.bindEvent('mouseover', $li, function ($me) { $me.className = 'fh_hover'; })	
 		.bindEvent('mouseout', $li, function ($me) { $me.className = '';})
@@ -119,6 +122,32 @@
 				fh.History.open($me.rel.trim());
 				fh.History.save(true);				
 			}
+		})
+		.bindEvent('click', $i, function ($me, e) { 
+			// LM: 2016-10-10
+			// See: http://stackoverflow.com/questions/16190455/how-to-detect-controlclick-in-javascript-from-an-onclick-div-attribute
+			if (! e.ctrlKey) { 	return; }
+			var highlightClass = 'fh_highlight_class';
+				currClass = $me.className;
+			if (currClass.indexOf(highlightClass) !== -1) {
+				// If highlight class exist then remove it.	
+				currClass = currClass.replace(highlightClass, '').trim();
+				$me.className = currClass;
+				fh.Helpers.iterate($i, function ($me) { 
+					if ($me.className.indexOf(currClass) !== -1) {
+						$me.className = currClass;
+					}
+				});	
+			}
+			else {
+				// Add highlight class
+				$me.className += currClass + ' ' + highlightClass;
+				fh.Helpers.iterate($i, function ($me) { 
+					if ($me.className.indexOf(currClass) !== -1) {
+						$me.className += currClass + ' ' + highlightClass;
+					}
+				});	
+			}			
 		});
 		
 		var prevKeyword = '', wait, enterKeyWait;
